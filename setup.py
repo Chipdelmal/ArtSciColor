@@ -10,7 +10,7 @@ with open(version_path, 'wt') as fversion:
 
 
 REQUIRED_PACKAGES=[
-    'matplotlib>=3.3.2', 'colour>=0.1.5'
+    'matplotlib>=3.3.2', 'colour>=0.1.5', 'scikit-learn'
 ]
 
 
