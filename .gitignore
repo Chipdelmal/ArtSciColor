@@ -1,4 +1,5 @@
-# VSCode
+# VSCode and MacOS
+*.DS_STORE
 *.vscode
 
 # Byte-compiled / optimized / DLL files
