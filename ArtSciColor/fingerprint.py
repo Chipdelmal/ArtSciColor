@@ -3,6 +3,7 @@ import csv
 import cv2
 import numpy as np
 from PIL import Image
+from colour import Color
 from collections import Counter
 from sklearn.cluster import KMeans
 # from sklearn.cluster import MiniBatchKMeans
@@ -16,6 +17,11 @@ def rgbToHex(rgb):
     '''
     return '#%02x%02x%02x' % (int(rgb[0]), int(rgb[1]), int(rgb[2]))
 
+def hexToRgb(chex, eightBit=False):
+    if eightBit:
+        return tuple([int(i*255) for i in chex.rgb])
+    else:
+        return chex.rgb
 
 def calcDominantColors(
         img, 
@@ -53,7 +59,7 @@ def getDominantSwatch(
     clusters = [pixels[labels==i] for i in cntLbls]
     swatch = [
         (
-            rgbToHex(colorClusterCentroid(c, cFun=grpFun, round=round)), 
+            Color(rgbToHex(colorClusterCentroid(c, cFun=grpFun, round=round))), 
             c.shape[0]
         ) 
         for c in clusters
@@ -97,7 +103,7 @@ def calcHexAndRGBFromPalette(palette):
     return {'hex': hexColors, 'rgb': rgbColors}
 
 
-def genColorSwatch(img, heightProp, palette):
+def genColorSwatch(img, barsHeight, swatch, proportionalHeight=True):
     '''
     Creates a color swatch that is proportional in height to the original
        image (whilst being the same width).
@@ -107,17 +113,22 @@ def genColorSwatch(img, heightProp, palette):
         -palette: Calculated palette through dominance detection
     * O:
     '''
+    palette = [hexToRgb(c) for c in [i[0] for i in swatch]]
     clstNumber = len(palette)
     (height, width, depth) = img.shape
-    pltAppend = np.zeros((round(height * heightProp), width, depth))
-    (wBlk, hBlk) = (round(width / clstNumber), round(height * heightProp))
+    if proportionalHeight:
+        pltAppend = np.zeros((round(height*barsHeight), width, depth))
+        (wBlk, hBlk) = (round(width/clstNumber), round(height*barsHeight))
+    else:
+        pltAppend = np.zeros((barsHeight, width, depth))
+        (wBlk, hBlk) = (round(width/clstNumber), barsHeight)
     for row in range(hBlk):
         colorIter = -1
         for col in range(width):
-            if (col % wBlk == 0) and (colorIter < clstNumber - 1):
-                colorIter = colorIter + 1
+            if (col%wBlk==0) and (colorIter<clstNumber-1):
+                colorIter=colorIter+1
             pltAppend[row][col] = palette[colorIter]
-    return pltAppend * 255
+    return pltAppend*255
 
 
 def writeColorPalette(filepath, palette):
