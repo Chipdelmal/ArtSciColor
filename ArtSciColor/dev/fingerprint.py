@@ -1,16 +1,17 @@
 
 import cv2
+import colorsys
 import numpy as np
 from os.path import join
 import ArtSciColor as art
 from PIL import Image
 from collections import Counter
-from sklearn.cluster import KMeans, AgglomerativeClustering
+from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
 
 ##############################################################################
 # Setup paths and clusters number
 ##############################################################################
-(FILENAME, CLST_NUM) = ('kiki.jpg', 7)
+(FILENAME, CLST_NUM, CSORT) = ('mario.jpg', 7, True)
 (I_PATH, O_PATH) = (
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/in/', 
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/out/'
@@ -27,9 +28,14 @@ resized = art.resizeCV2Image(img, RESIZE_FRC)
 # Cluster for Dominance
 ##############################################################################
 (pixels, labels) = art.calcDominantColors(
-    resized, cFun=AgglomerativeClustering, cArgs={'n_clusters': CLST_NUM}
+    # resized, cFun=AgglomerativeClustering, cArgs={'n_clusters': CLST_NUM}
+    resized, cFun=DBSCAN, cArgs={'eps': 11}
 )
 swatch = art.getDominantSwatch(pixels, labels)
+print(swatch)
+if CSORT:
+    swatch.sort(key=lambda rgb: colorsys.rgb_to_hsv(*rgb[0].get_rgb()))
+print(swatch)
 ##############################################################################
 # Export
 ##############################################################################
