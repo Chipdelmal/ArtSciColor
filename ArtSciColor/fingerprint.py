@@ -67,9 +67,6 @@ def getDominantSwatch(
     return swatch
 
 
-
-
-
 def reshapeColor(colorEightBit):
     '''
     Returns a color triplet in the range of 0 to 1 from 0 to 255.

@@ -1,5 +1,4 @@
 
-import matplotlib
 import matplotlib.colors as mcolors
 from matplotlib.colors import LinearSegmentedColormap
 
