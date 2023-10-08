@@ -4,9 +4,11 @@ import colorsys
 import numpy as np
 from os.path import join
 import ArtSciColor as art
+from matplotlib import font_manager
 from PIL import Image, ImageDraw, ImageFont
 from collections import Counter
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
+
 
 ##############################################################################
 # Setup paths and clusters number
@@ -44,7 +46,7 @@ if CSORT:
     swatch.sort(key=lambda rgb: colorsys.rgb_to_hsv(*rgb[0].get_rgb()))
 print(swatch)
 ##############################################################################
-# Export
+# Generate Array
 ##############################################################################
 barsImg = art.genColorSwatch(img, BAR_HEIGHT, swatch, proportionalHeight=True)  
 newIMG = np.row_stack([img, barsImg])
@@ -52,7 +54,10 @@ imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 ##############################################################################
 # Generate labels
 ##############################################################################
-font = ImageFont.truetype("Arial Narrow.ttf", 150)
+font = font_manager.FontProperties(family='Avenir', weight='regular')
+file = font_manager.findfont(font)
+# print(file)
+font = ImageFont.truetype(file, 150)
 draw = ImageDraw.Draw(imgOut)
 (W, H) = (imgOut.width/(len(swatch)), imgOut.height-(barsImg.shape[0])/2)
 for (ix, hex) in enumerate(swatch):
