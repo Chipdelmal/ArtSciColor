@@ -110,7 +110,7 @@ def genColorSwatch(img, barsHeight, swatch, proportionalHeight=True):
         -palette: Calculated palette through dominance detection
     * O:
     '''
-    palette = [hexToRgb(c) for c in [i[0] for i in swatch]]
+    palette = [hexToRgb(c) for c in swatch]
     clstNumber = len(palette)
     (height, width, depth) = img.shape
     if proportionalHeight:

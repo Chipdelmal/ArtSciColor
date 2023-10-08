@@ -4,19 +4,20 @@ import colorsys
 import numpy as np
 from os.path import join
 import ArtSciColor as art
+from colour import Color
+import colorir as cir
 from matplotlib import font_manager
 from PIL import Image, ImageDraw, ImageFont
 from collections import Counter
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN
 
-
 ##############################################################################
 # Setup paths and clusters number
 ##############################################################################
-(FILENAME, CLST_NUM, CSORT) = (
-    "argenteuil_1970.17.42.jpg", 
-    4, 
-    False
+(FILENAME, CSORT, CLST_NUM) = (
+    "banks_of_the_seine,_vetheuil_1963.10.177.jpg",  
+    False,
+    4
 )
 (I_PATH, O_PATH) = (
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Monet/in/', 
@@ -28,7 +29,10 @@ RESIZE_FRC = 0.05
 # Preprocess image
 ##############################################################################
 img = art.readCV2Image(join(I_PATH, FILENAME))
-resized = art.resizeCV2Image(img, RESIZE_FRC)
+if img.shape[0] > img.shape[1]:
+    resized = art.resizeCV2ImageAspect(img, width=150)
+else:
+    resized = art.resizeCV2ImageAspect(img, height=150)
 (height, width, depth) = resized.shape
 ##############################################################################
 # Cluster for Dominance
@@ -37,18 +41,22 @@ resized = art.resizeCV2Image(img, RESIZE_FRC)
 ##############################################################################
 (pixels, labels) = art.calcDominantColors(
     resized, 
-    cFun=AgglomerativeClustering, cArgs={'n_clusters': CLST_NUM}
-
+    cFun=AgglomerativeClustering, 
+    cArgs={'n_clusters': CLST_NUM}
 )
 swatch = art.getDominantSwatch(pixels, labels)
-print(swatch)
+# print(swatch)
 if CSORT:
     swatch.sort(key=lambda rgb: colorsys.rgb_to_hsv(*rgb[0].get_rgb()))
-print(swatch)
+    swatchHex = [s[0] for s in swatch]
+else:
+    swatchHex = [s[0].hex for s in swatch]
+    swatchHex.sort(key=cir.hue_sort_key(hue_classes=2, alt_lum=True))
+    swatchHex = [Color(c) for c in swatchHex]
 ##############################################################################
 # Generate Array
 ##############################################################################
-barsImg = art.genColorSwatch(img, BAR_HEIGHT, swatch, proportionalHeight=True)  
+barsImg = art.genColorSwatch(img, BAR_HEIGHT, swatchHex, proportionalHeight=True)
 newIMG = np.row_stack([img, barsImg])
 imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 ##############################################################################
@@ -57,7 +65,7 @@ imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 font = font_manager.FontProperties(family='Avenir', weight='regular')
 file = font_manager.findfont(font)
 # print(file)
-font = ImageFont.truetype(file, 150)
+font = ImageFont.truetype(file, 100)
 draw = ImageDraw.Draw(imgOut)
 (W, H) = (imgOut.width/(len(swatch)), imgOut.height-(barsImg.shape[0])/2)
 for (ix, hex) in enumerate(swatch):
@@ -70,8 +78,8 @@ for (ix, hex) in enumerate(swatch):
         colorHex, tcol, 
         font=font
     )
-imgOut
 ##############################################################################
 # Export to Disk
 ##############################################################################
 imgOut.save(join(O_PATH, FILENAME.split('.')[0]+'.png'))
+imgOut
