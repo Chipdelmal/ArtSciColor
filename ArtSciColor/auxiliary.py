@@ -1,4 +1,7 @@
 
+import colorsys
+import colorir as cir
+from colour import Color
 import matplotlib.colors as mcolors
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -27,19 +30,23 @@ def colorPaletteFromHexList(clist):
     return rvb
 
 
-# def rgbToHex(rgb):
-#     return '#'+'%02x%02x%02x' % tuple([int(i*255) for i in rgb])
+def sortSwatchByFrequency(freqSwatch):
+    freqSwatch.sort(key=lambda rgb: colorsys.rgb_to_hsv(*rgb[0].get_rgb()))
+    swatchHex = [s[0] for s in freqSwatch]
+    return swatchHex
 
 
-# def hexToRgb(value):
-#     value = value.lstrip('#')
-#     lv = len(value)
-#     return tuple(int(value[i:i + lv // 3], 16) for i in range(0, lv, lv // 3))
-
-
-# import matplotlib.font_manager
-# from IPython.core.display import HTML
-# def make_html(fontname):
-#     return "<p>{font}: <span style='font-family:{font}; font-size: 24px;'>{font}</p>".format(font=fontname)
-# code = "\n".join([make_html(font) for font in sorted(set([f.name for f in matplotlib.font_manager.fontManager.ttflist]))])
-# HTML("<div style='column-count: 2;'>{}</div>".format(code))
+def sortSwatchHSV(
+        freqSwatch,
+        hue_classes=None, gray_thresh=255, 
+        gray_start=True, alt_lum=True, invert_lum=False
+    ):
+    swatchHex = [s[0].hex for s in freqSwatch]
+    swatchHex.sort(
+        key=cir.hue_sort_key(
+            hue_classes=hue_classes, gray_thresh=gray_thresh,
+            gray_start=gray_start, alt_lum=alt_lum, invert_lum=invert_lum
+        )
+    )
+    swatchHex = [Color(c) for c in swatchHex]
+    return swatchHex
