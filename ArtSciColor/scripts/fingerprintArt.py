@@ -1,11 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import math
 import numpy as np
+from PIL import Image
 from os.path import join
 import ArtSciColor as art
-from colour import Color
-from PIL import Image, ImageDraw, ImageFont
-from collections import Counter
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 
 ##############################################################################
@@ -22,11 +22,11 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 ##############################################################################
 # Constants
 ##############################################################################
-(BAR_HEIGHT, MAX_SPAN) = (.15, 100)
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {'n_clusters': CLST_NUM}
 }
+(BAR_HEIGHT, MAX_SPAN) = (.15, 100)
 (FONT, FONT_SIZE, HUE_CLASSES) = (
     'Avenir', 75,
     math.ceil(CLST_NUM*0.4)
@@ -62,6 +62,6 @@ imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 ##############################################################################
 # Export to Disk
 ##############################################################################
+# imgOut
 imgOut.save(join(O_PATH, "".join(FILENAME.split('.')[0:-1])+'.png'))
-imgOut
-
+imgOut.close()

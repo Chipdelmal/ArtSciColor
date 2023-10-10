@@ -1,9 +1,35 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import colorsys
+import colorir as cir
+from colour import Color
 
 
+def sortSwatchByFrequency(freqSwatch):
+    freqSwatch.sort(key=lambda rgb: colorsys.rgb_to_hsv(*rgb[0].get_rgb()))
+    swatchHex = [s[0] for s in freqSwatch]
+    return swatchHex
 
-CS_FLL = ['#2614ed', '#FF006E', '#45d40c', '#8338EC', '#1888e3', '#BC1097', '#FFE93E', '#3b479d']
-CS_HLT = ['#FF006E', '#8338EC', '#0C4887']
-CS_TRS = ['#00a2fe', '#8338EC', '#0C4887']
-CS_WLD = ['#0eeb10', '#8338EC', '#0C4887']
-CS_PRP = ['#000000', '#03045e', '#6247aa', '#815ac0', '#c19ee0', '#d6e3f8']
-CS_RWB = ['#fe1d23', '#fe576f', '#fdcbff', '#d6e3f8', '#aacbff', '#00a2fe', '#013af4', '#0000ee']
+
+def sortSwatchHSV(
+        freqSwatch,
+        hue_classes=None, gray_thresh=255, 
+        gray_start=True, alt_lum=True, invert_lum=False
+    ):
+    swatchHex = [s[0].hex for s in freqSwatch]
+    swatchHex.sort(
+        key=cir.hue_sort_key(
+            hue_classes=hue_classes, gray_thresh=gray_thresh,
+            gray_start=gray_start, alt_lum=alt_lum, invert_lum=invert_lum
+        )
+    )
+    swatchHex = [Color(c) for c in swatchHex]
+    return swatchHex
+
+
+def getTextColor(hexBackground, threshold=0.55):
+    (r, g, b) = hexBackground.rgb
+    tcol = (0, 0, 0) if (r*0.299+g*0.587+b*0.114)>threshold else (1, 1, 1)
+    return Color(rgb=tcol)
+

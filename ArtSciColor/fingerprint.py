@@ -1,14 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import csv
 import cv2
 import numpy as np
-import ArtSciColor.auxiliary as aux
 from PIL import Image
 from colour import Color
 from collections import Counter
 from sklearn.cluster import KMeans
 from PIL import Image, ImageDraw, ImageFont
-# from sklearn.cluster import MiniBatchKMeans
+import ArtSciColor.swatches as sws
+import ArtSciColor.auxiliary as aux
 
 
 def rgbToHex(rgb):
@@ -223,7 +225,7 @@ def addHexColorText(
     (W, H) = (barsImg.width/len(swatchHex), barsImg.height/2)
     for (ix, hex) in enumerate(swatchHex):
         (colorHex, colorRGB) = (hex.hex.upper(), hex.rgb)
-        tcol = aux.getTextColor(hex)
+        tcol = sws.getTextColor(hex)
         label = colorHex if hexLabel else str(tuple([int(255*i) for i in colorRGB]))
         # Generate bbox and draw centered
         bbox = draw.textbbox(xy=(0, 0), text=label, font=font, align='center')
