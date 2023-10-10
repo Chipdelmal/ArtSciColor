@@ -42,10 +42,11 @@ def getFontFile(family, weight='regular'):
     file = font_manager.findfont(font)
     return file
 
-def hashFilename(string, length=12):
+def hashFilename(string, length=16):
+    # https://stackoverflow.com/questions/14023350/cheap-mapping-of-string-to-small-fixed-length-string
     string = string.encode('utf-8')
     if length<len(sha256(string).hexdigest()):
-        return sha256(string).hexdigest()[:length]
+        return sha256(string).hexdigest()[:length].upper()
     else:
         x = str(len(sha256(string).hexdigest()))
         exStr = f"Length too long. Length of {length} when hash length is {x}."

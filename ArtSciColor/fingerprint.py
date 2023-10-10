@@ -226,8 +226,12 @@ def addHexColorText(
     for (ix, hex) in enumerate(swatchHex):
         (colorHex, colorRGB) = (hex.hex.upper(), hex.rgb)
         tcol = sws.getTextColor(hex)
-        label = colorHex if hexLabel else str(tuple([int(255*i) for i in colorRGB]))
-        # Generate bbox and draw centered
+        label = (
+            colorHex 
+            if hexLabel else 
+            str(tuple([int(255*i) for i in colorRGB]))
+        )
+        # Generate bbox and draw centered -------------------------------------
         bbox = draw.textbbox(xy=(0, 0), text=label, font=font, align='center')
         (w, h) = (bbox[2]-bbox[0], bbox[3]-bbox[1])
         xy = (((2*ix+1)*W-w)/2, H-h/2)

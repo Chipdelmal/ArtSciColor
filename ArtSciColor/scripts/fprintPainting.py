@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
 import math
 import numpy as np
 from sys import argv
 from PIL import Image
-from os.path import join
+from os.path import join, expanduser
 import ArtSciColor as art
+from pathlib import Path
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 
 ##############################################################################
@@ -14,14 +16,17 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 ##############################################################################
 if art.isNotebook():
     (FILENAME, CLST_NUM) = (
-        "head_waiter_in_cafe_2012.92.133.jpg", 5
+        "dance_hall_bellevue__obverse__1989.60.1.a.jpg", 
+        6
     )
     (I_PATH, O_PATH) = (
-        '/Users/sanchez.hmsc/Pictures/ArtSci/Kirchner/in/', 
-        '/Users/sanchez.hmsc/Pictures/ArtSci/Kirchner/out/'
+        '~/Pictures/ArtSci/Kirchner/in/', 
+        '~/Pictures/ArtSci/Kirchner/out/'
     )
 else: 
-    (I_PATH, O_PATH, FILENAME, CLST_NUM) = argv[1:]
+    (I_PATH, O_PATH, FILENAME, CLST_NUM) = (argv[1], argv[2], argv[3], int(argv[4]))
+    # print((I_PATH, O_PATH, FILENAME, CLST_NUM))
+(I_PATH, O_PATH) = [expanduser(f) for f in (I_PATH, O_PATH)]
 ##############################################################################
 # Constants
 ##############################################################################
@@ -38,7 +43,11 @@ CLUSTERING = {
 ##############################################################################
 # Preprocess image
 ##############################################################################
-img = art.readCV2Image(join(I_PATH, FILENAME))
+fPath = join(I_PATH, FILENAME)
+try:
+    img = art.readCV2Image(fPath)
+except:
+    sys.exit(f"Error reading file: {fPath}")
 resized = art.resizeCV2BySide(img, MAX_SPAN)
 (height, width, depth) = resized.shape
 ##############################################################################
@@ -63,10 +72,13 @@ barsImg = art.addHexColorText(
 )
 newIMG = np.row_stack([img, barsImg])
 imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
+# imgOut
 ##############################################################################
 # Export to Disk
 ##############################################################################
-# imgOut
-imgOut.save(join(O_PATH, "".join(FILENAME.split('.')[0:-1])+'.png'))
+noExtFName = Path(fPath).stem
+hashName = art.hashFilename(noExtFName)
+imgOut.save(join(O_PATH, f'{hashName}.png'))
 imgOut.close()
+print(hashName, file=sys.stderr)
 

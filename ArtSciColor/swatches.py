@@ -29,6 +29,7 @@ def sortSwatchHSV(
 
 
 def getTextColor(hexBackground, threshold=0.55):
+    # https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
     (r, g, b) = hexBackground.rgb
     tcol = (0, 0, 0) if (r*0.299+g*0.587+b*0.114)>threshold else (1, 1, 1)
     return Color(rgb=tcol)
