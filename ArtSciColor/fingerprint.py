@@ -229,5 +229,9 @@ def addHexColorText(
         bbox = draw.textbbox(xy=(0, 0), text=label, font=font, align='center')
         (w, h) = (bbox[2]-bbox[0], bbox[3]-bbox[1])
         xy = (((2*ix+1)*W-w)/2, H-h/2)
-        draw.text(xy, label, font=font, align='center')
+        draw.text(
+            xy, label, 
+            tuple([int(255*i) for i in tcol.rgb]), 
+            font=font, align='center'
+        )
     return barsImg

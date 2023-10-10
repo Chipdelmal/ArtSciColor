@@ -12,9 +12,8 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 # Setup paths and clusters number
 ##############################################################################
 (FILENAME, HSV_SORT, CLST_NUM) = (
-    "chestnut_trees_in_moonlight_2012.92.134.png",  
-    True,
-    6
+    "dancing_couple_in_the_snow__reverse__1989.60.1.b.png",  
+    True, 6
 )
 (I_PATH, O_PATH) = (
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Kirchner/in/', 
@@ -23,7 +22,7 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 ##############################################################################
 # Constants
 ##############################################################################
-(BAR_HEIGHT, MAX_SPAN) = (.15, 150)
+(BAR_HEIGHT, MAX_SPAN) = (.15, 100)
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {'n_clusters': CLST_NUM}
@@ -56,7 +55,7 @@ swatchHex = (
 bars = art.genColorSwatch(img, BAR_HEIGHT, swatchHex, proportionalHeight=True)
 barsImg = art.addHexColorText(
     Image.fromarray(bars.astype('uint8'), 'RGB'), 
-    swatchHex, font='Avenir', fontSize=75
+    swatchHex, font=FONT, fontSize=FONT_SIZE
 )
 newIMG = np.row_stack([img, barsImg])
 imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
