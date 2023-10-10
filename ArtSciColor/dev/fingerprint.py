@@ -16,9 +16,9 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 # Setup paths and clusters number
 ##############################################################################
 (FILENAME, HSV_SORT, CLST_NUM) = (
-    "self-portrait_2012.92.20.jpg",  
+    "chestnut_trees_in_moonlight_2012.92.134.png",  
     True,
-    5
+    6
 )
 (I_PATH, O_PATH) = (
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Kirchner/in/', 
@@ -30,7 +30,7 @@ RESIZE_FRC = 0.05
 # Preprocess image
 ##############################################################################
 img = art.readCV2Image(join(I_PATH, FILENAME))
-MAX_SPAN = 100
+MAX_SPAN = 150
 if img.shape[0] > img.shape[1]:
     resized = art.resizeCV2ImageAspect(img, width=MAX_SPAN)
 else:
@@ -62,22 +62,22 @@ imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 ##############################################################################
 font = font_manager.FontProperties(family='Avenir', weight='regular')
 file = font_manager.findfont(font)
-font = ImageFont.truetype(file, 100)
+font = ImageFont.truetype(file, 75)
 draw = ImageDraw.Draw(imgOut)
 (W, H) = (imgOut.width/(len(swatchHex)), imgOut.height-(barsImg.shape[0])/2)
 for (ix, hex) in enumerate(swatchHex):
     (colorHex, colorRGB) = (hex.hex.upper(), hex.rgb)
-    tcol = (0, 0, 0) if (colorRGB[0]*0.299 + colorRGB[1]*0.587 + colorRGB[2]*0.114) > 0.55 else (255, 255, 255)
+    tcol = art.getTextColor(hex)
     bbox = draw.textbbox(xy=(0, 0), text=colorHex, font=font)
     (w, h) = (bbox[2]-bbox[0], bbox[3]-bbox[1])
     draw.text(
         ((((2*ix+1)*W-w)/2, H-h/1.75)), 
-        colorHex, tcol, 
+        colorHex, tuple([int(255*i) for i in tcol.rgb]), 
         font=font
     )
 ##############################################################################
 # Export to Disk
 ##############################################################################
-imgOut.save(join(O_PATH, FILENAME.split('.')[0]+'.png'))
+imgOut.save(join(O_PATH, "".join(FILENAME.split('.')[0:-1])+'.png'))
 imgOut
 
