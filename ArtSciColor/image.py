@@ -1,6 +1,13 @@
 
 import cv2
 
+def readCV2Image(
+        imgPath, scaleFactor=1, interpolation=cv2.INTER_AREA
+    ):
+    bgr = cv2.imread(imgPath)
+    img = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
+    return img
+
 def resizeCV2Image(
         img, resizeToFraction, 
         interpolation=cv2.INTER_AREA
@@ -45,12 +52,9 @@ def resizeCV2ImageAspect(image, width=None, height=None, inter=cv2.INTER_AREA):
     # return the resized image
     return resized
 
-
-
-def readCV2Image(
-        imgPath, scaleFactor=1, interpolation=cv2.INTER_AREA
-    ):
-    bgr = cv2.imread(imgPath)
-    img = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
-    return img
-
+def resizeCV2BySide(img, maxSize):
+    if img.shape[0] > img.shape[1]:
+        resized = resizeCV2ImageAspect(img, width=maxSize)
+    else:
+        resized = resizeCV2ImageAspect(img, height=maxSize)
+    return resized

@@ -2,10 +2,12 @@
 import csv
 import cv2
 import numpy as np
+import ArtSciColor.auxiliary as aux
 from PIL import Image
 from colour import Color
 from collections import Counter
 from sklearn.cluster import KMeans
+from PIL import Image, ImageDraw, ImageFont
 # from sklearn.cluster import MiniBatchKMeans
 
 
@@ -209,3 +211,23 @@ def getDominancePalette(
     swatch = Image.fromarray(colorsBars.astype('uint8'), 'RGB')
     imgOut = Image.fromarray(newImg.astype('uint8'), 'RGB')
     return (imgOut, swatch, palette)
+
+
+
+def addHexColorText(
+        barsImg, swatchHex, 
+        font='Avenir', fontSize=75, hexLabel=True
+    ):
+    font = ImageFont.truetype(aux.getFontFile(family=font), fontSize)
+    draw = ImageDraw.Draw(barsImg)
+    (W, H) = (barsImg.width/len(swatchHex), barsImg.height/2)
+    for (ix, hex) in enumerate(swatchHex):
+        (colorHex, colorRGB) = (hex.hex.upper(), hex.rgb)
+        tcol = aux.getTextColor(hex)
+        label = colorHex if hexLabel else str(tuple([int(255*i) for i in colorRGB]))
+        # Generate bbox and draw centered
+        bbox = draw.textbbox(xy=(0, 0), text=label, font=font, align='center')
+        (w, h) = (bbox[2]-bbox[0], bbox[3]-bbox[1])
+        xy = (((2*ix+1)*W-w)/2, H-h/2)
+        draw.text(xy, label, font=font, align='center')
+    return barsImg
