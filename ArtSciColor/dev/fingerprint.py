@@ -1,13 +1,9 @@
 
-import cv2
 import math
-import colorsys
 import numpy as np
 from os.path import join
 import ArtSciColor as art
 from colour import Color
-import colorir as cir
-from matplotlib import font_manager
 from PIL import Image, ImageDraw, ImageFont
 from collections import Counter
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
@@ -24,13 +20,22 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Kirchner/in/', 
     '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Kirchner/out/'
 )
-RESIZE_FRC = 0.05
-(BAR_HEIGHT, BUF_HEIGHT, BUF_COLOR) = (.15, .005, [255, 255, 255])
+##############################################################################
+# Constants
+##############################################################################
+(BAR_HEIGHT, MAX_SPAN) = (.15, 150)
+CLUSTERING = {
+    'algorithm': AgglomerativeClustering, 
+    'params': {'n_clusters': CLST_NUM}
+}
+(FONT, FONT_SIZE, HUE_CLASSES) = (
+    'Avenir', 75,
+    math.ceil(CLST_NUM*0.4)
+)
 ##############################################################################
 # Preprocess image
 ##############################################################################
 img = art.readCV2Image(join(I_PATH, FILENAME))
-MAX_SPAN = 150
 if img.shape[0] > img.shape[1]:
     resized = art.resizeCV2ImageAspect(img, width=MAX_SPAN)
 else:
@@ -38,17 +43,13 @@ else:
 (height, width, depth) = resized.shape
 ##############################################################################
 # Cluster for Dominance
-#   resized, cFun=DBSCAN, cArgs={'eps': CLST_NUM}
-#   https://stackoverflow.com/questions/73172602/how-to-sort-colors-by-their-hue-in-python-without-mixing-shades-of-gray
 ##############################################################################
 (pixels, labels) = art.calcDominantColors(
-    resized, 
-    # cFun=HDBSCAN, cArgs={'min_cluster_size': 12, 'max_cluster_size': 10}
-    cFun=AgglomerativeClustering, cArgs={'n_clusters': CLST_NUM}
+    resized, cFun=CLUSTERING['algorithm'], cArgs=CLUSTERING['params']
 )
 swatch = art.getDominantSwatch(pixels, labels)
 if HSV_SORT:
-    swatchHex = art.sortSwatchHSV(swatch, hue_classes=math.ceil(CLST_NUM*0.4))
+    swatchHex = art.sortSwatchHSV(swatch, hue_classes=HUE_CLASSES)
 else:
     swatchHex = art.sortSwatchByFrequency(swatch)
 ##############################################################################
@@ -60,9 +61,7 @@ imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 ##############################################################################
 # Generate labels
 ##############################################################################
-font = font_manager.FontProperties(family='Avenir', weight='regular')
-file = font_manager.findfont(font)
-font = ImageFont.truetype(file, 75)
+font = ImageFont.truetype(art.getFontFile(family=FONT), FONT_SIZE)
 draw = ImageDraw.Draw(imgOut)
 (W, H) = (imgOut.width/(len(swatchHex)), imgOut.height-(barsImg.shape[0])/2)
 for (ix, hex) in enumerate(swatchHex):

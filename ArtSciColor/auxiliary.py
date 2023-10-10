@@ -2,6 +2,7 @@
 import colorsys
 import colorir as cir
 from colour import Color
+from matplotlib import font_manager
 import matplotlib.colors as mcolors
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -56,3 +57,9 @@ def getTextColor(hexBackground, threshold=0.55):
     (r, g, b) = hexBackground.rgb
     tcol = (0, 0, 0) if (r*0.299+g*0.587+b*0.114)>threshold else (1, 1, 1)
     return Color(rgb=tcol)
+
+
+def getFontFile(family, weight='regular'):
+    font = font_manager.FontProperties(family=family, weight=weight)
+    file = font_manager.findfont(font)
+    return file
