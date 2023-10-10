@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+from hashlib import sha256
 from matplotlib import font_manager
 
 def makeFolder(path):
@@ -40,3 +41,12 @@ def getFontFile(family, weight='regular'):
     font = font_manager.FontProperties(family=family, weight=weight)
     file = font_manager.findfont(font)
     return file
+
+def hashFilename(string, length=12):
+    string = string.encode('utf-8')
+    if length<len(sha256(string).hexdigest()):
+        return sha256(string).hexdigest()[:length]
+    else:
+        x = str(len(sha256(string).hexdigest()))
+        exStr = f"Length too long. Length of {length} when hash length is {x}."
+        raise Exception(exStr)

@@ -3,6 +3,7 @@
 
 import math
 import numpy as np
+from sys import argv
 from PIL import Image
 from os.path import join
 import ArtSciColor as art
@@ -11,14 +12,16 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 ##############################################################################
 # Setup paths and clusters number
 ##############################################################################
-(FILENAME, HSV_SORT, CLST_NUM) = (
-    "dancing_couple_in_the_snow__reverse__1989.60.1.b.png",  
-    True, 6
-)
-(I_PATH, O_PATH) = (
-    '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Kirchner/in/', 
-    '/Users/sanchez.hmsc/Documents/ArtSci/Fingerprint/Kirchner/out/'
-)
+if art.isNotebook():
+    (FILENAME, CLST_NUM) = (
+        "head_waiter_in_cafe_2012.92.133.jpg", 5
+    )
+    (I_PATH, O_PATH) = (
+        '/Users/sanchez.hmsc/Pictures/ArtSci/Kirchner/in/', 
+        '/Users/sanchez.hmsc/Pictures/ArtSci/Kirchner/out/'
+    )
+else: 
+    (I_PATH, O_PATH, FILENAME, CLST_NUM) = argv[1:]
 ##############################################################################
 # Constants
 ##############################################################################
@@ -27,9 +30,10 @@ CLUSTERING = {
     'params': {'n_clusters': CLST_NUM}
 }
 (BAR_HEIGHT, MAX_SPAN) = (.15, 100)
-(FONT, FONT_SIZE, HUE_CLASSES) = (
+(FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
     'Avenir', 75,
-    math.ceil(CLST_NUM*0.4)
+    math.ceil(CLST_NUM*0.4),
+    True
 )
 ##############################################################################
 # Preprocess image
@@ -65,3 +69,4 @@ imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
 # imgOut
 imgOut.save(join(O_PATH, "".join(FILENAME.split('.')[0:-1])+'.png'))
 imgOut.close()
+
