@@ -4,13 +4,14 @@
 import sys
 import math
 import numpy as np
+import pandas as pd
 from os import path
 from sys import argv
 from PIL import Image
 from os.path import join, expanduser
-import ArtSciColor as art
 from pathlib import Path
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
+import ArtSciColor as art
 import constants as cst
 
 ##############################################################################
@@ -39,7 +40,6 @@ else:
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 'params': {'n_clusters': CLST_NUM}
 }
-(BAR_HEIGHT, MAX_SPAN) = (.15, 125)
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
     'Avenir', 75,
     math.ceil(CLST_NUM*0.4),
@@ -53,7 +53,7 @@ try:
     img = art.readCV2Image(fPath)
 except:
     sys.exit(f"Error reading file: {fPath}")
-resized = art.resizeCV2BySide(img, MAX_SPAN)
+resized = art.resizeCV2BySide(img, cst.IMG_RESIZE)
 (height, width, depth) = resized.shape
 ##############################################################################
 # Cluster for Dominance
@@ -70,7 +70,10 @@ swatchHex = (
 ##############################################################################
 # Generate Bars, add labels, and Stack to Image
 ##############################################################################
-bars = art.genColorSwatch(img, BAR_HEIGHT, swatchHex, proportionalHeight=True)
+bars = art.genColorSwatch(
+    img, cst.BAR_HEIGHT, swatchHex, 
+    proportionalHeight=True
+)
 barsImg = art.addHexColorText(
     Image.fromarray(bars.astype('uint8'), 'RGB'), 
     swatchHex, font=FONT, fontSize=FONT_SIZE
@@ -91,15 +94,16 @@ imgOut.close()
 ##############################################################################
 print(hashName, file=sys.stderr)
 db = art.loadDatabase(DB_FILE)
-db[hashName] = {
-    'artist': ARTIST,
+newEntry = pd.DataFrame({
+    'artist': ARTIST, 
     'title': TITLE,
-    'fpathIn': path.join(I_PATH, FILENAME),
-    'fpathOut': path.join(O_PATH, hashFile),
-    'fname': FILENAME,
-    'clusters': CLST_NUM,
+    'palette': ','.join([c.hex.upper() for c in swatchHex]),
+    'clusters': CLST_NUM, 
     'clustering': str(CLUSTERING['algorithm'].__name__),
-    'palette': [c.hex.upper() for c in swatchHex]
-}
+    'filename': FILENAME, 
+    'hash': hashName,
+    'url': URL
+}, index=[0])
+db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
 art.dumpDatabase(db, DB_FILE)
 

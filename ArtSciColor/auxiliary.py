@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import pandas as pd
 from hashlib import sha256
 from matplotlib import font_manager
 from compress_pickle import dump, load
@@ -56,7 +57,7 @@ def hashFilename(string, length=16):
 
 def loadDatabase(DBPath):
     exists = os.path.isfile(DBPath)
-    db = load(DBPath) if exists else dict()
+    db = load(DBPath) if exists else pd.DataFrame()
     return db
         
 def dumpDatabase(database, DBPath):
