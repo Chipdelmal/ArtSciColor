@@ -18,28 +18,47 @@ import constants as cst
 # Setup paths and clusters number
 ##############################################################################
 if art.isNotebook():
-    (FILENAME, CLST_NUM) = (
-        "dance_hall_bellevue__obverse__1989.60.1.a.jpg", 
+    (FILENAME, ARTIST, CLST_NUM) = (
+        "183379.png",
+        "Miro",
         6
     )
     (I_PATH, O_PATH) = (
-        '~/Pictures/ArtSci/Kirchner/in/', 
-        '~/Pictures/ArtSci/Kirchner/out/'
+        f'~/Documents/GitHub/ArtSciColor/ArtSciColor/data/sources/{ARTIST}/in/', 
+        f'~/Documents/GitHub/ArtSciColor/ArtSciColor/data/sources/{ARTIST}/out/'
     )
     (ARTIST, TITLE, URL) = (None, None, None)
+    ADD_TO_DB = False
 else: 
     (I_PATH, O_PATH, FILENAME, CLST_NUM, URL, ARTIST, TITLE) = (
         argv[1], argv[2], argv[3], int(argv[4]), argv[5] , argv[6] , argv[7]
     )
+    ADD_TO_DB = True
     # print((I_PATH, O_PATH, FILENAME, CLST_NUM))
 (I_PATH, O_PATH) = [expanduser(f) for f in (I_PATH, O_PATH)]
 ##############################################################################
 # Constants
 ##############################################################################
-(ADD_TO_DB, DB_FILE) = (True, cst.DB_PATH)
+DB_FILE = cst.DB_PATH
 CLUSTERING = {
-    'algorithm': AgglomerativeClustering, 'params': {'n_clusters': CLST_NUM}
+    'algorithm': AgglomerativeClustering, 
+    'params': {'n_clusters': CLST_NUM}
 }
+# CLUSTERING = {
+#     'algorithm': HDBSCAN, 
+#     'params': {
+#         'min_cluster_size': 20, 
+#         'min_samples': 10,
+#         'cluster_selection_epsilon': 7
+#     }
+# }
+# CLUSTERING = {
+#     'algorithm': DBSCAN, 
+#     'params': {
+#         'eps': CLST_NUM, 
+#         'min_samples': 50
+#     }
+# }
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
     'Avenir', 75,
     math.ceil(CLST_NUM*0.4),
@@ -80,7 +99,7 @@ barsImg = art.addHexColorText(
 )
 newIMG = np.row_stack([img, barsImg])
 imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
-# imgOut
+imgOut
 ##############################################################################
 # Export to Disk
 ##############################################################################
@@ -93,17 +112,18 @@ imgOut.close()
 # Update DataBase
 ##############################################################################
 print(hashName, file=sys.stderr)
-db = art.loadDatabase(DB_FILE)
-newEntry = pd.DataFrame({
-    'artist': ARTIST, 
-    'title': TITLE,
-    'palette': ','.join([c.hex.upper() for c in swatchHex]),
-    'clusters': CLST_NUM, 
-    'clustering': str(CLUSTERING['algorithm'].__name__),
-    'filename': FILENAME, 
-    'hash': hashName,
-    'url': URL
-}, index=[0])
-db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
-art.dumpDatabase(db, DB_FILE)
+if ADD_TO_DB and ARTIST and ARTIST!="":
+    db = art.loadDatabase(DB_FILE)
+    newEntry = pd.DataFrame({
+        'artist': ARTIST, 
+        'title': TITLE,
+        'palette': ','.join([c.hex.upper() for c in swatchHex]),
+        'clusters': CLST_NUM, 
+        'clustering': str(CLUSTERING['algorithm'].__name__),
+        'filename': FILENAME, 
+        'hash': hashName,
+        'url': URL
+    }, index=[0])
+    db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
+    art.dumpDatabase(db, DB_FILE)
 
