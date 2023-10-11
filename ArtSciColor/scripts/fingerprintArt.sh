@@ -1,12 +1,13 @@
 #!/bin/bash
 
-ARTIST="Kirchner"
+ARTIST=$1
 ###############################################################################
 # Path Constants
 ###############################################################################
-ITER_FILE="$HOME/Documents/GitHub/ArtSciColor/ArtSciColor/data/${ARTIST}.csv"
-PTH_I="$HOME/Pictures/ArtSci/${ARTIST}/in/"
-PTH_O="$HOME/Pictures/ArtSci/${ARTIST}/out/"
+DATA_PATH="$HOME/Documents/GitHub/ArtSciColor/ArtSciColor/data"
+ITER_FILE="${DATA_PATH}/${ARTIST}.csv"
+PTH_I="${DATA_PATH}/sources/${ARTIST}/in/"
+PTH_O="${DATA_PATH}/sources/${ARTIST}/out/"
 ###############################################################################
 # Color Constants
 ###############################################################################
@@ -16,8 +17,13 @@ NC='\033[0m'
 # Paintings Iterator
 ###############################################################################
 while IFS=, read -r CNUM FNAME TITLE LINK; do 
-    printf "${LG}* ${TITLE} "
+    printf "${LG}\t${TITLE} "
     # echo "Clusters $CNUM :: Filename $FNAME :: Title $TITLE :: Link $LINK"; 
-    outputString=$(python fprintPainting.py ${PTH_I} ${PTH_O} ${FNAME} ${CNUM})
+    outputString=$(
+        python fprintPainting.py \
+            ${PTH_I} ${PTH_O} ${FNAME} \
+            ${CNUM} \
+            "${LINK}" "${ARTIST}" "${TITLE}"
+    )
     printf "${outputString}"
   done < $ITER_FILE

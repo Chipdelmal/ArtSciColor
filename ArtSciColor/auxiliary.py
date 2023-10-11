@@ -4,6 +4,8 @@
 import os
 from hashlib import sha256
 from matplotlib import font_manager
+from compress_pickle import dump, load
+
 
 def makeFolder(path):
     """Crates a folder in the specified directory.
@@ -51,3 +53,12 @@ def hashFilename(string, length=16):
         x = str(len(sha256(string).hexdigest()))
         exStr = f"Length too long. Length of {length} when hash length is {x}."
         raise Exception(exStr)
+
+def loadDatabase(DBPath):
+    exists = os.path.isfile(DBPath)
+    db = load(DBPath) if exists else dict()
+    return db
+        
+def dumpDatabase(database, DBPath):
+    dump(database, DBPath)
+    return True
