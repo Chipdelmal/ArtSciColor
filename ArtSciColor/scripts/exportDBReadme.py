@@ -11,13 +11,14 @@ from os.path import join
 DB_FILE = cst.DB_PATH
 PATH_OUT = "../media/swatches"
 PATH_RDM = "../media/"
+PATH_SWT = cst.SW_PATH
 (width, height) = (750, 50)
 
 db = art.loadDatabase(DB_FILE)
 ###############################################################################
 # Export swatches and generate MD text
 ###############################################################################
-mdTexts = []
+(mdTexts, hexSwatches) = ([], dict())
 for (ix, entry) in db.iterrows():
     (hname, artist, title, url) = [
         entry[c] for c in ('hash', 'artist', 'title', 'url')
@@ -29,6 +30,8 @@ for (ix, entry) in db.iterrows():
     dimg = np.zeros((height, width, 3))
     swatch = art.genColorSwatch(dimg, height, hexSwt, proportionalHeight=False)
     swtchImg = Image.fromarray(swatch.astype('uint8'), 'RGB')
+    # Add swatch to hash database ---------------------------------------------
+    hexSwatches[hname] = pal
     # Generate table html entry -----------------------------------------------
     palPth = join(PATH_OUT, f'{hname}.jpg')
     swtchImg.save(palPth)
@@ -44,6 +47,10 @@ for (ix, entry) in db.iterrows():
     mdRow = '\r\t<tr>'+' '.join(entry)+'</tr>'
     mdTexts.append(mdRow)
 ###############################################################################
+# Export Swatches
+###############################################################################
+art.dumpDatabase(hexSwatches, PATH_SWT)
+###############################################################################
 # Export HTML/MD data
 ###############################################################################
 th = [
@@ -55,10 +62,11 @@ text = '''
 <html><body>
 <h2>Available Palettes</h2>
 <table style="width:100%">
-    <tr>{}</tr>{}
+    <tr>{}</tr>
+    {}
 </table>
 </body></html>
-'''.format(''.join(th), ''.join(mdTexts))
+'''.format(''.join(th), '\n'.join(mdTexts))
 # Write to disk ---------------------------------------------------------------
 with open(join(PATH_RDM, f'README.md'), 'w') as f:
     f.write(text)
