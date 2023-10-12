@@ -40,7 +40,7 @@ else:
 ##############################################################################
 # Constants
 ##############################################################################
-DB_FILE = cst.DB_PATH
+(DB_FILE, DF_FILE) = (cst.DB_PATH, cst.DF_PATH)
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {'n_clusters': CLST_NUM}
@@ -48,17 +48,11 @@ CLUSTERING = {
 # CLUSTERING = {
 #     'algorithm': HDBSCAN, 
 #     'params': {
-#         'min_cluster_size': 20, 
-#         'min_samples': 10,
-#         'cluster_selection_epsilon': 7
+#         'min_cluster_size': 20, 'min_samples': 10, 'cluster_selection_epsilon': 7
 #     }
 # }
 # CLUSTERING = {
-#     'algorithm': DBSCAN, 
-#     'params': {
-#         'eps': CLST_NUM, 
-#         'min_samples': 50
-#     }
+#     'algorithm': DBSCAN, 'params': {'eps': CLST_NUM, 'min_samples': 50}
 # }
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
     'Avenir', 75,
@@ -128,4 +122,5 @@ if ADD_TO_DB and ARTIST and ARTIST!="":
     }, index=[0])
     db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
     art.dumpDatabase(db, DB_FILE)
+    art.exportDatabase(db, DF_FILE)
 

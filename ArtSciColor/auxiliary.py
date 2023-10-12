@@ -63,3 +63,6 @@ def loadDatabase(DBPath):
 def dumpDatabase(database, DBPath):
     dump(database, DBPath)
     return True
+
+def exportDatabase(database, DBPath):
+    database.to_csv(DBPath, index=False)

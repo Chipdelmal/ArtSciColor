@@ -13,10 +13,9 @@ PATH_OUT = "../media"
 (width, height) = (750, 50)
 
 db = art.loadDatabase(DB_FILE)
-db
-
-
-ix = 11
+###############################################################################
+# Export swatches and generate MD text
+###############################################################################
 mdTexts = []
 for (ix, entry) in db.iterrows():
     (hname, artist, title, url) = [
@@ -33,27 +32,33 @@ for (ix, entry) in db.iterrows():
     palPth = join(PATH_OUT, f'{hname}.jpg')
     swtchImg.save(palPth)
     entry = [
-        f'<td>{e}</td>' for e in (
+        f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
             artist, 
             f'<a href={url}>{title}</a>', 
-            f'<img src="{palPth}" height="25">', 
+            f'<img style="border-radius: 10px;" src="{palPth}" height="25">', 
             hname
         )
     ]
     mdRow = '\r\t<tr>'+' '.join(entry)+'</tr>'
     mdTexts.append(mdRow)
-    
+###############################################################################
+# Export HTML/MD data
+###############################################################################
+th = [
+    f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
+    for e in ('Artist', 'Title', 'Palette', 'ID')
+]
 text = '''
 <!DOCTYPE html>
-<html>
-<body>
+<html><body>
 <h2>Available Palettes</h2>
 <table style="width:100%">
-    <tr><th>Artist</th> <th>Title</th> <th>Palette</th> <th>ID</th></tr>{}
+    <tr>{}</tr>{}
 </table>
-</body>
-</html>
-'''.format(''.join(mdTexts))
-
+</body></html>
+'''.format(''.join(th), ''.join(mdTexts))
+# Write to disk ---------------------------------------------------------------
 with open(join(PATH_OUT, f'README.md'), 'w') as f:
+    f.write(text)
+with open(join(PATH_OUT, f'README.html'), 'w') as f:
     f.write(text)
