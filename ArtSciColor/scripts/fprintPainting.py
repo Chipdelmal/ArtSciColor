@@ -55,7 +55,7 @@ CLUSTERING = {
 #     'algorithm': DBSCAN, 'params': {'eps': CLST_NUM, 'min_samples': 50}
 # }
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
-    'Avenir', 75,
+    'Avenir', 50,
     math.ceil(CLST_NUM*0.4),
     True
 )
@@ -121,6 +121,7 @@ if ADD_TO_DB and ARTIST and ARTIST!="":
         'url': URL
     }, index=[0])
     db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
+    db.sort_values("artist", axis=0, inplace=True)
     art.dumpDatabase(db, DB_FILE)
     art.exportDatabase(db, DF_FILE)
 
