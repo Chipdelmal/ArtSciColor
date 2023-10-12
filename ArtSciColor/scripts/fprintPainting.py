@@ -19,7 +19,7 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183379.png",
+        "183381.png",
         "Miro",
         6
     )
@@ -28,12 +28,13 @@ if art.isNotebook():
         f'~/Documents/GitHub/ArtSciColor/ArtSciColor/data/sources/{ARTIST}/out/'
     )
     (ARTIST, TITLE, URL) = (None, None, None)
-    ADD_TO_DB = False
+    (ADD_TO_DB, SHOW) = (False, True)
+    SHOW = True
 else: 
     (I_PATH, O_PATH, FILENAME, CLST_NUM, URL, ARTIST, TITLE) = (
         argv[1], argv[2], argv[3], int(argv[4]), argv[5] , argv[6] , argv[7]
     )
-    ADD_TO_DB = True
+    (ADD_TO_DB, SHOW) = (True, False)
     # print((I_PATH, O_PATH, FILENAME, CLST_NUM))
 (I_PATH, O_PATH) = [expanduser(f) for f in (I_PATH, O_PATH)]
 ##############################################################################
@@ -99,7 +100,8 @@ barsImg = art.addHexColorText(
 )
 newIMG = np.row_stack([img, barsImg])
 imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
-imgOut
+if SHOW:
+    imgOut.show()
 ##############################################################################
 # Export to Disk
 ##############################################################################
