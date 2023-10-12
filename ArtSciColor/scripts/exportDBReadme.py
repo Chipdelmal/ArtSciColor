@@ -9,7 +9,8 @@ import constants as cst
 from os.path import join
 
 DB_FILE = cst.DB_PATH
-PATH_OUT = "../media"
+PATH_OUT = "../media/swatches"
+PATH_RDM = "../media/"
 (width, height) = (750, 50)
 
 db = art.loadDatabase(DB_FILE)
@@ -31,6 +32,7 @@ for (ix, entry) in db.iterrows():
     # Generate table html entry -----------------------------------------------
     palPth = join(PATH_OUT, f'{hname}.jpg')
     swtchImg.save(palPth)
+    swPath = './swatches/'
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
             artist, 
@@ -58,7 +60,7 @@ text = '''
 </body></html>
 '''.format(''.join(th), ''.join(mdTexts))
 # Write to disk ---------------------------------------------------------------
-with open(join(PATH_OUT, f'README.md'), 'w') as f:
+with open(join(PATH_RDM, f'README.md'), 'w') as f:
     f.write(text)
-with open(join(PATH_OUT, f'README.html'), 'w') as f:
+with open(join(PATH_RDM, f'README.html'), 'w') as f:
     f.write(text)
