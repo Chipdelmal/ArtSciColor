@@ -27,7 +27,6 @@ PATH_SWT = art.PTH_SWBZ
 ###############################################################################
 # Load Databases
 ###############################################################################
-db = art.loadDatabase(DB_FILE)
 hexSwatches = art.loadDatabase(PATH_SWT, df=False)
 (DB_FILE, DF_FILE) = (art.PTH_DBBZ, art.PTH_DBDF)
 ###############################################################################
@@ -65,26 +64,28 @@ for (ix, entry) in splat.iterrows():
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
     mdTexts.append(mdRow)
-##############################################################################
-# Update DataBase
-##############################################################################
-if ADD_TO_DB:
-    db = art.loadDatabase(DB_FILE)
-    newEntry = pd.DataFrame({
-        'artist': 'Splatoon', 
-        'title': name,
-        'palette': ','.join([c.hex.upper() for c in hexSwt]),
-        'clusters': len(swatch), 
-        'clustering': "None",
-        'filename': "None", 
-        'hash': hName,
-        'url': URL
-    }, index=[0])
-    db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
-    db.sort_values("artist", axis=0, inplace=True)
-    art.dumpDatabase(db, DB_FILE)
-    art.exportDatabase(db, DF_FILE)
-    art.dumpDatabase(hexSwatches, PATH_SWT)
+    ###########################################################################
+    # Update DataBase
+    ###########################################################################
+    if ADD_TO_DB:
+        db = art.loadDatabase(DB_FILE)
+        newEntry = pd.DataFrame({
+            'artist': 'Splatoon', 
+            'title': name,
+            'palette': ','.join([c.hex.upper() for c in hexSwt]),
+            'clusters': len(pal), 
+            'clustering': "None",
+            'filename': "None", 
+            'hash': hName,
+            'url': URL
+        }, index=[0])
+        db = pd.concat([
+            db.loc[:], newEntry
+        ]).reset_index(drop=True).drop_duplicates()
+        db.sort_values("artist", axis=0, inplace=True)
+        art.dumpDatabase(db, DB_FILE)
+        art.exportDatabase(db, DF_FILE)
+        art.dumpDatabase(hexSwatches, PATH_SWT)
 ###############################################################################
 # Export HTML/MD data
 ###############################################################################

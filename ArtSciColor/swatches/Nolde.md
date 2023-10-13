@@ -1,0 +1,8 @@
+
+<!DOCTYPE html>
+<html><body>
+<h1>Nolde</h1>
+<table style="width:100%">
+<tr><th style="text-align: center; vertical-align: middle;">Artist</th><th style="text-align: center; vertical-align: middle;">Title</th><th style="text-align: center; vertical-align: middle;">Palette</th><th style="text-align: center; vertical-align: middle;">ID</th></tr><tr><td style="text-align: center; vertical-align: middle;">Nolde</td> <td style="text-align: center; vertical-align: middle;"><a href=https://sammlung.staedelmuseum.de/en/work/lake-lucerne>"Lake Lucerne"</a></td> <td style="text-align: center; vertical-align: middle;"><img style="border-radius: 10px;" src="../media/swatches/01A13621F5CD4183728D.jpg" height="25"></td> <td style="text-align: center; vertical-align: middle;">01A13621F5CD4183728D</td></tr><tr><td style="text-align: center; vertical-align: middle;">Nolde</td> <td style="text-align: center; vertical-align: middle;"><a href=https://www.apollo-magazine.com/emil-nolde-colour-life-exhibition-review/>"Party"</a></td> <td style="text-align: center; vertical-align: middle;"><img style="border-radius: 10px;" src="../media/swatches/467FAB1C05758668B09B.jpg" height="25"></td> <td style="text-align: center; vertical-align: middle;">467FAB1C05758668B09B</td></tr>
+</table>
+</body></html>

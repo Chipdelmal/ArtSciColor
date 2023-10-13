@@ -1,12 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from sys import argv
 import numpy as np
 from PIL import Image
 from colour import Color
 import ArtSciColor as art
 from os.path import join
 
+
+if art.isNotebook():
+    ARTIST = 'Monet'
+else:
+    ARTIST = argv[1]
+###############################################################################
+# Setup Paths
+###############################################################################
 DB_FILE = art.PTH_DBBZ
 PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
@@ -16,6 +25,7 @@ PATH_SWT = art.PTH_SWBZ
 # Load Databases
 ###############################################################################
 db = art.loadDatabase(DB_FILE)
+db = db[db['artist']==ARTIST]
 hexSwatches = art.loadDatabase(PATH_SWT, df=False)
 ###############################################################################
 # Export swatches and generate MD text
@@ -63,14 +73,14 @@ th = [
 text = '''
 <!DOCTYPE html>
 <html><body>
-<h1>Art Palettes</h1>
+<h1>{}</h1>
 <table style="width:100%">
 <tr>{}</tr>{}
 </table>
 </body></html>
-'''.format(''.join(th), ''.join(mdTexts))
+'''.format(ARTIST, ''.join(th), ''.join(mdTexts))
 # Write to disk ---------------------------------------------------------------
-with open(join(PATH_RDM, f'Art.md'), 'w') as f:
+with open(join(PATH_RDM, f'{ARTIST}.md'), 'w') as f:
     f.write(text)
-with open(join(PATH_RDM, f'Art.html'), 'w') as f:
+with open(join(PATH_RDM, f'{ARTIST}.html'), 'w') as f:
     f.write(text)
