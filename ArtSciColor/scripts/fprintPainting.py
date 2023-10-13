@@ -5,7 +5,6 @@ import sys
 import math
 import numpy as np
 import pandas as pd
-from os import path
 from sys import argv
 from PIL import Image
 from os.path import join, expanduser

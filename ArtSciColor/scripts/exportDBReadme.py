@@ -5,14 +5,13 @@ import numpy as np
 from PIL import Image
 from colour import Color
 import ArtSciColor as art
-import constants as cst
 from os.path import join
 
 DB_FILE = art.PTH_DBBZ
 PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
 PATH_SWT = art.PTH_SWBZ
-(width, height) = (750, 50)
+(width, height) = (art.SWATCH_DIMS['width'], art.SWATCH_DIMS['height'])
 
 db = art.loadDatabase(DB_FILE)
 ###############################################################################

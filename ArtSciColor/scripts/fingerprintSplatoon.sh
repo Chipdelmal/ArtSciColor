@@ -8,5 +8,5 @@ NCL='\033[0m'
 for artist in ${ARTISTS[*]} 
 do
     echo -e "${GRN}* Processing ${artist}${NCL}"
-    python splatoonSwatches.py "${artist}"
+    python "$(dirname "$0")/splatoonSwatches.py" "${artist}"
 done
