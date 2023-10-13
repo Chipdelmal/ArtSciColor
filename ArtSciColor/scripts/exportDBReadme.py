@@ -44,7 +44,7 @@ for (ix, entry) in db.iterrows():
             hname
         )
     ]
-    mdRow = '\r\t<tr>'+' '.join(entry)+'</tr>'
+    mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
     mdTexts.append(mdRow)
 ###############################################################################
 # Export Swatches
@@ -62,11 +62,10 @@ text = '''
 <html><body>
 <h2>Available Palettes</h2>
 <table style="width:100%">
-    <tr>{}</tr>
-    {}
+<tr>{}</tr>{}
 </table>
 </body></html>
-'''.format(''.join(th), '\n'.join(mdTexts))
+'''.format(''.join(th), ''.join(mdTexts))
 # Write to disk ---------------------------------------------------------------
 with open(join(PATH_RDM, f'README.md'), 'w') as f:
     f.write(text)
