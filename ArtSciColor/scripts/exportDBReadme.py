@@ -12,12 +12,15 @@ PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
 PATH_SWT = art.PTH_SWBZ
 (width, height) = (art.SWATCH_DIMS['width'], art.SWATCH_DIMS['height'])
-
+###############################################################################
+# Load Databases
+###############################################################################
 db = art.loadDatabase(DB_FILE)
+hexSwatches = art.loadDatabase(PATH_SWT, df=False)
 ###############################################################################
 # Export swatches and generate MD text
 ###############################################################################
-(mdTexts, hexSwatches) = ([], dict())
+mdTexts = []
 for (ix, entry) in db.iterrows():
     (hname, artist, title, url) = [
         entry[c] for c in ('hash', 'artist', 'title', 'url')
@@ -36,7 +39,8 @@ for (ix, entry) in db.iterrows():
     relPth = join('../media/swatches', f'{hname}.jpg')
     swtchImg.save(palPth)
     entry = [
-        f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
+        f'<td style="text-align: center; vertical-align: middle;">{e}</td>' 
+        for e in (
             artist, 
             f'<a href={url}>{title}</a>', 
             f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 

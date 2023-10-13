@@ -55,9 +55,12 @@ def hashFilename(string, length=20):
         exStr = f"Length too long. Length of {length} when hash length is {x}."
         raise Exception(exStr)
 
-def loadDatabase(DBPath):
+def loadDatabase(DBPath, df=True):
     exists = os.path.isfile(DBPath)
-    db = load(DBPath) if exists else pd.DataFrame()
+    if df:
+        db = load(DBPath) if exists else pd.DataFrame()
+    else:
+        db = load(DBPath) if exists else dict()
     return db
         
 def dumpDatabase(database, DBPath):

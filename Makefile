@@ -10,11 +10,11 @@ sdist_name:=PlotMAPQ-$(version).tar.gz
 ###############################################################################
 # Dev Operations
 ############################################################################### 
-develop:
-	$(pip) install -e .
+dev:
+	- python -m pip install .
 
 clean_develop:
-	- $(pip) uninstall -y ArtSciColor
+	- python -m pip uninstall -y ArtSciColor
 	- rm -rf *.egg-info
 
 clean_sdist:
@@ -39,5 +39,9 @@ clean_pypi:
 # Evaluate palettes
 ############################################################################### 
 fingerprint:
+	- rm -f ./ArtSciColor/data/DB.bz
+	- rm -f ./ArtSciColor/data/DB.csv
+	- rm -f ./ArtSciColor/data/SWATCHES.bz
+	- rm -f ./ArtSciColor/media/swatches/*
 	- bash ./ArtSciColor/scripts/fingerprintSplatoon.sh
 	- bash ./ArtSciColor/scripts/fingerprintArt.sh

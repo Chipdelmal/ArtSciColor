@@ -28,7 +28,6 @@ if art.isNotebook():
     )
     (TITLE, URL) = (None, None)
     (ADD_TO_DB, SHOW) = (False, True)
-    SHOW = True
 else: 
     (I_PATH, O_PATH, FILENAME, CLST_NUM, URL, ARTIST, TITLE) = (
         argv[1], argv[2], argv[3], int(argv[4]), argv[5] , argv[6] , argv[7]
