@@ -38,5 +38,11 @@ setuptools.setup(
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
+    package_data={
+        'ArtSciColor': [
+            './data/DB.bz', './data/DB.csv',
+            './data/SWATCHES.bz'
+        ],
+    },
     python_requires='>=3.8',                                    # python version requirement
 )

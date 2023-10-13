@@ -22,13 +22,12 @@ URL = 'https://splatoonwiki.org/wiki/Ink'
 PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
 PATH_SWT = art.PTH_SWBZ
-(DB_FILE, PTH_CSV) = (art.PTH_DBBZ, art.PTH_DATA)
+(DB_FILE, PTH_CSV, DF_FILE) = (art.PTH_DBBZ, art.PTH_DATA, art.PTH_DBDF)
 (width, height) = (art.SWATCH_DIMS['width'], art.SWATCH_DIMS['height'])
 ###############################################################################
 # Load Databases
 ###############################################################################
 hexSwatches = art.loadDatabase(PATH_SWT, df=False)
-(DB_FILE, DF_FILE) = (art.PTH_DBBZ, art.PTH_DBDF)
 ###############################################################################
 # Load data
 ###############################################################################
