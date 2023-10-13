@@ -93,7 +93,7 @@ if SHOW:
 # Export to Disk
 ##############################################################################
 noExtFName = Path(fPath).stem
-hashName = art.hashFilename(ARTIST+noExtFName)
+hashName = art.hashFilename(''.join([i.hex for i in swatchHex]))
 hashFile = f'{hashName}.png'
 imgOut.save(join(O_PATH, hashFile))
 imgOut.close()

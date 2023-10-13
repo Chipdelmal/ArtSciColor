@@ -34,7 +34,7 @@ for (ix, entry) in db.iterrows():
     row = [e.strip() for e in entry if isinstance(e, str)]
     (name, pal) = (row[0], row[1:])
     # Treat palette -----------------------------------------------------------
-    hName = art.hashFilename(FNAME+name+''.join(pal))
+    hName = art.hashFilename(''.join(pal))
     hexSwt = [Color(h) for h in pal]
     # Generate swatch ---------------------------------------------------------
     dimg = np.zeros((height, width, 3))
