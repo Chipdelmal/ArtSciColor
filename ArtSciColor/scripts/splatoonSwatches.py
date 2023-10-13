@@ -1,26 +1,34 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from sys import argv
 import numpy as np
 import pandas as pd
 from os.path import join
 from PIL import Image
 from colour import Color
 import ArtSciColor as art
-import constants as cst
 
-
-FNAME = 'Splatoon1'
+if art.isNotebook():
+    FNAME = 'Splatoon1'
+else:
+    FNAME = argv[1]
+###############################################################################
+# Setup Paths
+###############################################################################
 PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
 PATH_SWT = art.PTH_SWBZ
 (DB_FILE, PTH_CSV) = (art.PTH_DBBZ, art.PTH_DATA)
 (width, height) = (art.SWATCH_DIMS['width'], art.SWATCH_DIMS['height'])
-
-
+###############################################################################
+# Load data
+###############################################################################
 NAMES = ('Name', 'Alpha', 'Beta', 'Gamma', 'Delta')
 db = pd.read_csv(join(PTH_CSV, f'{FNAME}.csv'), header=None, names=NAMES)
-
+###############################################################################
+# Iterate
+###############################################################################
 (mdTexts, hexSwatches) = ([], dict())
 for (ix, entry) in db.iterrows():
     row = [e.strip() for e in entry if isinstance(e, str)]
