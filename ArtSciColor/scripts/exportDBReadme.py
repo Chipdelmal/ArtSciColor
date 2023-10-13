@@ -34,12 +34,13 @@ for (ix, entry) in db.iterrows():
     hexSwatches[hname] = pal
     # Generate table html entry -----------------------------------------------
     palPth = join(PATH_OUT, f'{hname}.jpg')
+    relPth = join('../media/swatches', f'{hname}.jpg')
     swtchImg.save(palPth)
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
             artist, 
             f'<a href={url}>{title}</a>', 
-            f'<img style="border-radius: 10px;" src="{palPth}" height="25">', 
+            f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
             hname
         )
     ]

@@ -10,7 +10,7 @@ import ArtSciColor as art
 import constants as cst
 
 
-FNAME = 'Splatoon3'
+FNAME = 'Splatoon1'
 PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
 PATH_SWT = art.PTH_SWBZ
@@ -32,19 +32,16 @@ for (ix, entry) in db.iterrows():
     dimg = np.zeros((height, width, 3))
     swatch = art.genColorSwatch(dimg, height, hexSwt, proportionalHeight=False)
     swtchImg = Image.fromarray(swatch.astype('uint8'), 'RGB')
-    # Generate table html entry -----------------------------------------------
-    palPth = join(PATH_OUT, f'{hName}.jpg')
-    swtchImg.save(palPth)
     # Add swatch to hash database ---------------------------------------------
     hexSwatches[hName] = pal
     # Generate table html entry -----------------------------------------------
     palPth = join(PATH_OUT, f'{hName}.jpg')
+    relPth = join('../media/swatches', f'{hName}.jpg')
     swtchImg.save(palPth)
-    swPath = './swatches/'
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
             name, 
-            f'<img style="border-radius: 10px;" src="{palPth}" height="25">', 
+            f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
             hName
         )
     ]
