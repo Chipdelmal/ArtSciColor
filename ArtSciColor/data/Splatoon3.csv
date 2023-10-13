@@ -1,41 +1,41 @@
-'Pink vs Green',  #C12D74, #2CB721, #3A28C4
-'Orange vs Purple', #CD510A, #6E04B6, #94C921
-'Orange vs Blue', #DE6624, #343BC4, #CDCD34
-'Yellow vs Purple', #CEB121, #9025C6, #5DAB21
-'Yellow vs Blue', #D0BE08, #3A0CCD, #B62EA7
-'LimeGreen vs Purple', #BECD41, #6325CD, #31C4A9
-'Turquoise vs Pink', #1BBEAB, #C43A6E, #4E4EDD
-'Turquoise vs Red', #1BBEAB, #D74B31, #0D0DDC
-'Blue vs Yellow', #1A1AAE, #E38D24, #CD43A6
-'Rock vs Papers vs Scissors', #413BBA, #BEB013, #C03E3E, #35BA49
-'Gear vs Grub vs Fun', #8A19F7, #BE7118, #28C05E, #3F2CD2
-'Grass vs Fire vs Water', #1BA974, #DA4514, #002AFF, #FFFF00
-'Spicy vs Sweet vs Sour', #AD5438, #9A6FCC, #A5B533, #00A2E8
-'DarkChocolate vs MilkChocolate vs WhiteChocolate', #3D1F7A, #995935, #D6BF8F, #FFFF00
-'Nessie vs Aliens vs BigFoot', #118F32, #793199, #A1482B, #0935A6
-'Power vs Wisdom vs Courage', #AB2A5C, #488DB5, #03A65F, #ba8500
-'Vanilla vs Strawberry vs Mint', #cca770, #bc6d75, #2ac29e, #adff6b
-'Money vs Fame vs Love', #c8752d, #73bd49, #bb497b, #5998ff
-'Shiver vs Frye vs BigMan', #253fc5, #d3b113, #d80501, #6dda25
-'Orange vs Blue', #EE8711, #0943F0, #81DE17
-'Yellow vs Indigo', #DEC109, #531BBA, #C920B7
-'Green vs Blue', #51C71B, #2120CC, #C920B7
-'Soda vs Magenta', #AEF4F0, #DD0DD3, #C6D314
-'LightBlue vs Blue', #14BBE7, #285EEA, #C920B7
-'Blue vs Magenta', #1B18D7, #DD0DD3, #C6D314
-'Blue Frye', #373DBB, #CECE28, #C920B7
-'Lime Shiver', #BAD421, #1021BE, #A714D4
-'Orange BigMan', #E1772B, #2DD9B6, #2E14D4
-'Yellow vs Green', #B4D933, #098A71, #D611E0
-'SodaYellow vs Green', #DDA024, #098264, #E114C3
-'Orange vs DarkGreen', #C44B21, #098264, #DCE317
-'Pink vs Teal', #C64184, #0D6E74, #E3D704
-'Purple vs DarkGreen', #9361EA, #0A7A5E, #D3DD1E
-'Blue vs DarkGreen', #435BF3, #067E63, #E9DD14
-'Lock: Yellow vs Blue', #CABA21, #502EBA, #B62AA7
-'Lock: Yellow vs DarkTeal', #DDD112, #047B8B, #ED12E4
-'Lock: Yellow vs Blue', #D6CD25, #531BBA, #C920B7
-'Lock: Yellow vs LightBlue', #BDBA14, #4E85C1, #4828AB, #B0C444
-'WYellow vs WBlue', #DACD12, #4B25C9, #B62EA7
-'Orange vs DarkGreen', #C95431, #03644B, #E7E710
-'Teal vs Purple vs Orange', #1BA974, #98039B, #C75304, #C70864
+"Pink vs Green",  #C12D74, #2CB721, #3A28C4
+"Orange vs Purple", #CD510A, #6E04B6, #94C921
+"Orange vs Blue", #DE6624, #343BC4, #CDCD34
+"Yellow vs Purple", #CEB121, #9025C6, #5DAB21
+"Yellow vs Blue", #D0BE08, #3A0CCD, #B62EA7
+"LimeGreen vs Purple", #BECD41, #6325CD, #31C4A9
+"Turquoise vs Pink", #1BBEAB, #C43A6E, #4E4EDD
+"Turquoise vs Red", #1BBEAB, #D74B31, #0D0DDC
+"Blue vs Yellow", #1A1AAE, #E38D24, #CD43A6
+"Rock vs Papers vs Scissors", #413BBA, #BEB013, #C03E3E, #35BA49
+"Gear vs Grub vs Fun", #8A19F7, #BE7118, #28C05E, #3F2CD2
+"Grass vs Fire vs Water", #1BA974, #DA4514, #002AFF, #FFFF00
+"Spicy vs Sweet vs Sour", #AD5438, #9A6FCC, #A5B533, #00A2E8
+"DarkChocolate vs MilkChocolate vs WhiteChocolate", #3D1F7A, #995935, #D6BF8F, #FFFF00
+"Nessie vs Aliens vs BigFoot", #118F32, #793199, #A1482B, #0935A6
+"Power vs Wisdom vs Courage", #AB2A5C, #488DB5, #03A65F, #ba8500
+"Vanilla vs Strawberry vs Mint", #cca770, #bc6d75, #2ac29e, #adff6b
+"Money vs Fame vs Love", #c8752d, #73bd49, #bb497b, #5998ff
+"Shiver vs Frye vs BigMan", #253fc5, #d3b113, #d80501, #6dda25
+"Orange vs Blue", #EE8711, #0943F0, #81DE17
+"Yellow vs Indigo", #DEC109, #531BBA, #C920B7
+"Green vs Blue", #51C71B, #2120CC, #C920B7
+"Soda vs Magenta", #AEF4F0, #DD0DD3, #C6D314
+"LightBlue vs Blue", #14BBE7, #285EEA, #C920B7
+"Blue vs Magenta", #1B18D7, #DD0DD3, #C6D314
+"Blue Frye", #373DBB, #CECE28, #C920B7
+"Lime Shiver", #BAD421, #1021BE, #A714D4
+"Orange BigMan", #E1772B, #2DD9B6, #2E14D4
+"Yellow vs Green", #B4D933, #098A71, #D611E0
+"SodaYellow vs Green", #DDA024, #098264, #E114C3
+"Orange vs DarkGreen", #C44B21, #098264, #DCE317
+"Pink vs Teal", #C64184, #0D6E74, #E3D704
+"Purple vs DarkGreen", #9361EA, #0A7A5E, #D3DD1E
+"Blue vs DarkGreen", #435BF3, #067E63, #E9DD14
+"Lock: Yellow vs Blue", #CABA21, #502EBA, #B62AA7
+"Lock: Yellow vs DarkTeal", #DDD112, #047B8B, #ED12E4
+"Lock: Yellow vs Blue", #D6CD25, #531BBA, #C920B7
+"Lock: Yellow vs LightBlue", #BDBA14, #4E85C1, #4828AB, #B0C444
+"WYellow vs WBlue", #DACD12, #4B25C9, #B62EA7
+"Orange vs DarkGreen", #C95431, #03644B, #E7E710
+"Teal vs Purple vs Orange", #1BA974, #98039B, #C75304, #C70864

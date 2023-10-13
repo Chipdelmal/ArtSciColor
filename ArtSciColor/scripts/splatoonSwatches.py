@@ -10,7 +10,7 @@ from colour import Color
 import ArtSciColor as art
 
 if art.isNotebook():
-    FNAME = 'Splatoon1'
+    FNAME = 'Splatoon2'
 else:
     FNAME = argv[1]
 ###############################################################################

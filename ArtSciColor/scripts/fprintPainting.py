@@ -47,15 +47,6 @@ CLUSTERING = {
         'compute_full_tree': True
     } 
 }
-# CLUSTERING = {
-#     'algorithm': HDBSCAN, 
-#     'params': {
-#         'min_cluster_size': 20, 'min_samples': 10, 'cluster_selection_epsilon': 7
-#     }
-# }
-# CLUSTERING = {
-#     'algorithm': DBSCAN, 'params': {'eps': CLST_NUM, 'min_samples': 50}
-# }
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
     'Avenir', 50,
     math.ceil(CLST_NUM*0.4),

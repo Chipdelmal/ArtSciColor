@@ -1,72 +1,72 @@
-'Lemon vs Plum', #BBC905, #830B9C
-'LightPink vs Blue', #D60E6E, #311AA8
-'Raspberry vs NYellow', #DE0B64, #BFD002
-'Grape vs Turquoise', #5F0FB4, #08B672
-'Pink vs LightBlue', #CB0856, #0199B8
-'DarkBlue vs Orange', #4A14AA, #FB5C03
-'NightPink vs NightGreen', #CF0466, #17A80D
-'Sky vs Gold', #007EDC, #E1A307
-'SodaGree vs Purple', #25B100, #571DB1, #CD2D7E
-'WGreen vs DarkMagenta', #03B362, #B1008D, #A8B700
-'Turquoise vs Pumpkin', #0CAE6E, #F75900, #6A1EC1
-'Mustard vs Purple', #CE8003, #9208B2, #1AB46A
-'Blue vs Green', #2922B5, #5EB604, #CA21A5
-'RPurple vs Gapple', #7B0393, #43BA05, #DB7821
-'Yellow vs TealBlue', #D9C100, #007AC9, #ED580B
-'Yellow vs Fuchsia', #D9C100, #D645C8, #17A80D
-'Green vs Fuchsia', #17A80D, #D645C8, #D9C100
-'LightBlue vs Fuchsia', #03C1CD, #D645C8, #D9C100
-'Mayo vs Ketchup', #FFE99B, #FB321E, #1BB026
-'Flight vs Invincibility', #4F55ED, #6BD52C, #ED1D9A
-'Fries vs Nuggets', #E8540A, #6A3BE0, #FFCA0E
-'FrontRoll vs BackRoll', #FF7D9A, #00A0B0, #E4E567
-'Vampire vs Werewolf', #6735AF, #FE6829, #00CA0E
-'Agility vs Endurance', #F3B000, #F5498B, #13A715
-'WarmBreakfast vs ColdBreakfast', #FF5E17, #00A39A, #EDD926
-'Lemon vs NoLemon', #BEE600, #C52ADB, #00B278
-'SciFi vs Fantasy', #1FAFE8, #8BFF06, #FD636A
-'Film vs Book', #9030FF, #14B8A0, #EEC70E
-'InnerWear vs OuterWear', #FF7536, #9090BA, #DC1C1E
-'Sweater vs Socks', #C4354D, #0D8B51, #CACACA
-'Action vs Comedy', #FA8E00, #1384BA, #B44AEF
-'Champion vs Challenger', #A18E3B, #1D07AC, #F52E71
-'Gherk-Out vs Gherk-In', #B14A8D, #83C91A, #0FBA9D
-'Money vs Love', #FFD624, #FC6D75, #5451EC
-'Flower vs Dumpling', #FF8787, #7EC27A, #ECE8B1
-'Chicken vs Egg', #EFF2EB, #FABF50, #ED2635
-'Newest vs Popular', #059E9C, #C1CC47, #E2E2E2
-'Salty vs Sweet', #B1DBD1, #E29440, #D94C79
-'Baseball vs Soccer', #FA5A2A, #00993A, #6642D0
-'UniqueCreature vs AdvancedTechnology', #FF6D40, #38377A, #F1E61C
-'Pulp vs NoPulp', #EE8122, #2FCF46, #42D0EA
-'Squid vs Octopus', #50D525, #E900D2, #4B22C8
-'Mountain vs Village', #FFCE0C, #058F00, #E24FE5
-'Adventure vs Relax', #FFB600, #00967A, #4B22C8
-'Fork vs Spoon', #E36D60, #2FB89A, #EBCD62
-'Retro vs Modern' #6B4221, #596666, #0118E3
-'Tsubuan vs Koshian', #655A99, #88214D, #78D04F
-'Trick vs Treat', #EC7125, #8805CC, #4EE69F
-'Chocolate vs Gokuboso', #E70F21, #E6E6E6, #734024
-'Salsa vs Guac', #801A00, #757A2B, #D4C2B5
-'EatIt vs SaveIt', #C42138, #A6AD8C, #6363D6
-'Hero vs Villain', #ED2403, #4517D1, #D1D1D1
-'Family vs Friend' #7D5C26, #82878F, #C21405
-'Boke vs Tsukkomi', #D64703, #127A87, #C2238F
-'Pancake vs Waffle', #D4B873, #4545AB, #E64D73
-'Knight vs Wizard', #788C87, #6B0A29, #A67308
-'Hare vs Tortoise', #E869BF, #8ACF47, #17CFDE
-'CE vs PA', #086312, #307087, #BA0A07
-'TimeTravel vs Teleportation', #695240, #14247F, #CFD1C7
-'Unicorn vs Narwal', #6B87BF, #AB66B8, #D1ED73
-'NoPineapple vs Pineapple', #4A2126, #ABB012, #0A6E17
-'Kid vs GrownUp', #308766, #523B40, #D1ED73
-'Chaos vs Order', #695C3B, #7F7F99, #990F2B
-'Mushroom vs Star', #CC1F1F, #B3A10D, #0D40DE
-'GYellow vs EBlue', #DEA801, #4717A9
-'Orange vs Green', #FB5C03, #17A80D
-'Blue vs NeonGreen', #311AA8, #17A80D
-'Pink vs NeonGreen', #CB0856, #17A80D
-'Blue vs Orange', #2E0CB5, #F86300
-'Pink vs Turquoise', #CB0856, #08B672, #D9C100
-'Peach vs Turquoise', #FF8787, #08B672, #D9C100
-'Grape vs Turquoise', #5F0FB4, #08B672, #D9C100
+"Lemon vs Plum", #BBC905, #830B9C
+"LightPink vs Blue", #D60E6E, #311AA8
+"Raspberry vs NYellow", #DE0B64, #BFD002
+"Grape vs Turquoise", #5F0FB4, #08B672
+"Pink vs LightBlue", #CB0856, #0199B8
+"DarkBlue vs Orange", #4A14AA, #FB5C03
+"NightPink vs NightGreen", #CF0466, #17A80D
+"Sky vs Gold", #007EDC, #E1A307
+"SodaGree vs Purple", #25B100, #571DB1, #CD2D7E
+"WGreen vs DarkMagenta", #03B362, #B1008D, #A8B700
+"Turquoise vs Pumpkin", #0CAE6E, #F75900, #6A1EC1
+"Mustard vs Purple", #CE8003, #9208B2, #1AB46A
+"Blue vs Green", #2922B5, #5EB604, #CA21A5
+"RPurple vs Gapple", #7B0393, #43BA05, #DB7821
+"Yellow vs TealBlue", #D9C100, #007AC9, #ED580B
+"Yellow vs Fuchsia", #D9C100, #D645C8, #17A80D
+"Green vs Fuchsia", #17A80D, #D645C8, #D9C100
+"LightBlue vs Fuchsia", #03C1CD, #D645C8, #D9C100
+"Mayo vs Ketchup", #FFE99B, #FB321E, #1BB026
+"Flight vs Invincibility", #4F55ED, #6BD52C, #ED1D9A
+"Fries vs Nuggets", #E8540A, #6A3BE0, #FFCA0E
+"FrontRoll vs BackRoll", #FF7D9A, #00A0B0, #E4E567
+"Vampire vs Werewolf", #6735AF, #FE6829, #00CA0E
+"Agility vs Endurance", #F3B000, #F5498B, #13A715
+"WarmBreakfast vs ColdBreakfast", #FF5E17, #00A39A, #EDD926
+"Lemon vs NoLemon", #BEE600, #C52ADB, #00B278
+"SciFi vs Fantasy", #1FAFE8, #8BFF06, #FD636A
+"Film vs Book", #9030FF, #14B8A0, #EEC70E
+"InnerWear vs OuterWear", #FF7536, #9090BA, #DC1C1E
+"Sweater vs Socks", #C4354D, #0D8B51, #CACACA
+"Action vs Comedy", #FA8E00, #1384BA, #B44AEF
+"Champion vs Challenger", #A18E3B, #1D07AC, #F52E71
+"Gherk-Out vs Gherk-In", #B14A8D, #83C91A, #0FBA9D
+"Money vs Love", #FFD624, #FC6D75, #5451EC
+"Flower vs Dumpling", #FF8787, #7EC27A, #ECE8B1
+"Chicken vs Egg", #EFF2EB, #FABF50, #ED2635
+"Newest vs Popular", #059E9C, #C1CC47, #E2E2E2
+"Salty vs Sweet", #B1DBD1, #E29440, #D94C79
+"Baseball vs Soccer", #FA5A2A, #00993A, #6642D0
+"UniqueCreature vs AdvancedTechnology", #FF6D40, #38377A, #F1E61C
+"Pulp vs NoPulp", #EE8122, #2FCF46, #42D0EA
+"Squid vs Octopus", #50D525, #E900D2, #4B22C8
+"Mountain vs Village", #FFCE0C, #058F00, #E24FE5
+"Adventure vs Relax", #FFB600, #00967A, #4B22C8
+"Fork vs Spoon", #E36D60, #2FB89A, #EBCD62
+"Retro vs Modern" #6B4221, #596666, #0118E3
+"Tsubuan vs Koshian", #655A99, #88214D, #78D04F
+"Trick vs Treat", #EC7125, #8805CC, #4EE69F
+"Chocolate vs Gokuboso", #E70F21, #E6E6E6, #734024
+"Salsa vs Guac", #801A00, #757A2B, #D4C2B5
+"EatIt vs SaveIt", #C42138, #A6AD8C, #6363D6
+"Hero vs Villain", #ED2403, #4517D1, #D1D1D1
+"Family vs Friend" #7D5C26, #82878F, #C21405
+"Boke vs Tsukkomi", #D64703, #127A87, #C2238F
+"Pancake vs Waffle", #D4B873, #4545AB, #E64D73
+"Knight vs Wizard", #788C87, #6B0A29, #A67308
+"Hare vs Tortoise", #E869BF, #8ACF47, #17CFDE
+"CE vs PA", #086312, #307087, #BA0A07
+"TimeTravel vs Teleportation", #695240, #14247F, #CFD1C7
+"Unicorn vs Narwal", #6B87BF, #AB66B8, #D1ED73
+"NoPineapple vs Pineapple", #4A2126, #ABB012, #0A6E17
+"Kid vs GrownUp", #308766, #523B40, #D1ED73
+"Chaos vs Order", #695C3B, #7F7F99, #990F2B
+"Mushroom vs Star", #CC1F1F, #B3A10D, #0D40DE
+"GYellow vs EBlue", #DEA801, #4717A9
+"Orange vs Green", #FB5C03, #17A80D
+"Blue vs NeonGreen", #311AA8, #17A80D
+"Pink vs NeonGreen", #CB0856, #17A80D
+"Blue vs Orange", #2E0CB5, #F86300
+"Pink vs Turquoise", #CB0856, #08B672, #D9C100
+"Peach vs Turquoise", #FF8787, #08B672, #D9C100
+"Grape vs Turquoise", #5F0FB4, #08B672, #D9C100
