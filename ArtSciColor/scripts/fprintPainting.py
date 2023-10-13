@@ -40,7 +40,7 @@ else:
 ##############################################################################
 # Constants
 ##############################################################################
-(DB_FILE, DF_FILE) = (cst.DB_PATH, cst.DF_PATH)
+(DB_FILE, DF_FILE) = (art.PTH_DBBZ, art.PTH_DBDF)
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {

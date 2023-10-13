@@ -8,10 +8,10 @@ import ArtSciColor as art
 import constants as cst
 from os.path import join
 
-DB_FILE = cst.DB_PATH
-PATH_OUT = "../media/swatches"
-PATH_RDM = "../media/"
-PATH_SWT = cst.SW_PATH
+DB_FILE = art.PTH_DBBZ
+PATH_OUT = art.PTH_SWCH
+PATH_RDM = art.PTH_SWRM
+PATH_SWT = art.PTH_SWBZ
 (width, height) = (750, 50)
 
 db = art.loadDatabase(DB_FILE)
@@ -35,7 +35,6 @@ for (ix, entry) in db.iterrows():
     # Generate table html entry -----------------------------------------------
     palPth = join(PATH_OUT, f'{hname}.jpg')
     swtchImg.save(palPth)
-    swPath = './swatches/'
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
             artist, 

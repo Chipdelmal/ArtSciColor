@@ -10,7 +10,7 @@ import ArtSciColor as art
 import constants as cst
 
 
-FNAME = 'Splatoon1'
+FNAME = 'Splatoon3'
 PATH_OUT = art.PTH_SWCH
 PATH_RDM = art.PTH_SWRM
 PATH_SWT = art.PTH_SWBZ
@@ -26,7 +26,7 @@ for (ix, entry) in db.iterrows():
     row = [e.strip() for e in entry if isinstance(e, str)]
     (name, pal) = (row[0], row[1:])
     # Treat palette -----------------------------------------------------------
-    hName = art.hashFilename(FNAME+name)
+    hName = art.hashFilename(FNAME+name+''.join(pal))
     hexSwt = [Color(h) for h in pal]
     # Generate swatch ---------------------------------------------------------
     dimg = np.zeros((height, width, 3))
