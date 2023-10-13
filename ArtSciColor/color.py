@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# https://matplotlib.org/stable/api/_as_gen/matplotlib.colors.ListedColormap.html
+# 
+
 import matplotlib.colors as mcolors
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -19,7 +22,6 @@ def generateAlphaColorMapFromColor(color):
         gamma=0
     )
     return alphaMap
-
 
 def colorPaletteFromHexList(clist):
     c = mcolors.ColorConverter().to_rgb

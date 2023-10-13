@@ -45,7 +45,7 @@ def getFontFile(family, weight='regular'):
     file = font_manager.findfont(font)
     return file
 
-def hashFilename(string, length=16):
+def hashFilename(string, length=20):
     # https://stackoverflow.com/questions/14023350/cheap-mapping-of-string-to-small-fixed-length-string
     string = string.encode('utf-8')
     if length<len(sha256(string).hexdigest()):

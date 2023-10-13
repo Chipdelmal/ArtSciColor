@@ -19,15 +19,15 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183381.png",
-        "Miro",
+        "dancing_couple_in_the_snow__reverse__1989.60.1.b.png",
+        "Kirchner",
         6
     )
     (I_PATH, O_PATH) = (
-        f'~/Documents/GitHub/ArtSciColor/ArtSciColor/data/sources/{ARTIST}/in/', 
-        f'~/Documents/GitHub/ArtSciColor/ArtSciColor/data/sources/{ARTIST}/out/'
+        f'../data/sources/{ARTIST}/in/', 
+        f'../data/sources/{ARTIST}/out/'
     )
-    (ARTIST, TITLE, URL) = (None, None, None)
+    (TITLE, URL) = (None, None)
     (ADD_TO_DB, SHOW) = (False, True)
     SHOW = True
 else: 
@@ -43,7 +43,10 @@ else:
 (DB_FILE, DF_FILE) = (cst.DB_PATH, cst.DF_PATH)
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
-    'params': {'n_clusters': CLST_NUM}
+    'params': {
+        'n_clusters': CLST_NUM, # 'distance_threshold': 2500, 
+        'compute_full_tree': True
+    } 
 }
 # CLUSTERING = {
 #     'algorithm': HDBSCAN, 
@@ -100,7 +103,7 @@ if SHOW:
 # Export to Disk
 ##############################################################################
 noExtFName = Path(fPath).stem
-hashName = art.hashFilename(noExtFName)
+hashName = art.hashFilename(ARTIST+noExtFName)
 hashFile = f'{hashName}.png'
 imgOut.save(join(O_PATH, hashFile))
 imgOut.close()

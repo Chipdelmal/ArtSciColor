@@ -2,46 +2,50 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
+import pandas as pd
+from os.path import join
 from PIL import Image
 from colour import Color
 import ArtSciColor as art
 import constants as cst
-from os.path import join
 
-DB_FILE = cst.DB_PATH
-PATH_OUT = "../media/swatches"
-PATH_RDM = "../media/"
-PATH_SWT = cst.SW_PATH
-(width, height) = (750, 50)
 
-db = art.loadDatabase(DB_FILE)
-###############################################################################
-# Export swatches and generate MD text
-###############################################################################
+FNAME = 'Splatoon1'
+PATH_OUT = art.PTH_SWCH
+PATH_RDM = art.PTH_SWRM
+PATH_SWT = art.PTH_SWBZ
+(DB_FILE, PTH_CSV) = (art.PTH_DBBZ, art.PTH_DATA)
+(width, height) = (art.SWATCH_DIMS['width'], art.SWATCH_DIMS['height'])
+
+
+NAMES = ('Name', 'Alpha', 'Beta', 'Gamma', 'Delta')
+db = pd.read_csv(join(PTH_CSV, f'{FNAME}.csv'), header=None, names=NAMES)
+
 (mdTexts, hexSwatches) = ([], dict())
 for (ix, entry) in db.iterrows():
-    (hname, artist, title, url) = [
-        entry[c] for c in ('hash', 'artist', 'title', 'url')
-    ]
-    # Get swatch --------------------------------------------------------------
-    pal = entry['palette'].split(',')
+    row = [e.strip() for e in entry if isinstance(e, str)]
+    (name, pal) = (row[0], row[1:])
+    # Treat palette -----------------------------------------------------------
+    hName = art.hashFilename(FNAME+name)
     hexSwt = [Color(h) for h in pal]
-    # Generate swatch img -----------------------------------------------------
+    # Generate swatch ---------------------------------------------------------
     dimg = np.zeros((height, width, 3))
     swatch = art.genColorSwatch(dimg, height, hexSwt, proportionalHeight=False)
     swtchImg = Image.fromarray(swatch.astype('uint8'), 'RGB')
-    # Add swatch to hash database ---------------------------------------------
-    hexSwatches[hname] = pal
     # Generate table html entry -----------------------------------------------
-    palPth = join(PATH_OUT, f'{hname}.jpg')
+    palPth = join(PATH_OUT, f'{hName}.jpg')
+    swtchImg.save(palPth)
+    # Add swatch to hash database ---------------------------------------------
+    hexSwatches[hName] = pal
+    # Generate table html entry -----------------------------------------------
+    palPth = join(PATH_OUT, f'{hName}.jpg')
     swtchImg.save(palPth)
     swPath = './swatches/'
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>' for e in (
-            artist, 
-            f'<a href={url}>{title}</a>', 
+            name, 
             f'<img style="border-radius: 10px;" src="{palPth}" height="25">', 
-            hname
+            hName
         )
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
@@ -55,19 +59,19 @@ art.dumpDatabase(hexSwatches, PATH_SWT)
 ###############################################################################
 th = [
     f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
-    for e in ('Artist', 'Title', 'Palette', 'ID')
+    for e in ('Name', 'Palette', 'ID')
 ]
 text = '''
 <!DOCTYPE html>
 <html><body>
-<h1>Art Palettes</h1>
+<h1>{}</h1>
 <table style="width:100%">
 <tr>{}</tr>{}
 </table>
 </body></html>
-'''.format(''.join(th), ''.join(mdTexts))
+'''.format(FNAME, ''.join(th), ''.join(mdTexts))
 # Write to disk ---------------------------------------------------------------
-with open(join(PATH_RDM, f'Art.md'), 'w') as f:
+with open(join(PATH_RDM, f'{FNAME}.md'), 'w') as f:
     f.write(text)
-with open(join(PATH_RDM, f'Art.html'), 'w') as f:
+with open(join(PATH_RDM, f'{FNAME}.html'), 'w') as f:
     f.write(text)
