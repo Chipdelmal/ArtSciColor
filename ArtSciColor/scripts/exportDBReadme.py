@@ -10,7 +10,7 @@ from os.path import join
 
 
 if art.isNotebook():
-    ARTIST = 'Monet'
+    ARTIST = 'Art'
 else:
     ARTIST = argv[1]
 ###############################################################################
@@ -25,7 +25,10 @@ PATH_SWT = art.PTH_SWBZ
 # Load Databases
 ###############################################################################
 db = art.loadDatabase(DB_FILE)
-db = db[db['artist']==ARTIST]
+if ARTIST != 'Art':
+    db = db[db['artist']==ARTIST]
+else:
+    db = db[~db['artist'].isin(art.NOT_ART)]
 hexSwatches = art.loadDatabase(PATH_SWT, df=False)
 ###############################################################################
 # Export swatches and generate MD text

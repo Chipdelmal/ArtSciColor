@@ -11,3 +11,4 @@ do
     bash "$(dirname "$0")/fingerprintArtist.sh" "${artist}"
     python "$(dirname "$0")/exportDBReadme.py" "${artist}"
 done
+python "$(dirname "$0")/exportDBReadme.py" "Art"
