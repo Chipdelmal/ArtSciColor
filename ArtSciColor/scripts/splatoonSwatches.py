@@ -41,7 +41,7 @@ for (ix, entry) in splat.iterrows():
     row = [e.strip() for e in entry if isinstance(e, str)]
     (name, pal) = (row[0], row[1:])
     # Treat palette -----------------------------------------------------------
-    hName = art.hashFilename(''.join(pal))
+    hName = art.hashFilename(''.join(sorted(pal)))
     hexSwt = [Color(h) for h in pal]
     # Generate swatch ---------------------------------------------------------
     dimg = np.zeros((height, width, 3))
@@ -82,6 +82,7 @@ for (ix, entry) in splat.iterrows():
             db.loc[:], newEntry
         ]).reset_index(drop=True).drop_duplicates()
         db.sort_values("artist", axis=0, inplace=True)
+        db = db.reindex(list(art.DF_SORTING), axis=1)
         art.dumpDatabase(db, DB_FILE)
         art.exportDatabase(db, DF_FILE)
         art.dumpDatabase(hexSwatches, PATH_SWT)

@@ -18,9 +18,9 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183387.png",
+        "183391.png",
         "Nolde",
-        6
+        5
     )
     (I_PATH, O_PATH) = (
         f'../data/sources/{ARTIST}/in/', 
@@ -69,7 +69,7 @@ resized = art.resizeCV2BySide(img, cst.IMG_RESIZE)
 )
 swatch = art.getDominantSwatch(pixels, labels)
 swatchHex = (
-    art.sortSwatchHSV(swatch, hue_classes=HUE_CLASSES)
+    art.sortSwatchHSV(swatch, hue_classes=HUE_CLASSES, gray_thresh=25)
     if HSV_SORT else
     art.sortSwatchByFrequency(swatch)
 )
@@ -92,7 +92,7 @@ if SHOW:
 # Export to Disk
 ##############################################################################
 noExtFName = Path(fPath).stem
-hashName = art.hashFilename(''.join([i.hex for i in swatchHex]))
+hashName = art.hashFilename(''.join(sorted([i.hex for i in swatchHex])))
 hashFile = f'{hashName}.png'
 imgOut.save(join(O_PATH, hashFile))
 imgOut.close()
@@ -114,6 +114,7 @@ if ADD_TO_DB and ARTIST and ARTIST!="":
     }, index=[0])
     db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
     db.sort_values("artist", axis=0, inplace=True)
+    db = db.reindex(list(art.DF_SORTING), axis=1)
     art.dumpDatabase(db, DB_FILE)
     art.exportDatabase(db, DF_FILE)
 

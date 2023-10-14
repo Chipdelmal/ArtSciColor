@@ -9,6 +9,10 @@ import ArtSciColor.auxiliary as aux
 
 SWATCH_DIMS = {'width': 750, 'height': 50}
 NOT_ART = set(('Splatoon', ))
+DF_SORTING = (
+    'artist', 'title', 'palette', 'hash', 
+    'clusters', 'clustering', 'url', 'filename'
+)
 ###############################################################################
 # Load Serialized data
 #   https://stackoverflow.com/questions/779495/access-data-in-package-subdirectory

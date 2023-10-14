@@ -87,3 +87,4 @@ with open(join(PATH_RDM, f'{ARTIST}.md'), 'w') as f:
     f.write(text)
 with open(join(PATH_RDM, f'{ARTIST}.html'), 'w') as f:
     f.write(text)
+    
