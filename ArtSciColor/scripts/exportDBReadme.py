@@ -40,6 +40,7 @@ for (ix, entry) in db.iterrows():
     ]
     # Get swatch --------------------------------------------------------------
     pal = entry['palette'].split(',')
+    strPal = art.listPalToStr(pal)
     hexSwt = [Color(h) for h in pal]
     # Generate swatch img -----------------------------------------------------
     dimg = np.zeros((height, width, 3))
@@ -57,7 +58,8 @@ for (ix, entry) in db.iterrows():
             artist, 
             f'<a href={url}>{title}</a>', 
             f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
-            hname
+            hname,
+            strPal
         )
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
@@ -71,7 +73,7 @@ art.dumpDatabase(hexSwatches, PATH_SWT)
 ###############################################################################
 th = [
     f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
-    for e in ('Artist', 'Title', 'Palette', 'ID')
+    for e in ('Artist', 'Title', 'Palette', 'ID', 'Hex Palette')
 ]
 text = '''
 <!DOCTYPE html>

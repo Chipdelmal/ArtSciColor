@@ -69,3 +69,7 @@ def dumpDatabase(database, DBPath):
 
 def exportDatabase(database, DBPath):
     database.to_csv(DBPath, index=False)
+    
+    
+def listPalToStr(listPal):
+    return str(listPal).replace('[','').replace(']','').replace("'",'')

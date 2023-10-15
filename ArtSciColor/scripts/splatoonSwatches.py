@@ -40,6 +40,7 @@ mdTexts = []
 for (ix, entry) in splat.iterrows():
     row = [e.strip() for e in entry if isinstance(e, str)]
     (name, pal) = (row[0], row[1:])
+    strPal = art.listPalToStr(pal)
     # Treat palette -----------------------------------------------------------
     hName = art.hashFilename(''.join(sorted(pal)))
     hexSwt = [Color(h) for h in pal]
@@ -58,7 +59,8 @@ for (ix, entry) in splat.iterrows():
         for e in (
             f'<a href={URL}>{name}</a>',
             f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
-            hName
+            hName,
+            strPal
         )
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
@@ -91,7 +93,7 @@ for (ix, entry) in splat.iterrows():
 ###############################################################################
 th = [
     f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
-    for e in ('Name', 'Palette', 'ID')
+    for e in ('Name', 'Palette', 'ID', 'Hex Palette')
 ]
 text = '''
 <!DOCTYPE html>
