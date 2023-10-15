@@ -4,7 +4,7 @@
 import colorsys
 import colorir as cir
 from colour import Color
-
+import ArtSciColor.constants as cst
 
 def sortSwatchByFrequency(freqSwatch):
     freqSwatch.sort(key=lambda rgb: colorsys.rgb_to_hsv(*rgb[0].get_rgb()))
@@ -34,3 +34,6 @@ def getTextColor(hexBackground, threshold=0.55):
     tcol = (0, 0, 0) if (r*0.299+g*0.587+b*0.114)>threshold else (1, 1, 1)
     return Color(rgb=tcol)
 
+
+def getSwatch(swatchID):
+    return cst.SWATCHES[swatchID]
