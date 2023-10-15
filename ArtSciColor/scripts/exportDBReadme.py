@@ -55,11 +55,11 @@ for (ix, entry) in db.iterrows():
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>' 
         for e in (
-            artist, 
-            f'<a href={url}>{title}</a>', 
+            f'<p style="font-size:14px">{artist}</p>', 
+            f'<a href={url} style="font-size:14px">{title}</a>', 
             f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
-            hname,
-            strPal
+            f'<p style="font-size:8px">{hname}</p>', 
+            f'<p style="font-size:8px">{strPal}</p>'
         )
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
