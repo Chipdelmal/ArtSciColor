@@ -59,8 +59,8 @@ for (ix, entry) in splat.iterrows():
         for e in (
             f'<a href={URL} style="font-size:14px">{name}</a>',
             f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
-            f'<p style="font-size:8px">{hName}</p>', 
-            f'<p style="font-size:8px">{strPal}</p>'
+            f'<p style="font-size:12px">{hName}</p>', 
+            f'<p style="font-size:12px">{strPal}</p>'
         )
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
