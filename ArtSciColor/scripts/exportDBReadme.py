@@ -50,8 +50,8 @@ for (ix, entry) in db.iterrows():
     # Add swatch to hash database ---------------------------------------------
     hexSwatches[hname] = pal
     # Generate table html entry -----------------------------------------------
-    palPth = join(PATH_OUT, f'{hname}.jpg')
-    relPth = join('../media/swatches', f'{hname}.jpg')
+    palPth = join(PATH_OUT, f'{hname}.png')
+    relPth = join('../media/swatches', f'{hname}.png')
     swtchImg.save(palPth)
     mdRow = art.generateHTMLEntry(artist, url, title, relPth, hname, strPal)
     mdTexts.append(mdRow)

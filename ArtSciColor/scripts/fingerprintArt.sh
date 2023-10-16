@@ -11,10 +11,13 @@ do
     bash "$(dirname "$0")/fingerprintArtist.sh" "${artist}"
     python "$(dirname "$0")/exportDBReadme.py" "${artist}"
 done
+###############################################################################
+echo -e "${GRN}* Exporting READMEs ${artist}${NCL}"
 python "$(dirname "$0")/exportDBReadme.py" "Art"
 python "$(dirname "$0")/exportDBReadme.py" "Movies"
 python "$(dirname "$0")/exportDBReadme.py" "Gaming"
-
+###############################################################################
+echo -e "${GRN}* Exporting README swatches ${artist}${NCL}"
 python "$(dirname "$0")/swatchForReadme.py" "Art"
 python "$(dirname "$0")/swatchForReadme.py" "Movies"
 python "$(dirname "$0")/swatchForReadme.py" "Gaming"

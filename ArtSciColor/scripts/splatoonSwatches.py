@@ -51,8 +51,8 @@ for (ix, entry) in splat.iterrows():
     # Add swatch to hash database ---------------------------------------------
     hexSwatches[hName] = pal
     # Generate table html entry -----------------------------------------------
-    palPth = join(PATH_OUT, f'{hName}.jpg')
-    relPth = join('../media/swatches', f'{hName}.jpg')
+    palPth = join(PATH_OUT, f'{hName}.png')
+    relPth = join('../media/swatches', f'{hName}.png')
     swtchImg.save(palPth, quality=95)
     mdRow = art.generateHTMLEntry('Splatoon', URL, name, relPth, hName, strPal)
     mdTexts.append(mdRow)

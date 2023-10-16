@@ -10,9 +10,9 @@ import ArtSciColor as art
 import constants as cst
 
 if art.isNotebook():
-    CATEGORY = 'Gaming'
+    CATEGORY = 'Art'
 else:
-    ARTIST = argv[1]
+    CATEGORY = argv[1]
 DIMS = (500, 250)
 ###############################################################################
 # Setup Paths
@@ -46,4 +46,4 @@ imgOut = Image.fromarray(fullSwatch.astype('uint8'), 'RGB')
 ###############################################################################
 # Export Swatch
 ###############################################################################
-imgOut.save(join(PATH_OUT, f'{CATEGORY}.jpg'), quality=95)
+imgOut.save(join(PATH_OUT, f'{CATEGORY}.png'), quality=95)
