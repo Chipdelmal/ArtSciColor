@@ -2,6 +2,7 @@ artist,title,palette,hash,clusters,clustering,url,filename
 Ghibli,"""Castle in the Sky 01""","#1F231D,#485C53,#688277",4662C02824B312AAA34F,3,AgglomerativeClustering,https://filmartgallery.com/products/castle-in-the-sky,183402.png
 Ghibli,"""Kiki 01""","#331913,#BC6A4A,#833728",7E9EC7540F301BAB218E,3,AgglomerativeClustering,https://filmartgallery.com/products/kikis-delivery-service-1,183401.png
 Ghibli,"""Mononoke 01""","#151414,#5A4440,#827F7F,#BBB5B2",0E642F2BDC219D43C72C,4,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke,183404.png
+Ghibli,"""Mononoke 02""","#3C3326,#5C7D66,#71B0CE,#FAD9B4,#E38E5F,#A95736",1AE5CC8032F2DC047684,6,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke-5,183407.png
 Ghibli,"""Nausicaa 01""","#39251F,#756052,#B7997F,#77AEC6,#CFC4B8",39D2449CFC03BFE0D9F9,5,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-3,183400.png
 Ghibli,"""Nausicaa 02""","#533F3B,#E7B578,#B67647,#17769F",2A5CFB189B3C20B6929F,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-4,183403.png
 Ghibli,"""Nausicaa 03""","#0A0F10,#232C39,#BB8673,#93483C",E7284971DD58D264D2A1,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds,183405.png

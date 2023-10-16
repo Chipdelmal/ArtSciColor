@@ -45,21 +45,21 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 [Miro](./ArtSciColor/swatches/Miro.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Monet](./ArtSciColor/swatches/Monet.md)
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="30px" width='100%' align="middle"><br>
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="50px" width='100%' align="middle"><br>
 
 
 ### [Movies](./ArtSciColor/swatches/Movies.md)
 
 [Studio Ghibli](./ArtSciColor/swatches/Ghibli.md)
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Movies.png" height="30px" width='100%' align="middle"><br>
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Movies.png" height="50px" width='100%' align="middle"><br>
 
 
 ### [Gaming](./ArtSciColor/swatches/Gaming.md)
 
 [Splatoon1](./ArtSciColor/swatches/Splatoon1.md), [Splatoon2](./ArtSciColor/swatches/Splatoon2.md), [Splatoon3](./ArtSciColor/swatches/Splatoon3.md)
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Gaming.png" height="30px" width='100%' align="middle"><br>
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Gaming.png" height="50px" width='100%' align="middle"><br>
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
 

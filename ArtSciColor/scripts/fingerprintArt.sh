@@ -12,7 +12,7 @@ do
     python "$(dirname "$0")/exportDBReadme.py" "${artist}"
 done
 ###############################################################################
-echo -e "${GRN}* Exporting READMEs ${NCL}"
+echo -e "${GRN}* Exporting README ${NCL}"
 python "$(dirname "$0")/exportDBReadme.py" "Art"
 python "$(dirname "$0")/exportDBReadme.py" "Movies"
 python "$(dirname "$0")/exportDBReadme.py" "Gaming"
