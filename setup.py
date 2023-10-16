@@ -13,6 +13,7 @@ REQUIRED_PACKAGES=[
     'matplotlib>=3.3.2', 'colour>=0.1.5', 'colorir', 
     'Pillow', 'opencv-python',
     'scikit-learn', 'numpy',
+    'pandas',
     'compress-pickle'
 ]
 
@@ -44,5 +45,5 @@ setuptools.setup(
             './data/SWATCHES.bz'
         ],
     },
-    python_requires='>=3.8',                                    # python version requirement
+    python_requires='>=3.10',                                    # python version requirement
 )

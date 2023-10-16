@@ -1,9 +1,24 @@
 # ArtSciColor
 
+[![PyPI version](https://badge.fury.io/py/ArtSciColor.svg)](https://badge.fury.io/py/ArtSciColor)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Chipdelmal/ArtSciColor)
+
 Creating a [python](https://www.python.org/) package with color palettes and utilities for their use in [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/), [plotly](https://plotly.com/python/), and others.
 
 :construction: **WORK IN PROGRESS** :construction:
 
+
+[R users](https://www.r-project.org/) or [Python users](https://www.python.org/) who don't want to install the package but still want to use the palettes, can download them in CSV form from the dataset's [permalink](https://raw.githubusercontent.com/Chipdelmal/ArtSciColor/main/ArtSciColor/data/DB.csv)!
+
+
+## Installation
+
+The package is available through [pypi](https://pypi.org/project/ArtSciColor/), so it can be installed by running:
+
+```bash
+pip install ArtSciColor
+```
 
 ## Usage
 
@@ -32,13 +47,13 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="30px" width='100%' align="middle"><br>
 
-media/swatches/Art.png
 
 ### [Movies](./ArtSciColor/swatches/Movies.md)
 
 [Studio Ghibli](./ArtSciColor/swatches/Ghibli.md)
 
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Movies.png" height="30px" width='100%' align="middle"><br>
+
 
 ### [Gaming](./ArtSciColor/swatches/Gaming.md)
 

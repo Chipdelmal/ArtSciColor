@@ -31,7 +31,7 @@ pypi: clean clean_sdist
 	&& $(python) setup.py sdist bdist_wheel \
 	&& twine check dist/* \
 	&& twine upload dist/* \
-	&& pip install .
+	&& python -m pip install .
 
 clean_pypi:
 	- rm -rf build/
@@ -46,3 +46,8 @@ fingerprint:
 	- rm -f ./ArtSciColor/media/swatches/*
 	- bash ./ArtSciColor/scripts/fingerprintSplatoon.sh
 	- bash ./ArtSciColor/scripts/fingerprintArt.sh
+
+pypiRelease:
+	- make fingerprint
+	- make dev
+	- make pypi
