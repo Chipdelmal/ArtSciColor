@@ -18,9 +18,9 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183399.png",
-        "Miro",
-        5
+        "183405.png",
+        "Ghibli",
+        4
     )
     (I_PATH, O_PATH) = (
         f'../data/sources/{ARTIST}/in/', 
@@ -113,7 +113,7 @@ if ADD_TO_DB and ARTIST and ARTIST!="":
         'url': URL
     }, index=[0])
     db = pd.concat([db.loc[:], newEntry]).reset_index(drop=True).drop_duplicates()
-    db.sort_values("artist", axis=0, inplace=True)
+    db.sort_values(["artist", "title"], axis=0, inplace=True)
     db = db.reindex(list(art.DF_SORTING), axis=1)
     art.dumpDatabase(db, DB_FILE)
     art.exportDatabase(db, DF_FILE)

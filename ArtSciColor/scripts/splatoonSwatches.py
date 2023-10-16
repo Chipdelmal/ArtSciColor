@@ -74,7 +74,7 @@ for (ix, entry) in splat.iterrows():
         db = pd.concat([
             db.loc[:], newEntry
         ]).reset_index(drop=True).drop_duplicates()
-        db.sort_values("artist", axis=0, inplace=True)
+        db.sort_values(["artist", "title"], axis=0, inplace=True)
         db = db.reindex(list(art.DF_SORTING), axis=1)
         art.dumpDatabase(db, DB_FILE)
         art.exportDatabase(db, DF_FILE)

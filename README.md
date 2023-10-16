@@ -1,9 +1,22 @@
 # ArtSciColor
 
+Creating a [python](https://www.python.org/) package with color palettes and utilities for their use in [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/), [plotly](https://plotly.com/python/), and others.
+
 :construction: **WORK IN PROGRESS** :construction:
+
+
+## Usage
+
+```bash
+import ArtSciColor as art
+
+hexPalette = art.getSwatch(SWATCH_ID)
+```
+
 
 ## Available Swatches
 
+Have a look at currently-available palettes and pick one through its `ID`!
 
 * [Art](./ArtSciColor/swatches/Art.md): [Miro](./ArtSciColor/swatches/Miro.md), [Nolde](./ArtSciColor/swatches/Nolde.md),  [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Monet](./ArtSciColor/swatches/Monet.md)
 * [Movies](./ArtSciColor/swatches/Movies.md): [Studio Ghibli](./ArtSciColor/swatches/Ghibli.md)
@@ -11,7 +24,9 @@
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
 
-# Author
+# Author and Notes
+
+This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)).
 
 <img src="./ArtSciColor/media/pusheen.jpg" height="130px" align="middle"><br>
 
