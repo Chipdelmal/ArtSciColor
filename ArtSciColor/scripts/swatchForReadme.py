@@ -1,17 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sys
-import math
+from os.path import join
 import numpy as np
-import pandas as pd
 from sys import argv
 from PIL import Image
 from colour import Color
 import ArtSciColor as art
 import constants as cst
 
-
+if art.isNotebook():
+    CATEGORY = 'Gaming'
+else:
+    ARTIST = argv[1]
+DIMS = (20, 1000)
 ###############################################################################
 # Setup Paths
 ###############################################################################
@@ -24,9 +26,24 @@ PATH_SWT = art.PTH_SWBZ
 # Read Database
 ###############################################################################
 db = art.loadDatabase(DB_FILE)
+artistsSet = art.CATEGORIES[CATEGORY]
+db = db[db['artist'].isin(artistsSet)]
 dims = art.SWATCH_DIMS
-np.zeros((dims['width'], dims['height'], 3))
-
-
-swatch = db.iloc[0]['palette']
-palette = [Color(c).rgb for c in swatch.split(',')]
+palsNum = db.shape[0]
+fullSwatch = np.zeros((palsNum, dims['height'], 3))
+###############################################################################
+# Generate Swatch
+###############################################################################
+swatches = []
+for ix in range(db.shape[0]):
+    swatch = db.iloc[ix]['palette']
+    hexSwt = [Color(c) for c in swatch.split(',')]
+    dimg = np.zeros((DIMS[0], DIMS[1], 3))
+    swatch = art.genColorSwatch(dimg, 1000, hexSwt, proportionalHeight=False)
+    swatches.append(swatch)
+fullSwatch =np.transpose(np.vstack(swatches), axes=(1, 0, 2))
+imgOut = Image.fromarray(fullSwatch.astype('uint8'), 'RGB')
+###############################################################################
+# Export Swatch
+###############################################################################
+imgOut.save(join(PATH_OUT, f'{CATEGORY}.jpg'), quality=95)

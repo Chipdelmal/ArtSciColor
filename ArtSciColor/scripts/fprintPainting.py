@@ -94,7 +94,7 @@ if SHOW:
 noExtFName = Path(fPath).stem
 hashName = art.hashFilename(''.join(sorted([i.hex for i in swatchHex])))
 hashFile = f'{hashName}.png'
-imgOut.save(join(O_PATH, hashFile))
+imgOut.save(join(O_PATH, hashFile), quality=95)
 imgOut.close()
 ##############################################################################
 # Update DataBase

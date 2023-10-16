@@ -18,9 +18,29 @@ hexPalette = art.getSwatch(SWATCH_ID)
 
 Have a look at currently-available palettes and pick one through its `ID`!
 
-* [Art](./ArtSciColor/swatches/Art.md): [Miro](./ArtSciColor/swatches/Miro.md), [Nolde](./ArtSciColor/swatches/Nolde.md),  [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Monet](./ArtSciColor/swatches/Monet.md)
-* [Movies](./ArtSciColor/swatches/Movies.md): [Studio Ghibli](./ArtSciColor/swatches/Ghibli.md)
-* [Gaming](./ArtSciColor/swatches/Gaming.md): [Splatoon1](./ArtSciColor/swatches/Splatoon1.md),  [Splatoon2](./ArtSciColor/swatches/Splatoon2.md),  [Splatoon3](./ArtSciColor/swatches/Splatoon3.md)
+### [Art](./ArtSciColor/swatches/Art.md)
+
+* [Miro](./ArtSciColor/swatches/Miro.md)
+* [Nolde](./ArtSciColor/swatches/Nolde.md)
+* [Kirchner](./ArtSciColor/swatches/Kirchner.md)
+* [Warhol](./ArtSciColor/swatches/Kirchner.md)
+* [Monet](./ArtSciColor/swatches/Monet.md)
+
+<img src="./ArtSciColor/media/swatches/Art.jpg" height="50px" width='100%' align="middle"><br>
+
+### [Movies](./ArtSciColor/swatches/Movies.md)
+
+* [Studio Ghibli](./ArtSciColor/swatches/Ghibli.md)
+
+<img src="./ArtSciColor/media/swatches/Movies.jpg" height="50px" width='100%' align="middle"><br>
+
+### [Gaming](./ArtSciColor/swatches/Gaming.md)
+
+* [Splatoon1](./ArtSciColor/swatches/Splatoon1.md)
+* [Splatoon2](./ArtSciColor/swatches/Splatoon2.md)
+* [Splatoon3](./ArtSciColor/swatches/Splatoon3.md)
+
+<img src="./ArtSciColor/media/swatches/Gaming.jpg" height="50px" width='100%' align="middle"><br>
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
 
@@ -28,6 +48,6 @@ Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.cs
 
 This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)).
 
-<img src="./ArtSciColor/media/pusheen.jpg" height="130px" align="middle"><br>
+<img src="./ArtSciColor/media/about-pusheen.jpeg" height="150px" align="middle"><br>
 
 [Héctor M. Sánchez C.](https://chipdelmal.github.io/)

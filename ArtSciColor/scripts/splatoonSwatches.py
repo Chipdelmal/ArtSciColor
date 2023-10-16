@@ -53,7 +53,7 @@ for (ix, entry) in splat.iterrows():
     # Generate table html entry -----------------------------------------------
     palPth = join(PATH_OUT, f'{hName}.jpg')
     relPth = join('../media/swatches', f'{hName}.jpg')
-    swtchImg.save(palPth)
+    swtchImg.save(palPth, quality=95)
     mdRow = art.generateHTMLEntry('Splatoon', URL, name, relPth, hName, strPal)
     mdTexts.append(mdRow)
     ###########################################################################

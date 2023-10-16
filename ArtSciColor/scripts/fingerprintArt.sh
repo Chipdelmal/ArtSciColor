@@ -14,3 +14,7 @@ done
 python "$(dirname "$0")/exportDBReadme.py" "Art"
 python "$(dirname "$0")/exportDBReadme.py" "Movies"
 python "$(dirname "$0")/exportDBReadme.py" "Gaming"
+
+python "$(dirname "$0")/swatchForReadme.py" "Art"
+python "$(dirname "$0")/swatchForReadme.py" "Movies"
+python "$(dirname "$0")/swatchForReadme.py" "Gaming"
