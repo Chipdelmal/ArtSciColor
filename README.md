@@ -7,19 +7,22 @@ Creating a [python](https://www.python.org/) package with color palettes and uti
 
 ## Usage
 
+To use a color palette simply load the package and run:
+
 ```bash
 import ArtSciColor as art
 
 hexPalette = art.getSwatch(SWATCH_ID)
 ```
 
+where the `SWATCH_ID` should match one of the [palettes available](#available-palettes) in our package (see the following section for more info).
 
-<img src="./ArtSciColor/media/demo_id.png" width='100%' align="middle">
+<a href='https://github.com/Chipdelmal/ArtSciColor/blob/main/ArtSciColor/swatches/Art.md'><img src="./ArtSciColor/media/demo_id.png" width='100%' align="middle"></a>
 
 
 ## Available Swatches
 
-Have a look at currently-available palettes by selecting your favorite artist or category, and use the pallete through its `ID`!
+Have a look at currently-available palettes by selecting your favorite artist or category, and use one through its `ID`!
 
 ### [Art](./ArtSciColor/swatches/Art.md)
 
