@@ -12,3 +12,5 @@ do
     python "$(dirname "$0")/exportDBReadme.py" "${artist}"
 done
 python "$(dirname "$0")/exportDBReadme.py" "Art"
+python "$(dirname "$0")/exportDBReadme.py" "Movies"
+python "$(dirname "$0")/exportDBReadme.py" "Gaming"

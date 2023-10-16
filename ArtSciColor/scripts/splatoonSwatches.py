@@ -54,16 +54,7 @@ for (ix, entry) in splat.iterrows():
     palPth = join(PATH_OUT, f'{hName}.jpg')
     relPth = join('../media/swatches', f'{hName}.jpg')
     swtchImg.save(palPth)
-    entry = [
-        f'<td style="text-align: center; vertical-align: middle;">{e}</td>' 
-        for e in (
-            f'<a href={URL} style="font-size:14px">{name}</a>',
-            f'<img style="border-radius: 10px;" src="{relPth}" height="25">', 
-            f'<p style="font-size:12px">{hName}</p>', 
-            f'<p style="font-size:12px">{strPal}</p>'
-        )
-    ]
-    mdRow = '\r<tr>'+' '.join(entry)+'</tr>'
+    mdRow = art.generateHTMLEntry('Splatoon', URL, name, relPth, hName, strPal)
     mdTexts.append(mdRow)
     ###########################################################################
     # Update DataBase
@@ -91,19 +82,7 @@ for (ix, entry) in splat.iterrows():
 ###############################################################################
 # Export HTML/MD data
 ###############################################################################
-th = [
-    f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
-    for e in ('Name', 'Palette', 'ID', 'Hex Palette')
-]
-text = '''
-<!DOCTYPE html>
-<html><body>
-<h1>{}</h1>
-<table style="width:100%">
-<tr>{}</tr>{}
-</table>
-</body></html>
-'''.format(FNAME, ''.join(th), ''.join(mdTexts))
+text = art.RDM_TEXT.format(FNAME, ''.join(art.RDM_HEADER), ''.join(mdTexts))
 # Write to disk ---------------------------------------------------------------
 with open(join(PATH_RDM, f'{FNAME}.md'), 'w') as f:
     f.write(text)
