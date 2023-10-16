@@ -14,9 +14,12 @@ hexPalette = art.getSwatch(SWATCH_ID)
 ```
 
 
+<img src="./ArtSciColor/media/demo_id.png" width='100%' align="middle">
+
+
 ## Available Swatches
 
-Have a look at currently-available palettes and pick one through its `ID`!
+Have a look at currently-available palettes by selecting your favorite artist or category, and use the pallete through its `ID`!
 
 ### [Art](./ArtSciColor/swatches/Art.md)
 
