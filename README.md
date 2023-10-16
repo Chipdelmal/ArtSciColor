@@ -3,6 +3,9 @@
 [![PyPI version](https://badge.fury.io/py/ArtSciColor.svg)](https://badge.fury.io/py/ArtSciColor)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Chipdelmal/ArtSciColor)
+[![DOI](https://zenodo.org/badge/321399050.svg)](https://zenodo.org/doi/10.5281/zenodo.10011483)
+
+
 
 Creating a [python](https://www.python.org/) package with color palettes and utilities for their use in [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/), [plotly](https://plotly.com/python/), and others.
 
