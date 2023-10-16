@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARTISTS=( "Nolde" "Warhol" "Monet" "Kirchner" "Miro" )
+ARTISTS=( "Ghibli" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" )
 ###############################################################################
 GRN='\033[0;32m'
 NCL='\033[0m'
