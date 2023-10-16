@@ -44,7 +44,7 @@ fingerprint:
 	- rm -f ./ArtSciColor/data/DB.csv
 	- rm -f ./ArtSciColor/data/SWATCHES.bz
 	- rm -f ./ArtSciColor/media/swatches/*
-	- bash ./ArtSciColor/scripts/fingerprintSplatoon.sh
+	- bash ./ArtSciColor/scripts/fingerprintCustom.sh
 	- bash ./ArtSciColor/scripts/fingerprintArt.sh
 
 pypiRelease:

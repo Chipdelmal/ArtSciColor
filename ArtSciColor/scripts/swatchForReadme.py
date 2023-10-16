@@ -10,7 +10,7 @@ import ArtSciColor as art
 import constants as cst
 
 if art.isNotebook():
-    CATEGORY = 'Art'
+    CATEGORY = 'Other'
 else:
     CATEGORY = argv[1]
 DIMS = (500, 250)

@@ -10,7 +10,7 @@ from os.path import join
 
 
 if art.isNotebook():
-    ARTIST = 'Gaming'
+    ARTIST = 'Other'
 else:
     ARTIST = argv[1]
 ###############################################################################
