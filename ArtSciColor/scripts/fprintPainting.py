@@ -18,7 +18,7 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183409.png",
+        "183411.png",
         "Picasso",
         7
     )
