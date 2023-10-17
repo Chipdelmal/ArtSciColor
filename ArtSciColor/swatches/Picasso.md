@@ -1,0 +1,8 @@
+
+<!DOCTYPE html>
+<html><body>
+<h1>Picasso</h1>
+<table style="width:100%">
+<tr><th style="text-align: center; vertical-align: middle;">Artist</th><th style="text-align: center; vertical-align: middle;">Title</th><th style="text-align: center; vertical-align: middle;">Palette</th><th style="text-align: center; vertical-align: middle;">ID</th></tr><tr><td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">Picasso</p></td> <td style="text-align: center; vertical-align: middle;"><a href=https://www.nga.gov/collection/art-object-page.71072.html style="font-size:14px">"Harlequin Musician"</a></td> <td style="text-align: center; vertical-align: middle;"><img style="border-radius: 14px;" src="../media/swatches/65600623236EEE8B444F.png" height="25"></td> <td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">65600623236EEE8B444F</p></td></tr><tr><td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">Picasso</p></td> <td style="text-align: center; vertical-align: middle;"><a href=https://www.nga.gov/collection/art-object-page.46670.html style="font-size:14px">"Still Life"</a></td> <td style="text-align: center; vertical-align: middle;"><img style="border-radius: 14px;" src="../media/swatches/D0EF7448B55996F33274.png" height="25"></td> <td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">D0EF7448B55996F33274</p></td></tr>
+</table>
+</body></html>

@@ -40,6 +40,7 @@ clean_pypi:
 # Evaluate palettes
 ############################################################################### 
 fingerprint:
+	- make dev
 	- rm -f ./ArtSciColor/data/DB.bz
 	- rm -f ./ArtSciColor/data/DB.csv
 	- rm -f ./ArtSciColor/data/SWATCHES.bz

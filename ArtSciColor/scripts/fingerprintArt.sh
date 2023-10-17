@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARTISTS=( "Ghibli" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" )
+ARTISTS=( "Ghibli" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" )
 ###############################################################################
 GRN='\033[0;32m'
 NCL='\033[0m'
@@ -12,14 +12,10 @@ do
     python "$(dirname "$0")/exportDBReadme.py" "${artist}"
 done
 ###############################################################################
-echo -e "${GRN}* Exporting README ${NCL}"
-python "$(dirname "$0")/exportDBReadme.py" "Art"
-python "$(dirname "$0")/exportDBReadme.py" "Movies"
-python "$(dirname "$0")/exportDBReadme.py" "Gaming"
-python "$(dirname "$0")/exportDBReadme.py" "Other"
-###############################################################################
-echo -e "${GRN}* Exporting README swatches ${NCL}"
-python "$(dirname "$0")/swatchForReadme.py" "Art"
-python "$(dirname "$0")/swatchForReadme.py" "Movies"
-python "$(dirname "$0")/swatchForReadme.py" "Gaming"
-python "$(dirname "$0")/swatchForReadme.py" "Other"
+CATEGORIES=( "Art" "Movies" "Gaming" "Other" )
+for cat in ${CATEGORIES[*]} 
+do
+    echo -e "${GRN}* Exporting README ${NCL}"
+    python "$(dirname "$0")/exportDBReadme.py" "${cat}"
+    python "$(dirname "$0")/swatchForReadme.py" "${cat}"
+done
