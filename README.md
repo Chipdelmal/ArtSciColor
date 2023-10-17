@@ -63,7 +63,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Other](./ArtSciColor/swatches/Other.md)
 
-[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [coolors](./ArtSciColor/swatches/Coolors.md)
+[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [coolors](./ArtSciColor/swatches/coolors.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Other.png" height="50px" width='100%' align="middle"><br>
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
