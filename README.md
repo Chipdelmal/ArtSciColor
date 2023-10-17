@@ -72,6 +72,6 @@ Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.cs
 
 This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)).
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpeg" height="125px" align="middle"><br>
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpg" height="125px" align="middle"><br>
 
 [Héctor M. Sánchez C.](https://chipdelmal.github.io/)
