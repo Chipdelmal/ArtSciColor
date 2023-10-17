@@ -11,7 +11,7 @@ do
     python "$(dirname "$0")/splatoonSwatches.py" "${artist}"
 done
 
-ARTISTS=( "chipdelmal" )
+ARTISTS=( "chipdelmal" "coolors")
 ###############################################################################
 GRN='\033[0;32m'
 NCL='\033[0m'

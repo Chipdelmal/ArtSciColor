@@ -19,9 +19,11 @@ Kirchner,"""The Visit - Couple and Newcomer""","#3B5C70,#968B7C,#D5B729,#CE5D2E,
 Kirchner,"""Woman with a Child and a Cat (Mädchen mit Kind)""","#3A3F43,#704F37,#6F6759,#A78D65",724BFD85318159D55685,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154346.html,woman_with_a_child_and_a_cat_(madchen_mit_kind)_2012.92.689.jpg
 Miro,"""Composition""","#D1AF71,#D5785D,#AB4346,#6F1F33",379C3119ED0F4EA1073F,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.91414.html,183393.png
 Miro,"""Figure and Birds""","#121E1A,#A2949A,#D2D2D3,#C09918,#9C000E,#133D98",42D36AA19594CF3447B2,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53059.html,183379.png
+Miro,"""Flight of the Dragonfly in Front of the Sun""","#E7E4ED,#DA684D,#7B87C6,#8F9BD5",4289EBDD86F7ED30BDC5,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61373.html,183417.png
 Miro,"""La Bague d'Aurore""","#312D2A,#5E95AC,#E5D1B6,#E2CD48,#E5486F",FF15B21D7E23A3478EE1,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.142287.html,183398.png
 Miro,"""Untitled [plate IV]""","#24615F,#7D9093,#DCCAB8,#E5BC50,#DE6261",823CA3F1D307AC2AB459,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46996.html,183399.png
 Miro,"""Untitled [plate I]""","#567993,#B89F93,#DAC9B7,#CE4646",802A02231B90DAB49EE9,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46992.html,183395.png
+Miro,"""Untitled [plate LII]""","#466481,#97A6A4,#E5D7C5,#E6B57B,#CB7062",2805BD165A754936E037,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.47044.html,183418.png
 Miro,"""Woman at the Mirror""","#2A2829,#3F596F,#E0D2BF,#BAAC74,#B83330,#416C96",D4B9EEE17F7AD2AD85EB,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136243.html,183381.png
 Monet,"""Argenteuil""","#403A25,#7F7557,#9B926F,#BCC3B5,#625E34",BB56FCF6A615A4FFB7A1,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52186.html,argenteuil_1970.17.42.jpg
 Monet,"""Banks of the Seine Vétheuil""","#4D6A46,#939F77,#88A09D,#A0B0A4,#6E855C",B2324F5EE04779ABC661,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46652.html,banks_of_the_seine_vetheuil_1963.10.177.jpg
@@ -35,10 +37,13 @@ Nolde,"""Seascape""","#525045,#50556B,#6D757E,#CEC5A5,#877B4D",3C0EC8D9C126AB054
 Nolde,"""Zwei Menschen""","#6C4247,#CFB2A7,#AC6167",B9068CC3AA2E9F8AE305,3,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/zwei-menschen,183391.png
 Picasso,"""Composition""","#3F4656,#E3D1BB,#E1BA6A,#CA5E50",DB4E776DB0F5524EE128,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.48530.html,183412.png
 Picasso,"""Harlequin Musician""","#322D27,#314D64,#68805F,#BBAFA6,#F5EBD9,#E0562C",65600623236EEE8B444F,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.71072.html,183408.png
+Picasso,"""Le Déjeuner sur l'herbe","#BA9176,#F7E9D6",02C6E20F0EE7B558158A,2,AgglomerativeClustering," d'après Manet II"",https://www.nga.gov/collection/art-object-page.152486.html",183416.png
 Picasso,"""Pierrot and Harlequin""","#273125,#825E47,#A78B87,#AAB1B0,#E1D9CE,#DCC53C,#C8362A",4D173179693A0F7A8DA9,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.60784.html,183411.png
+Picasso,"""Pique 1""","#2A272A,#794F40,#D6AB79",E894E5E7AC78E4689FDB,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152206.html,183414.png
 Picasso,"""Still Life (Nature morte)""","#302C2B,#5F4B44,#726C71,#C9AC88,#A09351,#8F5A47",A0CAEC5D7CFD3FB77D12,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.33408.html,183413.png
 Picasso,"""Still Life""","#272324,#3E3939,#484B4D,#675E56,#857C7E,#B1A696,#987350",D0EF7448B55996F33274,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46670.html,183409.png
 Picasso,"""The Lovers""","#536954,#6DA0B7,#BBA0AF,#D8E2DA,#BB7A51",8B4437DBCDAEA234F355,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46667.html,183410.png
+Picasso,"""The Young Draughtsman (Petit dessinateur)""","#5E564B,#A99487,#B9A395,#C8B29C,#D7C3AC",96FBA48798100A6E0B22,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.46897.html,183415.png
 Splatoon,Action vs Comedy,"#FA8E00,#1384BA,#B44AEF",94B40EB4EFA0C85F9137,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Adventure vs Relax,"#FFB600,#00967A,#4B22C8",EB6BA164B7AD173EEBB2,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Agility vs Endurance,"#F3B000,#F5498B,#13A715",F1C2D7AE0CA9FBD0E5D5,3,None,https://splatoonwiki.org/wiki/Ink,None
@@ -210,3 +215,10 @@ Warhol,"""Flowers""","#2A3219,#8BCFD0,#FF9293,#7CA33B,#A54E91",C00F7F26093A647AC
 Warhol,"""Portraits of the Artists""","#191E1C,#4D3417,#0F544C,#558070,#BDB1AB,#F2F2F2,#A17A1F",C20A98F17C44AEC72B6D,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136329.html,183384.png
 chipdelmal,Motherland,"#F72585,#2614ED,#5DDEB1,#F038FF,#E2EF70,#9381FF",132E57C5F1C386C7E672,6,None,https://chipdelmal.github.io/,None
 chipdelmal,Pastel,"#A0C4FF,#E0C3FC,#FFD6A5,#CAFFBF,#D0D1FF",C2E4E9138F336D694177,5,None,https://chipdelmal.github.io/,None
+coolors,Blue-Brown,"#9381FF,#B8B8FF,#F8F7FF,#FED,#FFD8BE",9924716D9D7DC377CA5C,5,None,https://coolors.co/palette/9381ff-b8b8ff-f8f7ff-ffeedd-ffd8be,None
+coolors,Blue-Pink,"#2D00F7,#6A00F4,#8900F2,#A100F2,#B100E8,#BC00DD,#D100D1,#DB00B6,#E500A4,#F20089",EDE2B4048706E1E1CFF7,10,None,https://coolors.co/palette/2d00f7-6a00f4-8900f2-a100f2-b100e8-bc00dd-d100d1-db00b6-e500a4-f20089,None
+coolors,Blues,"#0A369D,#4472CA,#5E7CE2,#92B4F4,#CFDEE7",806E7C529AA5007F2F66,5,None,https://coolors.co/palette/0a369d-4472ca-5e7ce2-92b4f4-cfdee7,None
+coolors,Divergent,"#0FA3B1,#B5E2FA,#F9F7F3,#EDDEA4,#F7A072",0BCBC8A72F3542A300DD,5,None,https://coolors.co/0fa3b1-b5e2fa-f9f7f3-eddea4-f7a072,None
+coolors,Pastel,"#D8E2DC,#FFE5D9,#FFCAD4,#F4ACB7,#9D8189",34932E29247C6D2010BE,5,None,https://coolors.co/palette/d8e2dc-ffe5d9-ffcad4-f4acb7-9d8189,None
+coolors,Pink-Blue,"#FF499E,#D264B6,#A480CF,#779BE7,#49B6FF",DDF3DEE09EB4F4468341,5,None,https://coolors.co/palette/ff499e-d264b6-a480cf-779be7-49b6ff,None
+coolors,Wine,"#FFCDB2,#FFB4A2,#E5989B,#B5838D,#6D6875",2B6975CCBA37519DE823,5,None,https://coolors.co/palette/ffcdb2-ffb4a2-e5989b-b5838d-6d6875,None

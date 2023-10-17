@@ -63,7 +63,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Other](./ArtSciColor/swatches/Other.md)
 
-[chipdelmal](./ArtSciColor/swatches/chipdelmal.md)
+[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [coolors](./ArtSciColor/swatches/Coolors.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Other.png" height="50px" width='100%' align="middle"><br>
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
@@ -72,6 +72,6 @@ Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.cs
 
 This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)).
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpeg" height="150px" align="middle"><br>
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpeg" height="125px" align="middle"><br>
 
 [Héctor M. Sánchez C.](https://chipdelmal.github.io/)
