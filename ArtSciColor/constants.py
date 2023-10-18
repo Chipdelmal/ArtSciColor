@@ -11,7 +11,7 @@ import ArtSciColor.auxiliary as aux
 SWATCH_DIMS = {'width': 750, 'height': 50}
 NOT_ART = set(('Splatoon', 'Ghibli'))
 CATEGORIES = {
-    'Art': set(("Nolde", "Warhol", "Monet", "Kirchner", "Miro", "Picasso")),
+    'Art': set(("Matisse", "Nolde", "Warhol", "Monet", "Kirchner", "Miro", "Picasso")),
     'Movies': set(('Ghibli', )),
     'Gaming': set(('Splatoon', )),
     'Other': set(('chipdelmal', 'coolors'))

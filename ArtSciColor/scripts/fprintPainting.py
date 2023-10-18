@@ -18,8 +18,8 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183418.png",
-        "Miro", 5
+        "183421.png",
+        "Matisse", 6
     )
     (I_PATH, O_PATH) = (
         f'../data/sources/{ARTIST}/in/', 
