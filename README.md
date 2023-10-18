@@ -70,7 +70,7 @@ Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.cs
 
 ## How are the palettes generated?
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle">
+<a href="https://www.nga.gov/collection/art-object-page.48530.html"><img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle"></a>
 
 # Author and Notes
 
