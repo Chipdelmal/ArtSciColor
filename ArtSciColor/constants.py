@@ -36,14 +36,17 @@ except:
 ###############################################################################
 # HTML/MD Text
 ###############################################################################
+hdr = ('ID', 'Palette', 'Hex Palette')
+# ('Artist', 'Title', 'Palette', 'ID') # , 'Hex Palette')
 RDM_HEADER = [
     f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
-    for e in ('Artist', 'Title', 'Palette', 'ID') # , 'Hex Palette')
+    for e in hdr
 ]
 RDM_TEXT = '''
 <!DOCTYPE html>
 <html><body>
 <h1>{}</h1>
+<p>Click on the color palette to see the original artwork!</p>
 <table style="width:100%">
 <tr>{}</tr>{}
 </table>
@@ -53,11 +56,11 @@ def generateHTMLEntry(artist, url, title, relPth, hname, strPal):
     entry = [
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>'
         for e in (
-            f'<p style="font-size:14px">{artist}</p>', # Artist
-            f'<a href={url} style="font-size:14px">{title}</a>', # URL, Title 
-            f'<img style="border-radius: 14px;" src="{relPth}" height="25">', # Relative Path 
+            # f'<p style="font-size:14px">{artist}</p>', # Artist
+            # f'<a href={url} style="font-size:14px">{title}</a>', # URL, Title 
             f'<p style="font-size:14px">{hname}</p>', # Hash Name
-            # f'<p style="font-size:14px">{strPal}</p>' # String Palette
+            f'<a href={url} style="font-size:14px"><img style="border-radius: 14px;" src="{relPth}" height="25"></a>', # Relative Path 
+            f'<p style="font-size:14px">{strPal}</p>' # String Palette
         )
     ]
     mdRow = '\r<tr>'+' '.join(entry)+'</tr>'

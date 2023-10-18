@@ -40,6 +40,8 @@ hexPalette = art.getSwatch(SWATCH_ID)
 where the `SWATCH_ID` should match one of the [palettes available](#available-palettes) in our package (see the following section for more info).
 
 
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/225EC748E3580E7B4E0A.jpg" width='100%' align="middle">
+
 ## Available Swatches
 
 Have a look at currently-available palettes by selecting your favorite artist or category, and use one through its `ID`!
