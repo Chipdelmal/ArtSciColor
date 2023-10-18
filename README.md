@@ -68,7 +68,9 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
 
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/225EC748E3580E7B4E0A.jpg" width='100%' align="middle">
+## How are the palettes generated?
+
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle">
 
 # Author and Notes
 
