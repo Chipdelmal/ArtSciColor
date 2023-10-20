@@ -15,7 +15,17 @@ def replaceHexOpacity(colors, alpha='FF'):
     return [i[:-2]+alpha for i in colors]
 
 
-def generateAlphaColorMapFromColor(color):
+def generateAlphaColorMapFromColor(color, minAlpha=0, maxAlpha=1):
+    """Creates a linear cmap that runs from transparent to full opacity of the provided color.
+
+    Args:
+        color (_type_): _description_
+        minAlpha (float):
+        maxAlpha (float):
+
+    Returns:
+        _type_: _description_
+    """    
     alphaMap = LinearSegmentedColormap.from_list(
         'cmap',
         [(0.0, 0.0, 0.0, 0.0), color],
@@ -24,6 +34,15 @@ def generateAlphaColorMapFromColor(color):
     return alphaMap
 
 def colorPaletteFromHexList(clist):
+    """Takes a list of colors in hex-form and generates a matplotlib-compatible
+    cmap function.
+
+    Args:
+        clist (list of hex colors): List of colors to be used in the color palette in linear form.
+
+    Returns:
+        cmap: LinearSegmentedColormap function for color maps.
+    """    
     c = mcolors.ColorConverter().to_rgb
     clrs = [c(i) for i in clist]
     rvb = mcolors.LinearSegmentedColormap.from_list("", clrs)

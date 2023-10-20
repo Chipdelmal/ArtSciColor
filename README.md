@@ -70,11 +70,27 @@ Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.cs
 
 ## How are the palettes generated?
 
+Getting palette colors is a common exercise for people getting started into clustering methods. The most widely-used algorithm for this task is k-means, but in this package the algorithm and its parameters can be provided as long as they adhere to scikit-learn's standards. Most of the curated palettes were calculated through the agglomerative clustering algorithm as follows:
+
+```python
+CLST_NUM=4
+img = art.readCV2Image(fPath)
+
+CLUSTERING = {
+    'algorithm': AgglomerativeClustering, 
+    'params': {'n_clusters': CLST_NUM} 
+}
+(pixels, labels) = art.calcDominantColors(
+    img, cFun=CLUSTERING['algorithm'], cArgs=CLUSTERING['params']
+)
+```
+
 <a href="https://www.nga.gov/collection/art-object-page.48530.html"><img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle"></a>
 
-# Author and Notes
+# Author, Notes and Sources
 
-This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)).
+This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [inkipedia](https://splatoonwiki.org/wiki/Ink); so please visit and support their work!
+
 
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpg" height="125px" align="middle"><br>
 
