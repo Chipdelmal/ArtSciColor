@@ -89,7 +89,7 @@ CLUSTERING = {
 )
 ```
 
-Other algorithms such as [DBSCAN](https://scikit-learn.org/stable/modules/clustering.html#dbscan) and [HDBSCAN](https://scikit-learn.org/stable/modules/clustering.html#hdbscan), [Spectral Clustering](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering), etc; can also be used.
+Other algorithms such as [DBSCAN](https://scikit-learn.org/stable/modules/clustering.html#dbscan) and [HDBSCAN](https://scikit-learn.org/stable/modules/clustering.html#hdbscan), [Spectral Clustering](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering), [OPTICS](https://scikit-learn.org/stable/modules/clustering.html#optics), etc; can also be used.
 
 <a href="https://www.nga.gov/collection/art-object-page.48530.html"><img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle"></a>
 
