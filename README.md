@@ -63,7 +63,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Other](./ArtSciColor/swatches/Other.md)
 
-[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [coolors](./ArtSciColor/swatches/coolors.md)
+[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [coolors](./ArtSciColor/swatches/coolors.md), [lospec](./ArtSciColor/swatches/lospec.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Other.png" height="50px" width='100%' align="middle"><br>
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
@@ -87,11 +87,11 @@ CLUSTERING = {
 
 <a href="https://www.nga.gov/collection/art-object-page.48530.html"><img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle"></a>
 
-# Author, Notes and Sources
+# Notes and Sources
 
-This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [inkipedia](https://splatoonwiki.org/wiki/Ink); so please visit and support their work!
+This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [inkipedia](https://splatoonwiki.org/wiki/Ink), [lospec](https://lospec.com/); so please visit and support their work!
 
 
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpg" height="125px" align="middle"><br>
 
-[Héctor M. Sánchez C.](https://chipdelmal.github.io/)
+Coded by: [Héctor M. Sánchez C.](https://chipdelmal.github.io/)

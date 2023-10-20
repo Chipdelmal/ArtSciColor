@@ -4,8 +4,7 @@
 # https://matplotlib.org/stable/api/_as_gen/matplotlib.colors.ListedColormap.html
 # 
 
-import matplotlib.colors as mcolors
-from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.colors import ColorConverter, LinearSegmentedColormap
 
 def addHexOpacity(colors, alpha='1A'):
     return [c+alpha for c in colors]
@@ -27,8 +26,8 @@ def generateAlphaColorMapFromColor(color, minAlpha=0, maxAlpha=1):
         _type_: _description_
     """    
     alphaMap = LinearSegmentedColormap.from_list(
-        'cmap',
-        [(0.0, 0.0, 0.0, 0.0), color],
+        'alphaMap', 
+        [(0.0, 0.0, 0.0, 0.0), color], 
         gamma=0
     )
     return alphaMap
@@ -43,7 +42,10 @@ def colorPaletteFromHexList(clist):
     Returns:
         cmap: LinearSegmentedColormap function for color maps.
     """    
-    c = mcolors.ColorConverter().to_rgb
+    c = ColorConverter().to_rgb
     clrs = [c(i) for i in clist]
-    rvb = mcolors.LinearSegmentedColormap.from_list("", clrs)
+    rvb = LinearSegmentedColormap.from_list(
+        "hexMap", 
+        clrs
+    )
     return rvb

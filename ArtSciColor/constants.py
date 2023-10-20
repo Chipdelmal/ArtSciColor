@@ -14,7 +14,7 @@ CATEGORIES = {
     'Art': set(("Matisse", "Nolde", "Warhol", "Monet", "Kirchner", "Miro", "Picasso")),
     'Movies': set(('Ghibli', )),
     'Gaming': set(('Splatoon', )),
-    'Other': set(('chipdelmal', 'coolors'))
+    'Other': set(('chipdelmal', 'coolors', 'lospec'))
 }
 ARTISTS_SET = set.union(*list(CATEGORIES.values()))
 DF_SORTING = (
@@ -46,7 +46,7 @@ RDM_TEXT = '''
 <!DOCTYPE html>
 <html><body>
 <h1>{}</h1>
-<p>Click on the color palette to see the original artwork!</p>
+<p>Click on the color palette to see the original artwork or source!</p>
 <table style="width:100%">
 <tr>{}</tr>{}
 </table>
