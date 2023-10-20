@@ -70,22 +70,29 @@ Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.cs
 
 ## How are the palettes generated?
 
-Getting palette colors is a common exercise for people getting started into clustering methods. The most widely-used algorithm for this task is k-means, but in this package the algorithm and its parameters can be provided as long as they adhere to scikit-learn's standards. Most of the curated palettes were calculated through the agglomerative clustering algorithm as follows:
+Getting palette colors is a common exercise for people getting started into clustering methods. The most widely-used algorithm for this task is [k-means](https://scikit-learn.org/stable/modules/clustering.html#k-means), but in this package the algorithm and its parameters can be provided as long as they adhere to [scikit-learn's](https://scikit-learn.org/) standards. Most of the curated palettes were calculated through the [agglomerative clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html#sklearn.cluster.AgglomerativeClustering) algorithm as follows:
 
 ```python
-CLST_NUM=4
+from sklearn.cluster import AgglomerativeClustering
+# Read image and setup number of desired clusters
 img = art.readCV2Image(fPath)
-
+CLST_NUM=4
+# Clustering algorithm
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {'n_clusters': CLST_NUM} 
 }
 (pixels, labels) = art.calcDominantColors(
-    img, cFun=CLUSTERING['algorithm'], cArgs=CLUSTERING['params']
+    img, 
+    cFun=CLUSTERING['algorithm'], 
+    cArgs=CLUSTERING['params']
 )
 ```
 
+Other algorithms such as [DBSCAN](https://scikit-learn.org/stable/modules/clustering.html#dbscan) and [HDBSCAN](https://scikit-learn.org/stable/modules/clustering.html#hdbscan), [Spectral Clustering](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering), etc; can also be used.
+
 <a href="https://www.nga.gov/collection/art-object-page.48530.html"><img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/DB4E776DB0F5524EE128.jpg" width='200%' align="middle"></a>
+
 
 # Notes and Sources
 

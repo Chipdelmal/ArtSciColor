@@ -36,6 +36,8 @@ NAMES = (
     'Hex06', 'Hex07', 'Hex08', 'Hex09', 'Hex10',
     'Hex11', 'Hex12', 'Hex13', 'Hex14', 'Hex15',
     'Hex16', 'Hex17', 'Hex18', 'Hex19', 'Hex20',
+    'Hex21', 'Hex22', 'Hex23', 'Hex24', 'Hex25',
+    'Hex26', 'Hex27', 'Hex28', 'Hex29', 'Hex30',
 )
 splat = pd.read_csv(join(PTH_CSV, f'{FNAME}.csv'), header=None, names=NAMES)
 ###############################################################################
