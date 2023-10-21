@@ -46,7 +46,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Art](./ArtSciColor/swatches/Art.md)
 
-[Miro](./ArtSciColor/swatches/Miro.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Matisse](./ArtSciColor/swatches/Matisse.md), [Picasso](./ArtSciColor/swatches/Picasso.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Monet](./ArtSciColor/swatches/Monet.md)
+[Miro](./ArtSciColor/swatches/Miro.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Matisse](./ArtSciColor/swatches/Matisse.md), [Picasso](./ArtSciColor/swatches/Picasso.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Kandinsky](./ArtSciColor/swatches/Kandinsky.md), [Monet](./ArtSciColor/swatches/Monet.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="50px" width='100%' align="middle"><br>
 
 

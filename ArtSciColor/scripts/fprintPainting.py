@@ -18,8 +18,8 @@ import constants as cst
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183424.png",
-        "Matisse", 6
+        "183428.png",
+        "Kandinsky", 5
     )
     (I_PATH, O_PATH) = (
         f'../data/sources/{ARTIST}/in/', 
@@ -42,7 +42,8 @@ CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {
         'n_clusters': CLST_NUM, # 'distance_threshold': 2500, 
-        'compute_full_tree': True
+        'compute_full_tree': True,
+        'linkage': 'single'
     } 
 }
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
