@@ -7,9 +7,14 @@ Ghibli,"""Nausicaa 01""","#482F23,#8E7160,#77AEC5,#C5A994,#D1CCC6",0FF39131531F1
 Ghibli,"""Nausicaa 02""","#574240,#E9B57A,#C27B45,#17769F",83DF3C98C637FC2CD51C,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-4,183403.png
 Ghibli,"""Nausicaa 03""","#0A0E0F,#1C2835,#BB8673,#93483C",70994FE220B3E3233DF1,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds,183405.png
 Ghibli,"""The Wind Rises 01""","#CACECC,#3D741D,#2C95C9",0D53EA9229BD5F862B17,3,AgglomerativeClustering,https://filmartgallery.com/products/the-wind-rises?variant=39265259192491,183406.png
+Kandinsky,"""Blue Mountain""","#32303B,#724749,#D7C7B2,#AF7D41,#2F5078",95A9198D1749B069D15D,5,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183431.png
+Kandinsky,"""Circles in a Circle""","#242426,#534839,#61685B,#7D9287,#CEB78C,#E3D8CA,#A2423A",0E235AB1E62C16743BF0,7,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183433.png
 Kandinsky,"""Composition in Red and Blue""","#434869,#EBD6BB,#B96C6B",94516CD6761EFAF232C7,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.208417.html,183426.png
+Kandinsky,"""Geteilt (Divided)""","#332E36,#5A574F,#9F7467,#7E8775,#B49D85,#CFB295",A1B3011CAA3F79832AF2,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.108875.html,183429.png
 Kandinsky,"""Improvisation 31 (Sea Battle)""","#49586C,#7BA08E,#C6C6B3,#E1DCCF,#D9A06C,#A74F4F",2B73EFF1635D36F55405,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.56670.html,183425.png
 Kandinsky,"""Landscape with Figures and a Crucifix""","#261F1B,#48433A,#665C4F,#A7896E,#DAC9AF",70DEA1BCE93371B7E7E9,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.90725.html,183427.png
+Kandinsky,"""Munich-Schwabing with the Church of St. Ursula ""","#262421,#DDD1B2,#C07846,#6D894D,#2D458C",D99839F7C45A0160DAE8,5,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183430.png
+Kandinsky,"""Several Circles""","#242930,#2D363F,#396E6B,#9DB4AF,#CECDDB,#B2773B,#1541AE,#5194DF",A25883F49FFDB7AF21D2,8,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183434.png
 Kandinsky,"""Small Worlds I""","#2D2723,#475644,#DCCBB4,#CEA95D,#AB6455",27B968AF541205B4FFED,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52419.html,183428.png
 Kirchner,"""Bern Kunsthalle: März 33: Ernst Ludwig Kirchner: Davos""","#2E484C,#F0E6D9,#B36FA0,#02AD9A",358EC6C1ECDFE97CC7D5,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152789.html,bern_kunsthalle__marz_33__ernst_ludwig_kirchner__davos_2012.92.139.jpg
 Kirchner,"""Chestnut Trees in Moonlight""","#5E3E34,#675855,#81796B,#A69679",D0A187CFD7608B835017,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152784.html,chestnut_trees_in_moonlight_2012.92.134.png
@@ -27,7 +32,7 @@ Matisse,"""Open Window Collioure""","#28494C,#508E8E,#8EA7A2,#DAA4A6,#D1CAC1,#B2
 Matisse,"""Venus""","#FCE0B6,#3668A4",9459C3F741972D0F729C,2,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53816.html,183422.png
 Miro,"""Composition""","#D0AC6F,#D36857,#A23D44,#6E1E32",4B1FA213903261233990,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.91414.html,183393.png
 Miro,"""Figure and Birds""","#121E1A,#A68164,#B4AFAD,#D2D3D3,#9C000E,#133D98",B68E9FFA9649584327E4,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53059.html,183379.png
-Miro,"""Flight of the Dragonfly in Front of the Sun""","#E4DFEB,#DA684D,#818DCB,#95A0D9",2E994DAFA7E198C22F15,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61373.html,183417.png
+Miro,"""Flight of the Dragonfly in Front of the Sun""","#E4DFEB,#DA684D,#8894D0",B1610CFCD9D3F442F92C,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61373.html,183417.png
 Miro,"""La Bague d'Aurore""","#332F2D,#689BB1,#E5D1B6,#E2CD4F,#E84E73",93F0C5E3C36AD7A92DEB,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.142287.html,183398.png
 Miro,"""Untitled [plate IV]""","#24615F,#7D9093,#DCCAB8,#E5BC50,#DE6261",823CA3F1D307AC2AB459,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46996.html,183399.png
 Miro,"""Untitled [plate I]""","#567993,#B89F93,#DAC9B7,#CE4646",802A02231B90DAB49EE9,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46992.html,183395.png
@@ -238,5 +243,6 @@ lospec,Midnight Glow,"#160729,#171856,#243771,#416E8F,#DBF3F1",DE14825D2ECB52F0B
 lospec,Pear36,"#5E315B,#8C3F5D,#BA6156,#F2A65E,#FFE478,#CFFF70,#8FDE5D,#3CA370,#3D6E70,#323E4F,#322947,#473B78,#4B5BAB,#4DA6FF,#66FFE3,#FFFFEB,#C2C2D1,#7E7E8F,#606070,#43434F,#272736,#3E2347,#57294B,#964253,#E36956,#FFB570,#FF9166,#EB564B,#B0305C,#73275C,#422445,#5A265E,#80366B,#BD4882,#FF6B97,#FFB5B5",57755C7A0EA62C99C4DB,36,None,https://lospec.com/palette-list/pear36,None
 lospec,Raspberry,"#1D001C,#FFFFE3,#E06B88,#E28B7A",C03B14BB3E2C12DC58B6,4,None,https://lospec.com/palette-list/raspberry,None
 lospec,Sweetie16,"#1A1C2C,#5D275D,#B13E53,#EF7D57,#FFCD75,#A7F070,#38B764,#257179,#29366F,#3B5DC9,#41A6F6,#73EFF7,#F4F4F4,#94B0C2,#566C86,#333C57",5DD753C95CC53A8E26DA,16,None,https://lospec.com/palette-list/sweetie-16,None
+lospec,Tiny Folks,"#FFF,#8B956D,#4D533C,#303329,#1F1F1F",BAFA8F6F9D393C96AC83,5,None,https://lospec.com/palette-list/tinyfolks,None
 lospec,Twilight 5,"#FBBBAD,#EE8695,#4A7A96,#333F58,#292831",CC5D332917F588F46A59,5,None,https://lospec.com/palette-list/twilight-5,None
 lospec,sloslo8,"#0D2B45,#203C56,#544E68,#8D697A,#D08159,#FFAA5E,#FFD4A3,#FFECD6",2F79546E813FF089D20F,8,None,https://lospec.com/palette-list/slso8,None
