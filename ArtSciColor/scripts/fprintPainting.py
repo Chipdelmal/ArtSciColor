@@ -3,6 +3,7 @@
 
 import sys
 import math
+import random
 import numpy as np
 import pandas as pd
 from sys import argv
@@ -13,13 +14,16 @@ from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
 import ArtSciColor as art
 import constants as cst
 
+SEED=174887
+random.seed(SEED)
+np.random.seed(SEED)
 ##############################################################################
 # Setup paths and clusters number
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM) = (
-        "183428.png",
-        "Kandinsky", 5
+        "183426.png",
+        "Kandinsky", 3
     )
     (I_PATH, O_PATH) = (
         f'../data/sources/{ARTIST}/in/', 
@@ -43,7 +47,7 @@ CLUSTERING = {
     'params': {
         'n_clusters': CLST_NUM, # 'distance_threshold': 2500, 
         'compute_full_tree': True,
-        'linkage': 'single'
+        'linkage': 'ward'
     } 
 }
 (FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
