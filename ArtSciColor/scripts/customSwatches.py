@@ -30,15 +30,7 @@ hexSwatches = art.loadDatabase(PATH_SWT, df=False)
 ###############################################################################
 # Load data
 ###############################################################################
-NAMES = (
-    'Name', 'URL', 
-    'Hex01', 'Hex02', 'Hex03', 'Hex04', 'Hex05', 
-    'Hex06', 'Hex07', 'Hex08', 'Hex09', 'Hex10',
-    'Hex11', 'Hex12', 'Hex13', 'Hex14', 'Hex15',
-    'Hex16', 'Hex17', 'Hex18', 'Hex19', 'Hex20',
-    'Hex21', 'Hex22', 'Hex23', 'Hex24', 'Hex25',
-    'Hex26', 'Hex27', 'Hex28', 'Hex29', 'Hex30',
-)
+NAMES = ['Name', 'URL'] + [f'Hex{ix:02d}' for ix in range(1, 51)]
 splat = pd.read_csv(join(PTH_CSV, f'{FNAME}.csv'), header=None, names=NAMES)
 ###############################################################################
 # Iterate
