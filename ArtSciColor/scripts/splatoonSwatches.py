@@ -42,7 +42,8 @@ for (ix, entry) in splat.iterrows():
     (name, pal) = (row[0], row[1:])
     strPal = art.listPalToStr(pal)
     # Treat palette -----------------------------------------------------------
-    hName = art.hashFilename(''.join(sorted(pal)))
+    # hName = art.hashFilename(''.join(sorted(pal)))
+    hName = art.hashFilename(''.join([FNAME, name]))
     hexSwt = [Color(h) for h in pal]
     # Generate swatch ---------------------------------------------------------
     dimg = np.zeros((height, width, 3))

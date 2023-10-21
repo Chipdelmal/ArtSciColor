@@ -21,15 +21,16 @@ np.random.seed(SEED)
 # Setup paths and clusters number
 ##############################################################################
 if art.isNotebook():
-    (FILENAME, ARTIST, CLST_NUM) = (
+    (FILENAME, ARTIST, CLST_NUM, TITLE) = (
         "183434.png",
-        "Kandinsky", 8
+        "Kandinsky", 8,
+        None
     )
     (I_PATH, O_PATH) = (
         f'../data/sources/{ARTIST}/in/', 
         f'../data/sources/{ARTIST}/out/'
     )
-    (TITLE, URL) = (None, None)
+    URL = None
     (ADD_TO_DB, SHOW) = (False, True)
 else: 
     (I_PATH, O_PATH, FILENAME, CLST_NUM, URL, ARTIST, TITLE) = (
@@ -95,11 +96,13 @@ if SHOW:
 ##############################################################################
 # Export to Disk
 ##############################################################################
-noExtFName = Path(fPath).stem
-hashName = art.hashFilename(''.join(sorted([i.hex for i in swatchHex])))
-hashFile = f'{hashName}.png'
-imgOut.save(join(O_PATH, hashFile), quality=95)
-imgOut.close()
+if TITLE is not None:
+    noExtFName = Path(fPath).stem
+    # hashName = art.hashFilename(''.join(sorted([i.hex for i in swatchHex])))
+    hashName = art.hashFilename(''.join([ARTIST, TITLE]))
+    hashFile = f'{hashName}.png'
+    imgOut.save(join(O_PATH, hashFile), quality=95)
+    imgOut.close()
 ##############################################################################
 # Update DataBase
 ##############################################################################
