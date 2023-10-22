@@ -22,8 +22,8 @@ np.random.seed(SEED)
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM, TITLE) = (
-        "183434.png",
-        "Kandinsky", 8,
+        "183442.png",
+        "EdnaAndrade", 7,
         None
     )
     (I_PATH, O_PATH) = (
@@ -103,10 +103,10 @@ if TITLE is not None:
     hashFile = f'{hashName}.png'
     imgOut.save(join(O_PATH, hashFile), quality=95)
     imgOut.close()
+    print(hashName, file=sys.stderr)
 ##############################################################################
 # Update DataBase
 ##############################################################################
-print(hashName, file=sys.stderr)
 if ADD_TO_DB and ARTIST and ARTIST!="":
     db = art.loadDatabase(DB_FILE)
     newEntry = pd.DataFrame({

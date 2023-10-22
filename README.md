@@ -46,8 +46,8 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Art](./ArtSciColor/swatches/Art.md)
 
-[Miro](./ArtSciColor/swatches/Miro.md), [Kandinsky](./ArtSciColor/swatches/Kandinsky.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Matisse](./ArtSciColor/swatches/Matisse.md), [Picasso](./ArtSciColor/swatches/Picasso.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Monet](./ArtSciColor/swatches/Monet.md)
-<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="50px" width='100%' align="middle"><br>
+[Miro](./ArtSciColor/swatches/Miro.md), [Kandinsky](./ArtSciColor/swatches/Kandinsky.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Matisse](./ArtSciColor/swatches/Matisse.md), [Picasso](./ArtSciColor/swatches/Picasso.md), [EdnaAndrade](./ArtSciColor/swatches/EdnaAndrade.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Monet](./ArtSciColor/swatches/Monet.md)
+<img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="100px" width='100%' align="middle"><br>
 
 
 ### [Movies](./ArtSciColor/swatches/Movies.md)
@@ -96,7 +96,7 @@ Other algorithms such as [DBSCAN](https://scikit-learn.org/stable/modules/cluste
 
 # Notes and Sources
 
-This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [inkipedia](https://splatoonwiki.org/wiki/Ink), [lospec](https://lospec.com/); so please visit and support their work!
+This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [wikiart](https://www.wikiart.org/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [inkipedia](https://splatoonwiki.org/wiki/Ink), [lospec](https://lospec.com/); so please visit and support their work!
 
 
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpg" height="125px" align="middle"><br>
