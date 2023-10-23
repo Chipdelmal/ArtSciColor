@@ -4,7 +4,6 @@ EdnaAndrade,"""Cross""","#8B7F68,#A7A197,#E4D1A9,#ECE8E8,#BA9940",B5758312CDE71E
 EdnaAndrade,"""Earth Day""","#DCCD50,#6CA663,#516AC8",7484AE051E5B984F1614,3,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/earth-day-1970,183437.png
 EdnaAndrade,"""Finale""","#D3B1C1,#9FC4E5,#EFEDDE,#FFC41A,#FCC176,#A1BE7C",8C1E0651961074BAF64D,6,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/finale-1979,183435.png
 EdnaAndrade,"""Mariposa""","#8B98B2,#CFAFAB,#9BBFCE,#C8C4E4,#F1E0B9,#DFA145,#CB8E6F,#D1C87A",9EC39F3FE31EE74D3D38,8,AgglomerativeClustering,https://philamuseum.org/collection/object/273087,183439.png
-EdnaAndrade,"""Night Sea""","#363C4C,#414457",BA1DDE5BE593C4622C69,2,AgglomerativeClustering,https://philamuseum.org/collection/object/72126,183440.png
 EdnaAndrade,"""Short Ride""","#AD2313,#3245A6",3C30DAED90A17F8CA366,2,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/short-ride-1969,183438.png
 EdnaAndrade,"""Twilight Wave""","#949F9A,#ACB1B3,#C3C7C6,#E2E4DB,#FF9005",948280545945A0763D58,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/twilight-wave-1973,183436.png
 Ghibli,"""Castle in the Sky 01""","#212721,#597466,#ADA682",31CAB71316BE96BD4A10,3,AgglomerativeClustering,https://filmartgallery.com/products/castle-in-the-sky,183402.png
@@ -65,6 +64,12 @@ Picasso,"""Still Life (Nature morte)""","#302C2B,#564D46,#716B6F,#C6AA86,#A09351
 Picasso,"""Still Life""","#262224,#3D3737,#4A4E50,#876149,#6F6868,#8D8484,#B1A696",DBEE4BFEB17DC4F2955A,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46670.html,183409.png
 Picasso,"""The Lovers""","#68816D,#69A6C2,#BBA2B1,#D7E1D9,#BB8654",3AAE06F9D3484531C243,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46667.html,183410.png
 Picasso,"""The Young Draughtsman (Petit dessinateur)""","#5E564B,#8C7E6E,#B6A091,#CBB59F,#DCC7AF",5B94E48650A05CBC7CEC,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.46897.html,183415.png
+Signac,"""Lighthouse at Groix""","#52645B,#698C8F,#9FA8A3,#E1BDA7,#CD9566",B9395B072FDAFB713C05,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/lighthouse-at-groix,183445.png
+Signac,"""Port of La Rochelle""","#182D37,#3E525D,#5D6D79,#86898D,#B6ACAA,#874C41",1E57A3626606C83C06AA,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-la-rochelle-1921,183443.png
+Signac,"""Portrait of Felix Feneon""","#845E48,#A39D7F,#D8CCA4,#FFD860,#F8B061,#D9784E",68C21FD74061C3E7659C,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/portrait-of-felix-feneon-1890,183448.png
+Signac,"""Rodez""","#837C77,#ABA59C,#CDCBC0,#EBDDCF,#ECBC71",39BAABC05898DAA78EA0,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/rodez,183446.png
+Signac,"""The Pine Tree at St. Tropez""","#56593E,#5E7D94,#C5CFB7,#F6F1B6,#EAC74B,#C09E1A,#A1B07F",D11CFA1183ABC445D8C1,7,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/the-pine-tree-at-st-tropez-1909,183449.png
+Signac,"""Women at the Well""","#525138,#987B6A,#CAC1B8,#D1AE29,#7684B9",310C9F1FB0CFBF8BB7FF,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/young-women-of-provence-at-the-well-1892,183447.png
 Splatoon,Action vs Comedy,"#FA8E00,#1384BA,#B44AEF",DF3B1C6E9B82512FE82B,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Adventure vs Relax,"#FFB600,#00967A,#4B22C8",5F2D425A167A71CBF7E2,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Agility vs Endurance,"#F3B000,#F5498B,#13A715",D98409CFCD48C4293864,3,None,https://splatoonwiki.org/wiki/Ink,None

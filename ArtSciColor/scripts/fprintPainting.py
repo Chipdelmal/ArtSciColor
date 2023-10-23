@@ -22,8 +22,8 @@ np.random.seed(SEED)
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM, TITLE) = (
-        "183442.png",
-        "EdnaAndrade", 7,
+        "183449.png",
+        "Signac", 7,
         None
     )
     (I_PATH, O_PATH) = (

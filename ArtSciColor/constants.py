@@ -13,7 +13,7 @@ NOT_ART = set(('Splatoon', 'Ghibli'))
 CATEGORIES = {
     'Art': set((
         "Matisse", "Nolde", "Warhol", "Monet", "Kirchner", 
-        "Miro", "Picasso", "Kandinsky", "EdnaAndrade"
+        "Miro", "Picasso", "Kandinsky", "EdnaAndrade", "Signac"
     )),
     'Movies': set(('Ghibli', )),
     'Gaming': set(('Splatoon', )),
