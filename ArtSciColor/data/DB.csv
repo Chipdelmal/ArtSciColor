@@ -240,6 +240,10 @@ Splatoon,Yellow vs Indigo,"#DEC109,#531BBA,#C920B7",FC58D4A01CF7902CDA6D,3,None,
 Splatoon,Yellow vs Lilac,"#DD9016,#4D24A3,#A1E896",AF3D305D09AF23EAC445,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs Purple,"#CEB121,#9025C6,#5DAB21",057F0C833BBCED1ADF87,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs TealBlue,"#D9C100,#007AC9,#ED580B",9CABF9E7C33D53A9D922,3,None,https://splatoonwiki.org/wiki/Ink,None
+VanGogh,"""Bulb Fields""","#1E120D,#6A5633,#C0B88A,#A89D68",EC19AA8DF7FC34FBA246,4,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/bulb-fields-1883,183462.png
+VanGogh,"""Entrance to the Moulin de la Galette""","#1E120D,#594B2D,#C0B88A,#A89D68,#886940",398594C27830CDE127E8,5,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/entrance-to-the-moulin-de-la-galette-1887,183462.png
+VanGogh,"""Self-Portrait""","#1B566C,#5A8B88,#B8BB7F,#937C24",0E635CAFABEA9D65D240,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106382.html,self-portrait_1998.74.5.jpg
+VanGogh,"""Starry Night""","#1A1D1C,#2B3853,#637C94,#737E63,#A2AA91,#3E5682",9B381C78A14EF84DA14C,6,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889,183461.png
 Warhol,"""Flowers""","#2A3219,#8BCFD0,#FF9293,#7CA33B,#A54E91",4A99CCAC4382E886AF03,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.144934.html,183385.png
 Warhol,"""Portraits of the Artists""","#1E1414,#163D3C,#558070,#BDB1AB,#F2F2F2,#C39021,#7F5D19",4813F188B626AA278E1E,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136329.html,183384.png
 chipdelmal,Motherland,"#F72585,#2614ED,#5DDEB1,#F038FF,#E2EF70,#9381FF",55337043132A3AD872D7,6,None,https://chipdelmal.github.io/,None

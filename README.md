@@ -46,7 +46,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Art](./ArtSciColor/swatches/Art.md)
 
-[Miro](./ArtSciColor/swatches/Miro.md), [Kandinsky](./ArtSciColor/swatches/Kandinsky.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Matisse](./ArtSciColor/swatches/Matisse.md), [Picasso](./ArtSciColor/swatches/Picasso.md), [EdnaAndrade](./ArtSciColor/swatches/EdnaAndrade.md), [Signac](./ArtSciColor/swatches/Signac.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Monet](./ArtSciColor/swatches/Monet.md)
+[Miro](./ArtSciColor/swatches/Miro.md), [Kandinsky](./ArtSciColor/swatches/Kandinsky.md), [Kirchner](./ArtSciColor/swatches/Kirchner.md), [Matisse](./ArtSciColor/swatches/Matisse.md), [Picasso](./ArtSciColor/swatches/Picasso.md),  [Signac](./ArtSciColor/swatches/Signac.md), [Warhol](./ArtSciColor/swatches/Kirchner.md), [Nolde](./ArtSciColor/swatches/Nolde.md), [Monet](./ArtSciColor/swatches/Monet.md), [VanGogh](./ArtSciColor/swatches/VanGogh.md), [EdnaAndrade](./ArtSciColor/swatches/EdnaAndrade.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Art.png" height="100px" width='100%' align="middle"><br>
 
 
