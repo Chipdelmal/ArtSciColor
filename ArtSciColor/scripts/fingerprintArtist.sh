@@ -18,7 +18,6 @@ NC='\033[0m'
 ###############################################################################
 while IFS=, read -r CNUM FNAME TITLE LINK; do 
     printf "${LG}\t${TITLE} "
-    # echo "Clusters $CNUM :: Filename $FNAME :: Title $TITLE :: Link $LINK"; 
     outputString=$(
         python "$(dirname "$0")/fprintPainting.py" \
             ${PTH_I} ${PTH_O} ${FNAME} \

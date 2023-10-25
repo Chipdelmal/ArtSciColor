@@ -40,7 +40,7 @@ def calcDominantColors(
         -maxIter: Maximum iterations number for detection
     * O: Dominant colors arrays and clusters labels (sklearn)
     '''
-    frame = img.reshape((img.shape[0] * img.shape[1], 3))
+    frame = img.reshape((img.shape[0]*img.shape[1], 3))
     # Cluster the colors for dominance detection
     kmeans = cFun(**cArgs).fit(frame)
     labels = kmeans.labels_
