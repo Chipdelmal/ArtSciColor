@@ -240,6 +240,7 @@ Splatoon,Yellow vs Indigo,"#DEC109,#531BBA,#C920B7",FC58D4A01CF7902CDA6D,3,None,
 Splatoon,Yellow vs Lilac,"#DD9016,#4D24A3,#A1E896",AF3D305D09AF23EAC445,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs Purple,"#CEB121,#9025C6,#5DAB21",057F0C833BBCED1ADF87,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs TealBlue,"#D9C100,#007AC9,#ED580B",9CABF9E7C33D53A9D922,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Zombie vs Skeleton vs Ghost,"#0CA34B,#B04F23,#964996,#BFED1C",C922D3B68674236BD341,4,None,https://splatoonwiki.org/wiki/Ink,None
 VanGogh,"""Bulb Fields""","#1E120D,#6A5633,#C0B88A,#A89D68",EC19AA8DF7FC34FBA246,4,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/bulb-fields-1883,183462.png
 VanGogh,"""Entrance to the Moulin de la Galette""","#1E120D,#594B2D,#C0B88A,#A89D68,#886940",398594C27830CDE127E8,5,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/entrance-to-the-moulin-de-la-galette-1887,183462.png
 VanGogh,"""Self-Portrait""","#1B566C,#5A8B88,#B8BB7F,#937C24",0E635CAFABEA9D65D240,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106382.html,self-portrait_1998.74.5.jpg
