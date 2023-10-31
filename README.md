@@ -52,7 +52,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Movies](./ArtSciColor/swatches/Movies.md)
 
-[Studio Ghibli](./ArtSciColor/swatches/Ghibli.md)
+[Studio Ghibli](./ArtSciColor/swatches/Ghibli.md), [Disney](./ArtSciColor/swatches/Disney.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Movies.png" height="50px" width='100%' align="middle"><br>
 
 
