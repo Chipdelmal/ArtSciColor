@@ -1,0 +1,9 @@
+
+<!DOCTYPE html>
+<html><body>
+<h1>Disney</h1>
+<p>Click on the color palette to see the original artwork or source!</p>
+<table style="width:100%">
+<tr><th style="text-align: center; vertical-align: middle;">ID</th><th style="text-align: center; vertical-align: middle;">Palette</th><th style="text-align: center; vertical-align: middle;">Hex Palette</th></tr><tr><td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">A38A57C34AA94A04F01F</p></td> <td style="text-align: center; vertical-align: middle;"><a href=https://filmartgallery.com/products/aladdin-1 style="font-size:14px"><img style="border-radius: 14px;" src="../media/swatches/A38A57C34AA94A04F01F.png" height="25"></a></td> <td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">#F1E6EC, #F8A448, #B2364E, #21347C, #5499DA</p></td></tr><tr><td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">B104452E111977890AB5</p></td> <td style="text-align: center; vertical-align: middle;"><a href=https://filmartgallery.com/products/the-lion-king style="font-size:14px"><img style="border-radius: 14px;" src="../media/swatches/B104452E111977890AB5.png" height="25"></a></td> <td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">#F77A1D, #D90013, #8D2928</p></td></tr><tr><td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">1EB115912963DD4E98E5</p></td> <td style="text-align: center; vertical-align: middle;"><a href=https://filmartgallery.com/products/the-lion-king-1 style="font-size:14px"><img style="border-radius: 14px;" src="../media/swatches/1EB115912963DD4E98E5.png" height="25"></a></td> <td style="text-align: center; vertical-align: middle;"><p style="font-size:14px">#273547, #737467, #A7B0AB, #265688</p></td></tr>
+</table>
+</body></html>

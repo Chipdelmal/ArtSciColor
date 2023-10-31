@@ -16,7 +16,7 @@ CATEGORIES = {
         "Miro", "Picasso", "Kandinsky", "EdnaAndrade", "Signac",
         "VanGogh"
     )),
-    'Movies': set(('Ghibli', )),
+    'Movies': set(('Ghibli', 'Disney')),
     'Gaming': set(('Splatoon', )),
     'Other': set(('chipdelmal', 'coolors', 'lospec'))
 }
