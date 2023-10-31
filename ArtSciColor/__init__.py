@@ -8,3 +8,4 @@ from .swatches import *
 from .auxiliary import *
 from .constants import *
 from .fingerprint import *
+from .fingerprintWrappers import *

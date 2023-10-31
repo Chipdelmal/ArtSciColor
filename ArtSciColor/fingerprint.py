@@ -44,7 +44,7 @@ def calcDominantColors(
     # Cluster the colors for dominance detection
     kmeans = cFun(**cArgs).fit(frame)
     labels = kmeans.labels_
-    return (frame, labels)
+    return (frame, labels, kmeans)
 
 
 def colorClusterCentroid(cluster, cFun=np.median, round=True):

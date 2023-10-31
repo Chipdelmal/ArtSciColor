@@ -69,7 +69,7 @@ resized = art.resizeCV2BySide(img, cst.IMG_RESIZE)
 ##############################################################################
 # Cluster for Dominance
 ##############################################################################
-(pixels, labels) = art.calcDominantColors(
+(pixels, labels, model) = art.calcDominantColors(
     resized, cFun=CLUSTERING['algorithm'], cArgs=CLUSTERING['params']
 )
 swatch = art.getDominantSwatch(pixels, labels)
