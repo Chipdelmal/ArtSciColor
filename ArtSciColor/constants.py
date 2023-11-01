@@ -40,7 +40,8 @@ except:
 ###############################################################################
 # HTML/MD Text
 ###############################################################################
-hdr = ('ID', 'Palette', 'Hex Palette')
+# hdr = ('ID', 'Palette', 'Hex Palette')
+hdr = ('Title', 'ID', 'Palette', 'Hex Palette')
 # ('Artist', 'Title', 'Palette', 'ID') # , 'Hex Palette')
 RDM_HEADER = [
     f'<th style="text-align: center; vertical-align: middle;">{e}</th>'
@@ -61,7 +62,7 @@ def generateHTMLEntry(artist, url, title, relPth, hname, strPal):
         f'<td style="text-align: center; vertical-align: middle;">{e}</td>'
         for e in (
             # f'<p style="font-size:14px">{artist}</p>', # Artist
-            # f'<a href={url} style="font-size:14px">{title}</a>', # URL, Title 
+            f'<a href={url} style="font-size:14px">{title}</a>', # Title 
             f'<p style="font-size:14px">{hname}</p>', # Hash Name
             f'<a href={url} style="font-size:14px"><img style="border-radius: 14px;" src="{relPth}" height="25"></a>', # Relative Path 
             f'<p style="font-size:14px">{strPal}</p>' # String Palette
