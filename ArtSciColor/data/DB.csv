@@ -2,6 +2,8 @@ artist,title,palette,hash,clusters,clustering,url,filename
 Disney,"""Aladdin 01""","#F1E6EC,#F8A448,#B2364E,#21347C,#5499DA",A38A57C34AA94A04F01F,5,AgglomerativeClustering,https://filmartgallery.com/products/aladdin-1,183464.png
 Disney,"""The Lion King 01""","#F77A1D,#D90013,#8D2928",B104452E111977890AB5,3,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king,183465.png
 Disney,"""The Lion King 02""","#273547,#737467,#A7B0AB,#265688",1EB115912963DD4E98E5,4,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king-1,183466.png
+Disney,"""Tron 01""","#282B2C,#313B4F,#6E6D7D,#C0AFA7,#9E3D4C",0D523B5E86106BAC7B7A,5,AgglomerativeClustering,https://filmartgallery.com/products/tron-2,183468.png
+Disney,"""Winnie the Pooh and Tigger Too 01""","#161411,#D8D7D8,#DBB039,#B4511F,#4DA3BC",DCB038C4C008963C3AB7,5,AgglomerativeClustering,https://filmartgallery.com/products/winnie-the-pooh-and-tigger-too,183467.png
 EdnaAndrade,"""Atom Cloud""","#734950,#4B8182,#A79D96,#DAD1C5,#AF6D64",B8E300333DB2EAD2E3CF,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/atom-cloud-1958,183442.png
 EdnaAndrade,"""Cross""","#8B7F68,#A7A197,#ECE4E0,#E2CE96,#BA9940",B5758312CDE71EDD91C2,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/cross-1962,183441.png
 EdnaAndrade,"""Earth Day""","#DCCD50,#6CA663,#506AC8",7484AE051E5B984F1614,3,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/earth-day-1970,183437.png
