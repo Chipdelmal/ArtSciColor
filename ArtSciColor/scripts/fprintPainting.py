@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import math
+from math import ceil, floor
 import random
 import numpy as np
 import pandas as pd
@@ -37,7 +37,6 @@ else:
         argv[1], argv[2], argv[3], int(argv[4]), argv[5] , argv[6] , argv[7]
     )
     (ADD_TO_DB, SHOW) = (True, False)
-    # print((I_PATH, O_PATH, FILENAME, CLST_NUM))
 (I_PATH, O_PATH) = [expanduser(f) for f in (I_PATH, O_PATH)]
 ##############################################################################
 # Constants
@@ -46,51 +45,33 @@ else:
 CLUSTERING = {
     'algorithm': AgglomerativeClustering, 
     'params': {
-        'n_clusters': CLST_NUM, # 'distance_threshold': 2500, 
+        'n_clusters': CLST_NUM,
         'compute_full_tree': True,
         'linkage': 'ward'
     } 
 }
-(FONT, FONT_SIZE, HUE_CLASSES, HSV_SORT) = (
+(FONT, FONT_SIZE, HSV_SORT, HUE_CLASSES) = (
     'Avenir', 50,
-    math.ceil(CLST_NUM*0.4),
-    True
+    True, ceil(CLST_NUM*0.4)
 )
 ##############################################################################
-# Preprocess image
+# Process Image
 ##############################################################################
 fPath = join(I_PATH, FILENAME)
 try:
     img = art.readCV2Image(fPath)
 except:
     sys.exit(f"Error reading file: {fPath}")
-resized = art.resizeCV2BySide(img, cst.IMG_RESIZE)
-(height, width, depth) = resized.shape
-##############################################################################
-# Cluster for Dominance
-##############################################################################
-(pixels, labels, model) = art.calcDominantColors(
-    resized, cFun=CLUSTERING['algorithm'], cArgs=CLUSTERING['params']
+# Cluster colors -------------------------------------------------------------
+imgClustered = art.getSwatchedImage(
+    img, maxSide=cst.IMG_RESIZE, 
+    cFun=CLUSTERING['algorithm'], cArgs=CLUSTERING['params'],
+    grpFun=np.median, 
+    HSVSort=HSV_SORT, hueClasses=HUE_CLASSES, grayThreshold=25,
+    barHeight=cst.BAR_HEIGHT, barProportional=True,
+    font=FONT, fontSize=FONT_SIZE
 )
-swatch = art.getDominantSwatch(pixels, labels)
-swatchHex = (
-    art.sortSwatchHSV(swatch, hue_classes=HUE_CLASSES, gray_thresh=25)
-    if HSV_SORT else
-    art.sortSwatchByFrequency(swatch)
-)
-##############################################################################
-# Generate Bars, add labels, and Stack to Image
-##############################################################################
-bars = art.genColorSwatch(
-    img, cst.BAR_HEIGHT, swatchHex, 
-    proportionalHeight=True
-)
-barsImg = art.addHexColorText(
-    Image.fromarray(bars.astype('uint8'), 'RGB'), 
-    swatchHex, font=FONT, fontSize=FONT_SIZE
-)
-newIMG = np.row_stack([img, barsImg])
-imgOut = Image.fromarray(newIMG.astype('uint8'), 'RGB')
+(swatchHex, imgOut) = (imgClustered['swatch'], imgClustered['image'])
 if SHOW:
     imgOut.show()
 ##############################################################################
