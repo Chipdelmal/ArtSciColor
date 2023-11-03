@@ -3,6 +3,7 @@ import os
 import setuptools
 from version import version as this_version
 
+
 this_directory =  os.path.abspath(os.path.dirname(__file__))
 version_path = os.path.join(this_directory, 'ArtSciColor', '_version.py')
 with open(version_path, 'wt') as fversion:
@@ -11,9 +12,8 @@ with open(version_path, 'wt') as fversion:
 
 REQUIRED_PACKAGES=[
     'matplotlib>=3.3.2', 'colour>=0.1.5', 'colorir', 
-    'Pillow', 'opencv-python',
-    'scikit-learn', 'numpy',
-    'pandas',
+    'Pillow', 'opencv-python', 'super-image',
+    'scikit-learn', 'numpy', 'pandas',
     'compress-pickle'
 ]
 
@@ -41,9 +41,10 @@ setuptools.setup(
     ],
     package_data={
         'ArtSciColor': [
-            './data/DB.bz', './data/DB.csv',
+            './data/DB.bz', 
+            './data/DB.csv',
             './data/SWATCHES.bz'
         ],
     },
-    python_requires='>=3.10',                                    # python version requirement
+    python_requires='>=3.10',
 )
