@@ -29,7 +29,7 @@ def getSwatchedImage(
         if HSVSort else
         swt.sortSwatchByFrequency(swatch)
     )
-    bars = fng.genColorSwatch(
+    bars = fng.genColorSwatchFromImg(
         img, barHeight, swatchHex, 
         proportionalHeight=barProportional
     )

@@ -47,7 +47,7 @@ for (ix, entry) in splat.iterrows():
     hexSwt = [Color(h) for h in pal]
     # Generate swatch ---------------------------------------------------------
     dimg = np.zeros((height, width, 3))
-    swatch = art.genColorSwatch(dimg, height, hexSwt, proportionalHeight=False)
+    swatch = art.genColorSwatchFromImg(dimg, height, hexSwt, proportionalHeight=False)
     swtchImg = Image.fromarray(swatch.astype('uint8'), 'RGB')
     # Add swatch to hash database ---------------------------------------------
     hexSwatches[hName] = pal

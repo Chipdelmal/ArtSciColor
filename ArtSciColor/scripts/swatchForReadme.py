@@ -39,7 +39,7 @@ for ix in range(db.shape[0]):
     swatch = db.iloc[ix]['palette']
     hexSwt = [Color(c) for c in swatch.split(',')]
     dimg = np.zeros((DIMS[0], DIMS[1], 3))
-    swatch = art.genColorSwatch(dimg, DIMS[1], hexSwt, proportionalHeight=False)
+    swatch = art.genColorSwatchFromImg(dimg, DIMS[1], hexSwt, proportionalHeight=False)
     swatches.append(swatch)
 fullSwatch =np.transpose(np.vstack(swatches), axes=(1, 0, 2))
 imgOut = Image.fromarray(fullSwatch.astype('uint8'), 'RGB')

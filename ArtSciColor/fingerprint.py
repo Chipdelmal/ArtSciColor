@@ -104,7 +104,30 @@ def calcHexAndRGBFromPalette(palette):
     return {'hex': hexColors, 'rgb': rgbColors}
 
 
-def genColorSwatch(img, barsHeight, swatch, proportionalHeight=True):
+def genColorSwatch(width, height, swatch):
+    '''
+    Creates a color swatch that is proportional in height to the original
+       image (whilst being the same width).
+    * I:
+        -img: Image imported with cv2.imread
+        -heightProp: Desired height of the swatch in proportion to original img
+        -palette: Calculated palette through dominance detection
+    * O:
+    '''
+    palette = [hexToRgb(c) for c in swatch]
+    clstNumber = len(palette)
+    pltAppend = np.zeros((height, width, 3))
+    (wBlk, hBlk) = (round(width/clstNumber), height)
+    for row in range(hBlk):
+        colorIter = -1
+        for col in range(width):
+            if (col%wBlk==0) and (colorIter<clstNumber-1):
+                colorIter=colorIter+1
+            pltAppend[row][col] = palette[colorIter]
+    return pltAppend*255
+
+
+def genColorSwatchFromImg(img, barsHeight, swatch, proportionalHeight=True):
     '''
     Creates a color swatch that is proportional in height to the original
        image (whilst being the same width).
