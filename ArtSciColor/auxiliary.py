@@ -7,7 +7,9 @@ from hashlib import sha256
 from matplotlib import font_manager
 from compress_pickle import dump, load
 
-
+###############################################################################
+# Folders, Notebooks and Fonts
+###############################################################################
 def makeFolder(path):
     """Crates a folder in the specified directory.
 
@@ -45,6 +47,9 @@ def getFontFile(family, weight='regular'):
     file = font_manager.findfont(font)
     return file
 
+###############################################################################
+# Color Palette related functions
+###############################################################################
 def hashFilename(string, length=20):
     # https://stackoverflow.com/questions/14023350/cheap-mapping-of-string-to-small-fixed-length-string
     string = string.encode('utf-8')
@@ -69,7 +74,6 @@ def dumpDatabase(database, DBPath):
 
 def exportDatabase(database, DBPath):
     database.to_csv(DBPath, index=False)
-    
-    
+      
 def listPalToStr(listPal):
     return str(listPal).replace('[','').replace(']','').replace("'",'')
