@@ -1,6 +1,10 @@
 #!/bin/bash
 
-ARTISTS=( "VanGogh" "Signac" "EdnaAndrade" "Kandinsky" "Matisse" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" "Ghibli" "Disney")
+ARTISTS=(
+    "DarbyBannard" "VanGogh" "Signac" "EdnaAndrade" "Kandinsky" 
+    "Matisse" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" 
+    "Ghibli" "Disney"
+)
 ###############################################################################
 GRN='\033[0;32m'
 NCL='\033[0m'

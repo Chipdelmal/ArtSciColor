@@ -1,4 +1,8 @@
 artist,title,palette,hash,clusters,clustering,url,filename
+DarbyBannard,"""Chatumec #2""","#9F7773,#A89D99,#AA8A51,#B6736B",A848B5E6F4FF5AAB19E4,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/chatumec-2-1970,183469.png
+DarbyBannard,"""Cherokee Blanket""","#EACC84,#F6A9B5,#CF2307",452334B03E3CBB36DDE1,3,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/cherokee-blanket-1964,183471.png
+DarbyBannard,"""Green Valentine #2""","#010101,#EFD1B9,#86C9A8",4E85887EAD3E019C8816,3,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/green-valentine-2-1964,183470.png
+DarbyBannard,"""Sage #3""","#97A580,#B2B4A9,#C1C2B7,#C98432",A3E0198F904DD740FC3B,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/sage-3-1968,183472.png
 Disney,"""Aladdin 01""","#F1E6EC,#F8A448,#B2364E,#21347C,#5499DA",A38A57C34AA94A04F01F,5,AgglomerativeClustering,https://filmartgallery.com/products/aladdin-1,183464.png
 Disney,"""The Lion King 01""","#F77A1D,#D90013,#8D2928",B104452E111977890AB5,3,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king,183465.png
 Disney,"""The Lion King 02""","#273547,#737467,#A7B0AB,#265688",1EB115912963DD4E98E5,4,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king-1,183466.png
