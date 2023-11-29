@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ARTISTS=(
-    "DarbyBannard" "VanGogh" "Signac" "EdnaAndrade" "Kandinsky" 
-    "Matisse" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" 
+    "UmbertoBoccioni" "DarbyBannard" "VanGogh" "Signac" "EdnaAndrade" 
+    "Kandinsky" "Matisse" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" 
     "Ghibli" "Disney"
 )
 ###############################################################################

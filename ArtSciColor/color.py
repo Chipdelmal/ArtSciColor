@@ -50,10 +50,7 @@ def colorPaletteFromHexList(clist):
     """    
     c = ColorConverter().to_rgb
     clrs = [c(i) for i in clist]
-    rvb = LinearSegmentedColormap.from_list(
-        "hexMap", 
-        clrs
-    )
+    rvb = LinearSegmentedColormap.from_list("hexMap", clrs)
     return rvb
 
 

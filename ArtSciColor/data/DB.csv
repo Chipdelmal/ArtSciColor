@@ -251,6 +251,12 @@ Splatoon,Yellow vs Lilac,"#DD9016,#4D24A3,#A1E896",AF3D305D09AF23EAC445,3,None,h
 Splatoon,Yellow vs Purple,"#CEB121,#9025C6,#5DAB21",057F0C833BBCED1ADF87,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs TealBlue,"#D9C100,#007AC9,#ED580B",9CABF9E7C33D53A9D922,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Zombie vs Skeleton vs Ghost,"#0CA34B,#B04F23,#964996,#BFED1C",C922D3B68674236BD341,4,None,https://splatoonwiki.org/wiki/Ink,None
+UmbertoBoccioni,"""Landscape (mountains)""","#291D15,#5B4623,#90745D,#DCB9BD",474136960F2DF50A2736,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/landscape-mountains-1916,183479.png
+UmbertoBoccioni,"""Plastic Dynamism: Horse+House""","#ECAF7C,#E08851,#C65932,#98341E,#592116",04A6CE17D752B5B2E721,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/plastic-dynamism-horse-house-1914,183478.png
+UmbertoBoccioni,"""Simultaneous Visions""","#57687A,#D9B88B,#C16B30,#603223",70880BF888E5CD9A20F1,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/simultaneous-visions-1912,183474.png
+UmbertoBoccioni,"""The Street Enters the House""","#80606E,#9790B1,#CDBEB0,#CA862D,#68391E",EA0EB8359CC555F71E20,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/the-street-enters-the-house-1911-1,183476.png
+UmbertoBoccioni,"""The Street Pavers""","#20141A,#663831,#896968,#C1A4A1,#C77A48",44EE9675E6A6FDF75406,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/the-street-pavers-1914,183475.png
+UmbertoBoccioni,"""Under the Pergola at Naples""","#364868,#74768E,#B98781,#C0ABB4,#975151",8EB7EFBD25B73CE46087,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/under-the-pergola-at-naples-1914,183477.png
 VanGogh,"""Bulb Fields""","#271B13,#C1B98B,#AAA16E,#765E38",EC19AA8DF7FC34FBA246,4,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/bulb-fields-1883,183462.png
 VanGogh,"""Entrance to the Moulin de la Galette""","#271B13,#67512F,#C1B98B,#AAA16E,#896942",398594C27830CDE127E8,5,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/entrance-to-the-moulin-de-la-galette-1887,183462.png
 VanGogh,"""Self-Portrait""","#195268,#3E7E8D,#B7BA7E,#8D7F29",0E635CAFABEA9D65D240,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106382.html,self-portrait_1998.74.5.jpg

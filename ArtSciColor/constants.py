@@ -14,7 +14,7 @@ CATEGORIES = {
     'Art': set((
         "Matisse", "Nolde", "Warhol", "Monet", "Kirchner", 
         "Miro", "Picasso", "Kandinsky", "EdnaAndrade", "Signac",
-        "VanGogh", "DarbyBannard"
+        "VanGogh", "DarbyBannard", "UmbertoBoccioni"
     )),
     'Movies': set(('Ghibli', 'Disney')),
     'Gaming': set(('Splatoon', )),
