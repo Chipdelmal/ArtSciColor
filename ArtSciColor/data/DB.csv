@@ -1,87 +1,91 @@
 artist,title,palette,hash,clusters,clustering,url,filename
-DarbyBannard,"""Chatumec #2""","#A37874,#A89D99,#AC8954,#B7736B",A848B5E6F4FF5AAB19E4,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/chatumec-2-1970,183469.png
+DarbyBannard,"""Chatumec #2""","#9F7773,#A89D99,#AA8A51,#B6736B",A848B5E6F4FF5AAB19E4,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/chatumec-2-1970,183469.png
 DarbyBannard,"""Cherokee Blanket""","#EACC84,#F6A9B5,#CF2307",452334B03E3CBB36DDE1,3,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/cherokee-blanket-1964,183471.png
 DarbyBannard,"""Green Valentine #2""","#010101,#EFD1B9,#86C9A8",4E85887EAD3E019C8816,3,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/green-valentine-2-1964,183470.png
-DarbyBannard,"""Sage #3""","#B0B3A9,#BFC0B5,#8DAD79,#C98432",A3E0198F904DD740FC3B,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/sage-3-1968,183472.png
-Disney,"""Aladdin 01""","#E9D9E5,#F89543,#692256,#1A3D92,#3E8DD2",A38A57C34AA94A04F01F,5,AgglomerativeClustering,https://filmartgallery.com/products/aladdin-1,183464.png
-Disney,"""The Lion King 01""","#F6761E,#D80013,#862729",B104452E111977890AB5,3,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king,183465.png
-Disney,"""The Lion King 02""","#233248,#626364,#A7B0AB,#25578A",1EB115912963DD4E98E5,4,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king-1,183466.png
-Disney,"""Tron 01""","#292F33,#666476,#9F8F92,#C7BBB3,#9E3D4C",0D523B5E86106BAC7B7A,5,AgglomerativeClustering,https://filmartgallery.com/products/tron-2,183468.png
-Disney,"""Winnie the Pooh and Tigger Too 01""","#161411,#D7D7D8,#DCB138,#B96020,#4FA2BA",DCB038C4C008963C3AB7,5,AgglomerativeClustering,https://filmartgallery.com/products/winnie-the-pooh-and-tigger-too,183467.png
-EdnaAndrade,"""Atom Cloud""","#73484F,#558382,#A77770,#C1B2AB,#DBD2C6",B8E300333DB2EAD2E3CF,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/atom-cloud-1958,183442.png
-EdnaAndrade,"""Cross""","#8B7F68,#A7A197,#E4D1A9,#ECE8E8,#BA9940",B5758312CDE71EDD91C2,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/cross-1962,183441.png
-EdnaAndrade,"""Earth Day""","#DCCD50,#6CA663,#516AC8",7484AE051E5B984F1614,3,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/earth-day-1970,183437.png
+DarbyBannard,"""Sage #3""","#97A580,#B2B4A9,#C1C2B7,#C98432",A3E0198F904DD740FC3B,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/sage-3-1968,183472.png
+Disney,"""Aladdin 01""","#F1E6EC,#F8A448,#B2364E,#21347C,#5499DA",A38A57C34AA94A04F01F,5,AgglomerativeClustering,https://filmartgallery.com/products/aladdin-1,183464.png
+Disney,"""The Lion King 01""","#F77A1D,#D90013,#8D2928",B104452E111977890AB5,3,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king,183465.png
+Disney,"""The Lion King 02""","#273547,#737467,#A7B0AB,#265688",1EB115912963DD4E98E5,4,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king-1,183466.png
+Disney,"""Tron 01""","#282B2C,#313B4F,#6E6D7D,#C0AFA7,#9E3D4C",0D523B5E86106BAC7B7A,5,AgglomerativeClustering,https://filmartgallery.com/products/tron-2,183468.png
+Disney,"""Winnie the Pooh and Tigger Too 01""","#161411,#D8D7D8,#DBB039,#B4511F,#4DA3BC",DCB038C4C008963C3AB7,5,AgglomerativeClustering,https://filmartgallery.com/products/winnie-the-pooh-and-tigger-too,183467.png
+EdnaAndrade,"""Atom Cloud""","#734950,#4B8182,#A79D96,#DAD1C5,#AF6D64",B8E300333DB2EAD2E3CF,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/atom-cloud-1958,183442.png
+EdnaAndrade,"""Cross""","#8B7F68,#A7A197,#ECE4E0,#E2CE96,#BA9940",B5758312CDE71EDD91C2,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/cross-1962,183441.png
+EdnaAndrade,"""Earth Day""","#DCCD50,#6CA663,#506AC8",7484AE051E5B984F1614,3,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/earth-day-1970,183437.png
 EdnaAndrade,"""Finale""","#D3B1C1,#9FC4E5,#EFEDDE,#FFC41A,#FCC176,#A1BE7C",8C1E0651961074BAF64D,6,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/finale-1979,183435.png
-EdnaAndrade,"""Mariposa""","#8B98B2,#CFAFAB,#9BBFCE,#C8C4E4,#F1E0B9,#DFA145,#CB8E6F,#D1C87A",9EC39F3FE31EE74D3D38,8,AgglomerativeClustering,https://philamuseum.org/collection/object/273087,183439.png
+EdnaAndrade,"""Mariposa""","#8691AC,#9BBBCB,#DBC3A8,#C8C4E4,#F5E4BF,#DFA145,#CC8D6F,#D1C87A",9EC39F3FE31EE74D3D38,8,AgglomerativeClustering,https://philamuseum.org/collection/object/273087,183439.png
 EdnaAndrade,"""Short Ride""","#AD2313,#3245A6",3C30DAED90A17F8CA366,2,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/short-ride-1969,183438.png
 EdnaAndrade,"""Twilight Wave""","#949F9A,#ACB1B3,#C3C7C6,#E2E4DB,#FF9005",948280545945A0763D58,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/twilight-wave-1973,183436.png
-Ghibli,"""Castle in the Sky 01""","#212721,#597466,#ADA682",31CAB71316BE96BD4A10,3,AgglomerativeClustering,https://filmartgallery.com/products/castle-in-the-sky,183402.png
-Ghibli,"""Kiki 01""","#331913,#C37250,#853929",4E0B74843C638E7BD2D6,3,AgglomerativeClustering,https://filmartgallery.com/products/kikis-delivery-service-1,183401.png
-Ghibli,"""Mononoke 01""","#151414,#564340,#807C7C,#B4ACA9",0967339A464384870888,4,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke,183404.png
-Ghibli,"""Mononoke 02""","#251D17,#574433,#70AECD,#FAD9B4,#E7A16A,#B66744",DAFCBED0C718DDE77289,6,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke-5,183407.png
-Ghibli,"""Nausicaa 01""","#482F23,#8E7160,#77AEC5,#C5A994,#D1CCC6",F7167BD47361404F2B7F,5,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-3,183400.png
-Ghibli,"""Nausicaa 02""","#574240,#E9B57A,#C27B45,#17769F",25BBF1562A1460CB411C,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-4,183403.png
-Ghibli,"""Nausicaa 03""","#0A0E0F,#1C2835,#BB8673,#93483C",411E440EB49799EDC6CD,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds,183405.png
-Ghibli,"""The Wind Rises 01""","#CACECC,#3D741D,#2C95C9",A2FFF99903488BB868BB,3,AgglomerativeClustering,https://filmartgallery.com/products/the-wind-rises?variant=39265259192491,183406.png
-Kandinsky,"""Blue Mountain""","#32303B,#724749,#D7C7B2,#AF7D41,#2F5078",6B6DD6619BDE5E359CC7,5,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183431.png
-Kandinsky,"""Circles in a Circle""","#242426,#534839,#61685B,#7D9287,#CEB78C,#E3D8CA,#A2423A",E99F363AE0CA87AC32A7,7,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183433.png
-Kandinsky,"""Composition in Red and Blue""","#434869,#EBD6BB,#B96C6B",46C1F13FE3B4CAF5D5FF,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.208417.html,183426.png
-Kandinsky,"""Geteilt (Divided)""","#332E36,#5A574F,#9F7467,#7E8775,#B49D85,#CFB295",2B1A0DFF030620F97EC4,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.108875.html,183429.png
-Kandinsky,"""Improvisation 31 (Sea Battle)""","#49586C,#7BA08E,#C6C6B3,#E1DCCF,#D9A06C,#A74F4F",5694A4B19F87DF8AC0FB,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.56670.html,183425.png
-Kandinsky,"""Landscape with Figures and a Crucifix""","#261F1B,#48433A,#665C4F,#A7896E,#DAC9AF",409CF30DB8F9E172A99B,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.90725.html,183427.png
-Kandinsky,"""Munich-Schwabing with the Church of St. Ursula ""","#262421,#DDD1B2,#C07846,#6D894D,#2D458C",05AE4B124EBA64280E67,5,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183430.png
-Kandinsky,"""Several Circles""","#242930,#2D363F,#396E6B,#9DB4AF,#CECDDB,#B2773B,#1541AE,#5194DF",0686D87ACCD73CEF7046,8,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183434.png
-Kandinsky,"""Small Worlds I""","#2D2723,#475644,#DCCBB4,#CEA95D,#AB6455",F54E9216F43F4578A4B3,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52419.html,183428.png
-Kirchner,"""Bern Kunsthalle: März 33: Ernst Ludwig Kirchner: Davos""","#2E484C,#F0E6D9,#B36FA0,#02AD9A",18CDBF4B3472AECE9899,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152789.html,bern_kunsthalle__marz_33__ernst_ludwig_kirchner__davos_2012.92.139.jpg
-Kirchner,"""Chestnut Trees in Moonlight""","#5E3E34,#675855,#81796B,#A69679",A7406B9A23292A6012EF,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152784.html,chestnut_trees_in_moonlight_2012.92.134.png
-Kirchner,"""Cover of the Fourth Yearbook of the Artist Group the Brucke""","#DCD6C8,#E16D5D",3D4FD811A9FA79D242BD,2,AgglomerativeClustering, https://www.nga.gov/content/ngaweb/collection/art-object-page.8104.html,cover_of_the_fourth_yearbook_of_the_artist_group_the_brucke_1943.3.5182.jpg
-Kirchner,"""Dance Hall Bellevue [obverse]""","#5D6650,#79B5AE,#BC9E70,#C7662F,#3C78BB",BFBD7CC9CE65118E370C,5,AgglomerativeClustering, https://www.nga.gov/content/ngaweb/collection/art-object-page.71238.html,dance_hall_bellevue__obverse__1989.60.1.a.jpg
-Kirchner,"""Dancing Couple in the Snow [reverse]""","#344962,#8A5E50,#5B7D87,#B29F9A,#DBB4B1,#C6CCBF",7EB14FF4B23366C6FA31,6,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.163768.html,dancing_couple_in_the_snow__reverse__1989.60.1.b.png
-Kirchner,"""Head Waiter in Café""","#3F333C,#614C3F,#927F74,#C7AE90,#D07843",D002FFF40B8A241DADA9,5,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152783.html,head_waiter_in_cafe_2012.92.133.jpg
-Kirchner,"""Nude Women with a Child in the Forest""","#5A6A49,#D5A98C,#E9D3B8,#A39952",EC687BFC93B60DD9C388,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154352.html,nude_women_with_a_child_in_the_forest_2012.92.695.jpg
-Kirchner,"""Smoking Peasant""","#58586B,#CAA17C,#AA5B51,#75393E",83CF27E28DA6F468DFA9,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.154350.html,smoking_peasant_2012.92.693.jpg
-Kirchner,"""The Visit - Couple and Newcomer""","#3B5D71,#AA8088,#D2B22A,#CF6534,#AE3821",6BD24F063EC9E1BC047C,5,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.71239.html,the_visit_-_couple_and_newcomer_1989.60.2.jpg
-Kirchner,"""Woman with a Child and a Cat (Mädchen mit Kind)""","#3C4042,#704837,#7B664C,#AA906C",29778A4E19F2DE45F152,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154346.html,woman_with_a_child_and_a_cat_(madchen_mit_kind)_2012.92.689.jpg
+Ghibli,"""Castle in the Sky 01""","#1F231D,#485C53,#688277",31CAB71316BE96BD4A10,3,AgglomerativeClustering,https://filmartgallery.com/products/castle-in-the-sky,183402.png
+Ghibli,"""Kiki 01""","#331913,#BC6A4A,#833728",4E0B74843C638E7BD2D6,3,AgglomerativeClustering,https://filmartgallery.com/products/kikis-delivery-service-1,183401.png
+Ghibli,"""Mononoke 01""","#151414,#5A4440,#827F7F,#BBB5B2",0967339A464384870888,4,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke,183404.png
+Ghibli,"""Mononoke 02""","#3C3326,#5C7D66,#71B0CE,#FAD9B4,#E38E5F,#A95736",DAFCBED0C718DDE77289,6,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke-5,183407.png
+Ghibli,"""Nausicaa 01""","#39251F,#756052,#B7997F,#77AEC6,#CFC4B8",F7167BD47361404F2B7F,5,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-3,183400.png
+Ghibli,"""Nausicaa 02""","#533F3B,#E7B578,#B67647,#17769F",25BBF1562A1460CB411C,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-4,183403.png
+Ghibli,"""Nausicaa 03""","#0A0F10,#232C39,#BB8673,#93483C",411E440EB49799EDC6CD,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds,183405.png
+Ghibli,"""The Wind Rises 01""","#D0D2CF,#3D741D,#2F96C8",A2FFF99903488BB868BB,3,AgglomerativeClustering,https://filmartgallery.com/products/the-wind-rises?variant=39265259192491,183406.png
+Kandinsky,"""Blue Mountain""","#32313B,#7E4A49,#C8B7A0,#B28A31,#2F5079",6B6DD6619BDE5E359CC7,5,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183431.png
+Kandinsky,"""Circles in a Circle""","#242426,#534839,#61685B,#7D9287,#CFB88F,#E4D8CA,#A2423A",E99F363AE0CA87AC32A7,7,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183433.png
+Kandinsky,"""Composition in Red and Blue""","#434869,#EAD6BA,#B75B59",46C1F13FE3B4CAF5D5FF,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.208417.html,183426.png
+Kandinsky,"""Geteilt (Divided)""","#332E36,#5A574F,#9C7366,#7D8876,#B39C85,#CFB295",2B1A0DFF030620F97EC4,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.108875.html,183429.png
+Kandinsky,"""Improvisation 31 (Sea Battle)""","#49566A,#80A08E,#BDC2B8,#E0DACD,#D9B97F,#D3844E",5694A4B19F87DF8AC0FB,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.56670.html,183425.png
+Kandinsky,"""Landscape with Figures and a Crucifix""","#261F1B,#474139,#665C50,#A7896E,#DAC9AF",409CF30DB8F9E172A99B,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.90725.html,183427.png
+Kandinsky,"""Munich-Schwabing with the Church of St. Ursula ""","#262521,#DBD2B6,#7C914C,#C86945,#30498A",05AE4B124EBA64280E67,5,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183430.png
+Kandinsky,"""Several Circles""","#151414,#282E37,#39726C,#9DB4AF,#CECDDB,#B2773B,#1642A9,#5194DF",0686D87ACCD73CEF7046,8,AgglomerativeClustering,https://en.wikipedia.org/wiki/Wassily_Kandinsky,183434.png
+Kandinsky,"""Small Worlds I""","#2E2924,#4B5853,#DCCBB4,#CEA95D,#A95D54",F54E9216F43F4578A4B3,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52419.html,183428.png
+Kirchner,"""Bern Kunsthalle: März 33: Ernst Ludwig Kirchner: Davos""","#304847,#F0E6D9,#8C3987,#03A997",18CDBF4B3472AECE9899,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152789.html,bern_kunsthalle__marz_33__ernst_ludwig_kirchner__davos_2012.92.139.jpg
+Kirchner,"""Chestnut Trees in Moonlight""","#5C3C34,#6F5954,#887F75,#A69679",A7406B9A23292A6012EF,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152784.html,chestnut_trees_in_moonlight_2012.92.134.png
+Kirchner,"""Cover of the Fourth Yearbook of the Artist Group the Brucke""","#DCD4C6,#E16C5B",3D4FD811A9FA79D242BD,2,AgglomerativeClustering, https://www.nga.gov/content/ngaweb/collection/art-object-page.8104.html,cover_of_the_fourth_yearbook_of_the_artist_group_the_brucke_1943.3.5182.jpg
+Kirchner,"""Dance Hall Bellevue [obverse]""","#695A46,#79AEA2,#C4AA6F,#D46F1F,#3C78BC",BFBD7CC9CE65118E370C,5,AgglomerativeClustering, https://www.nga.gov/content/ngaweb/collection/art-object-page.71238.html,dance_hall_bellevue__obverse__1989.60.1.a.jpg
+Kirchner,"""Dancing Couple in the Snow [reverse]""","#2F4667,#855852,#587884,#7C9AA4,#BC9A95,#CDC0B8",7EB14FF4B23366C6FA31,6,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.163768.html,dancing_couple_in_the_snow__reverse__1989.60.1.b.png
+Kirchner,"""Head Waiter in Café""","#3F333C,#5F4B47,#C7AE90,#D67A45,#996C46",D002FFF40B8A241DADA9,5,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152783.html,head_waiter_in_cafe_2012.92.133.jpg
+Kirchner,"""Nude Women with a Child in the Forest""","#596A48,#E7D1B6,#D19685,#A29855",EC687BFC93B60DD9C388,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154352.html,nude_women_with_a_child_in_the_forest_2012.92.695.jpg
+Kirchner,"""Smoking Peasant""","#5D5A6B,#CBA27D,#AB5950,#75393E",83CF27E28DA6F468DFA9,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.154350.html,smoking_peasant_2012.92.693.jpg
+Kirchner,"""The Visit - Couple and Newcomer""","#3B5C70,#968B7C,#D5B729,#CE5D2E,#A93020",6BD24F063EC9E1BC047C,5,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.71239.html,the_visit_-_couple_and_newcomer_1989.60.2.jpg
+Kirchner,"""Woman with a Child and a Cat (Mädchen mit Kind)""","#3A3F43,#704F37,#6F6759,#A78D65",29778A4E19F2DE45F152,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154346.html,woman_with_a_child_and_a_cat_(madchen_mit_kind)_2012.92.689.jpg
 Matisse,"""Beasts of the Sea""","#4E4253,#F7E2B9,#F8E979,#D96B72,#89C074,#4F70A9",6274136C0DF581E1A78C,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53815.html,183421.png
-Matisse,"""Large Decoration with Masks""","#8AA7AB,#F1DDC0,#EDA543,#C25F7B,#3B8863,#3C62A8",5A844879389208F99B36,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53814.html,183424.png
-Matisse,"""Open Window Collioure""","#28494C,#508E8E,#8EA7A2,#DAA4A6,#D1CAC1,#B26054",FC1036E7801CEA258D1B,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106384.html,183420.png
+Matisse,"""Large Decoration with Masks""","#94ADAF,#F2DEC1,#F1B152,#CB6168,#3B8863,#3C62A8",5A844879389208F99B36,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53814.html,183424.png
+Matisse,"""Open Window Collioure""","#28494C,#508E8E,#91AAA6,#D4A1A2,#D8C9C0,#B25E53",FC1036E7801CEA258D1B,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106384.html,183420.png
 Matisse,"""Venus""","#FCE0B6,#3668A4",0369E1CEE05F8D06AA9F,2,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53816.html,183422.png
-Miro,"""Composition""","#D0AC6F,#D36857,#A23D44,#6E1E32",CD5D3A592F5E767EBE89,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.91414.html,183393.png
-Miro,"""Figure and Birds""","#121E1A,#A68164,#B4AFAD,#D2D3D3,#9C000E,#133D98",76CF1974C0BE35344E63,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53059.html,183379.png
-Miro,"""Flight of the Dragonfly in Front of the Sun""","#E4DFEB,#DA684D,#8894D0",27AB9BD21E57A75218A6,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61373.html,183417.png
-Miro,"""La Bague d'Aurore""","#332F2D,#689BB1,#E5D1B6,#E2CD4F,#E84E73",A0215E4547AFDE463D80,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.142287.html,183398.png
+Miro,"""Composition""","#D1AF71,#D5785D,#AB4346,#6F1F33",CD5D3A592F5E767EBE89,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.91414.html,183393.png
+Miro,"""Figure and Birds""","#121E1A,#A2949A,#D2D2D3,#C09918,#9C000E,#133D98",76CF1974C0BE35344E63,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53059.html,183379.png
+Miro,"""Flight of the Dragonfly in Front of the Sun""","#E7E4ED,#DA684D,#8894D0",27AB9BD21E57A75218A6,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61373.html,183417.png
+Miro,"""La Bague d'Aurore""","#312D2A,#5E95AC,#E5D1B6,#E2CD48,#E5486F",A0215E4547AFDE463D80,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.142287.html,183398.png
 Miro,"""Untitled [plate IV]""","#24615F,#7D9093,#DCCAB8,#E5BC50,#DE6261",F576E5C0C3D94C5F0F7B,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46996.html,183399.png
 Miro,"""Untitled [plate I]""","#567993,#B89F93,#DAC9B7,#CE4646",B7447DA5E51FB65B6D5C,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46992.html,183395.png
-Miro,"""Untitled [plate LII]""","#4B6989,#A3B0A9,#E5D7C5,#E6B57B,#CB7062",3C9F526D6EF14A1071FD,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.47044.html,183418.png
+Miro,"""Untitled [plate LII]""","#466481,#97A6A4,#E5D7C5,#E6B57B,#CB7062",3C9F526D6EF14A1071FD,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.47044.html,183418.png
 Miro,"""Woman at the Mirror""","#2A2829,#3F596F,#E0D2BF,#BAAC74,#B83330,#416C96",1257C7CFF682B4919DAD,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136243.html,183381.png
-Monet,"""Argenteuil""","#403924,#666339,#918665,#B7C1B4,#CCCDB8",9C28832CD6A3EE47CFF0,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52186.html,argenteuil_1970.17.42.jpg
-Monet,"""Banks of the Seine Vétheuil""","#365B53,#7E9992,#9AACA2,#7F9060,#5A764A",517746D4B3562CC089F7,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46652.html,banks_of_the_seine_vetheuil_1963.10.177.jpg
-Monet,"""Woman with a Parasol - Madame Monet and Her Son""","#3A5440,#707B52,#7A93A4,#AEBDC7",CE12EAF4B42CD5A293F5,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61379.html,woman_with_a_parasol_-_madame_monet_and_her_son_1983.1.29.jpg
-Nolde,"""Herbstlandschaft (Überschwemmung)""","#272624,#3B3932,#6B5E4F,#74766B,#868C7C,#A6744E",710931A3FE8A4CB404A8,6,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/herbstlandschaft-ueberschwemmung,183392.png
-Nolde,"""Lake Lucerne""","#86ABCB,#DCCD97,#E8C232,#0F3A73,#2F63B9",B8BFFD1F3B58FBE35486,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/lake-lucerne,183387.png
-Nolde,"""Mühle am Wasser""","#1D262F,#2F5F72,#637E86,#999F9C",412B5D0AE4CDDD57E582,4,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/muehle-am-wasser,183388.png
-Nolde,"""Party""","#2C1D21,#205566,#797E71,#D9DDCC,#F5BB1B,#E18A1C,#B83E3C,#E3C66F",2D4CA3628778828308FC,8,AgglomerativeClustering,https://www.apollo-magazine.com/emil-nolde-colour-life-exhibition-review/,183386.png
-Nolde,"""San Giorgio Maggiore in Venice""","#2E2525,#3F3A3C,#61564B,#877560,#826029",F98797AE636BA3405A52,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/san-giorgio-maggiore-in-venice,183389.png
-Nolde,"""Seascape""","#4F5361,#606877,#828889,#D9CFAD,#877A4D",02C6988144164974689E,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/seascape-1,183390.png
-Nolde,"""Zwei Menschen""","#5D3636,#965E60,#CFB2A7",55A358141C993E9F64D0,3,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/zwei-menschen,183391.png
-Picasso,"""Composition""","#52535B,#E3D1BB,#E1B96B,#CC564D",595A39190778280ADD6F,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.48530.html,183412.png
-Picasso,"""Harlequin Musician""","#322D27,#314D64,#6B8264,#BBAFA6,#F4E9D8,#E0562C",D8F1CF989E96E5F0FA6A,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.71072.html,183408.png
-Picasso,"""Le Déjeuner sur l'herbe","#B08469,#E6D0BD",6BA8B7BCB40E75F7A44A,2,AgglomerativeClustering," d'après Manet II"",https://www.nga.gov/collection/art-object-page.152486.html",183416.png
-Picasso,"""Pierrot and Harlequin""","#273125,#7E654F,#A88C87,#AAB1B1,#E1D9CE,#DCC53C,#C7362A",E6F757C471D7E3B0BCD6,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.60784.html,183411.png
-Picasso,"""Pique 1""","#2A272A,#7D5142,#D6AB79",027545D0F7DECFEB0983,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152206.html,183414.png
-Picasso,"""Still Life (Nature morte)""","#302C2B,#564D46,#716B6F,#C6AA86,#A09351,#875345",A121CE1625C0BD234AD6,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.33408.html,183413.png
-Picasso,"""Still Life""","#262224,#3D3737,#4A4E50,#876149,#6F6868,#8D8484,#B1A696",DBEE4BFEB17DC4F2955A,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46670.html,183409.png
-Picasso,"""The Lovers""","#68816D,#69A6C2,#BBA2B1,#D7E1D9,#BB8654",3AAE06F9D3484531C243,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46667.html,183410.png
-Picasso,"""The Young Draughtsman (Petit dessinateur)""","#5E564B,#8C7E6E,#B6A091,#CBB59F,#DCC7AF",5B94E48650A05CBC7CEC,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.46897.html,183415.png
-Signac,"""Lighthouse at Groix""","#52645B,#698C8F,#9FA8A3,#E1BDA7,#CD9566",B9395B072FDAFB713C05,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/lighthouse-at-groix,183445.png
-Signac,"""Port of La Rochelle""","#182D37,#3E525D,#5D6D79,#86898D,#B6ACAA,#874C41",1E57A3626606C83C06AA,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-la-rochelle-1921,183443.png
-Signac,"""Port of Saint Tropez""","#432F41,#6F566B,#967E84,#A4AD8C,#C4B59E,#994833",A73AA5B59A267C31E182,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-saint-tropez,183460.png
-Signac,"""Portrait of Felix Feneon""","#845E48,#A39D7F,#D8CCA4,#FFD860,#F8B061,#D9784E",68C21FD74061C3E7659C,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/portrait-of-felix-feneon-1890,183448.png
-Signac,"""River's Edge The Siene at Herblay""","#A89DC7,#C7C3E0,#745D91",3BC5316C48079E9BA353,3,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/river-s-edge-the-siene-at-herblay-1889,183457.png
-Signac,"""Rodez""","#837C77,#ABA59C,#CDCBC0,#EBDDCF,#ECBC71",39BAABC05898DAA78EA0,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/rodez,183446.png
-Signac,"""The Pine Tree at St. Tropez""","#56593E,#5E7D94,#C5CFB7,#F6F1B6,#EAC74B,#C09E1A,#A1B07F",D11CFA1183ABC445D8C1,7,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/the-pine-tree-at-st-tropez-1909,183449.png
-Signac,"""The Red Buoy Saint Tropez""","#72767E,#B6D7DD,#C6A276,#B57A4E",95CB6F5ED6EC8A212004,4,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/the-red-buoy-saint-tropez-1895,183458.png
-Signac,"""Women at the Well""","#525138,#987B6A,#CAC1B8,#D1AE29,#7684B9",310C9F1FB0CFBF8BB7FF,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/young-women-of-provence-at-the-well-1892,183447.png
+Monet,"""Argenteuil""","#403A25,#7F7557,#9B926F,#BCC3B5,#625E34",9C28832CD6A3EE47CFF0,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52186.html,argenteuil_1970.17.42.jpg
+Monet,"""Banks of the Seine Vétheuil""","#4D6A46,#939F77,#88A09D,#A0B0A4,#6E855C",517746D4B3562CC089F7,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46652.html,banks_of_the_seine_vetheuil_1963.10.177.jpg
+Monet,"""Woman with a Parasol - Madame Monet and Her Son""","#3F5841,#737E58,#7D95A3,#B0BFC9",CE12EAF4B42CD5A293F5,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61379.html,woman_with_a_parasol_-_madame_monet_and_her_son_1983.1.29.jpg
+Nolde,"""Herbstlandschaft (Überschwemmung)""","#2C2B28,#514B41,#6F5E4E,#74756A,#878D7C,#A6744D",710931A3FE8A4CB404A8,6,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/herbstlandschaft-ueberschwemmung,183392.png
+Nolde,"""Lake Lucerne""","#CCC89E,#EACB49,#11407A,#3268C2,#77A4CB",B8BFFD1F3B58FBE35486,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/lake-lucerne,183387.png
+Nolde,"""Mühle am Wasser""","#1D2830,#25576D,#3F697B,#909A97",412B5D0AE4CDDD57E582,4,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/muehle-am-wasser,183388.png
+Nolde,"""Party""","#1A1C1F,#245870,#8A8774,#D0DDD2,#F0B621,#DB6724,#72242B,#EBDA8B",2D4CA3628778828308FC,8,AgglomerativeClustering,https://www.apollo-magazine.com/emil-nolde-colour-life-exhibition-review/,183386.png
+Nolde,"""San Giorgio Maggiore in Venice""","#322525,#413B3D,#645C55,#8E7C6E,#7D5F2F",F98797AE636BA3405A52,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/san-giorgio-maggiore-in-venice,183389.png
+Nolde,"""Seascape""","#525045,#50556B,#6D757E,#CEC5A5,#877B4D",02C6988144164974689E,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/seascape-1,183390.png
+Nolde,"""Zwei Menschen""","#6C4247,#CFB2A7,#AC6167",55A358141C993E9F64D0,3,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/zwei-menschen,183391.png
+Picasso,"""Composition""","#3F4656,#E3D1BB,#E1BA6A,#CA5E50",595A39190778280ADD6F,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.48530.html,183412.png
+Picasso,"""Harlequin Musician""","#322D27,#314D64,#68805F,#BBAFA6,#F5EBD9,#E0562C",D8F1CF989E96E5F0FA6A,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.71072.html,183408.png
+Picasso,"""House in the garden""","#404823,#BEBD9C,#7E9A6E,#597142",A5A0F17929E7F0A4DBB9,4,AgglomerativeClustering,https://www.wikiart.org/en/pablo-picasso/house-in-the-garden-1908,183483.png
+Picasso,"""Le Déjeuner sur l'herbe","#BA9176,#F7E9D6",6BA8B7BCB40E75F7A44A,2,AgglomerativeClustering," d'après Manet II"",https://www.nga.gov/collection/art-object-page.152486.html",183416.png
+Picasso,"""Pierrot and Harlequin""","#273125,#825E47,#A78B87,#AAB1B0,#E1D9CE,#DCC53C,#C8362A",E6F757C471D7E3B0BCD6,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.60784.html,183411.png
+Picasso,"""Pique 1""","#2A272A,#794F40,#D6AB79",027545D0F7DECFEB0983,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152206.html,183414.png
+Picasso,"""Pot","#2A3B25,#39646E,#BF9749,#7A6530",FE6D9AF98BD673CCB8ED,4,AgglomerativeClustering," Glass and Book"",https://www.wikiart.org/en/pablo-picasso/pot-glass-and-book-1908",183484.png
+Picasso,"""Still Life (Nature morte)""","#302C2B,#5F4B44,#726C71,#C9AC88,#A09351,#8F5A47",A121CE1625C0BD234AD6,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.33408.html,183413.png
+Picasso,"""Still Life""","#272324,#3E3939,#484B4D,#675E56,#857C7E,#B1A696,#987350",DBEE4BFEB17DC4F2955A,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46670.html,183409.png
+Picasso,"""The Lovers""","#536954,#6DA0B7,#BBA0AF,#D8E2DA,#BB7A51",3AAE06F9D3484531C243,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46667.html,183410.png
+Picasso,"""The Young Draughtsman (Petit dessinateur)""","#5E564B,#A99487,#B9A395,#C8B29C,#D7C3AC",5B94E48650A05CBC7CEC,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.46897.html,183415.png
+Picasso,"""The girls of Avignon""","#272118,#DCA66C,#A4653A",5D52EE3D55AF93204FBF,3,AgglomerativeClustering,https://www.wikiart.org/en/pablo-picasso/the-girls-of-avignon-1907,183482.png
+Picasso,"""Three women (Rhythmical version)""","#353540,#76767E,#DDB392,#CDD6D5",835CA45A3CAC1E588779,4,AgglomerativeClustering,https://www.wikiart.org/en/pablo-picasso/three-women-rhythmical-version-1908,183485.png
+Signac,"""Lighthouse at Groix""","#3B6161,#8A9C98,#E0BDA8,#D49A6B,#A06048",B9395B072FDAFB713C05,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/lighthouse-at-groix,183445.png
+Signac,"""Port of La Rochelle""","#182C37,#485C68,#707983,#A0989A,#C0B8B3,#8F4E3F",1E57A3626606C83C06AA,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-la-rochelle-1921,183443.png
+Signac,"""Port of Saint Tropez""","#2F212D,#5E475E,#89717F,#A59C8A,#C3B79E,#994833",A73AA5B59A267C31E182,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-saint-tropez,183460.png
+Signac,"""Portrait of Felix Feneon""","#845E48,#A39D7F,#D8CCA4,#FCC15E,#E58557,#C66744",68C21FD74061C3E7659C,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/portrait-of-felix-feneon-1890,183448.png
+Signac,"""River's Edge The Siene at Herblay""","#ACA1CA,#C8C4E0,#7F699F",3BC5316C48079E9BA353,3,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/river-s-edge-the-siene-at-herblay-1889,183457.png
+Signac,"""Rodez""","#5E5C62,#908A83,#B7B0A4,#E7DACE,#E7BF7E",39BAABC05898DAA78EA0,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/rodez,183446.png
+Signac,"""The Pine Tree at St. Tropez""","#4A5A57,#648DB1,#879267,#B8C4A1,#F4F2C2,#F3E06D,#CEA425",D11CFA1183ABC445D8C1,7,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/the-pine-tree-at-st-tropez-1909,183449.png
+Signac,"""The Red Buoy Saint Tropez""","#7A7472,#BEAD91,#B6D7DD,#C8925D",95CB6F5ED6EC8A212004,4,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/the-red-buoy-saint-tropez-1895,183458.png
+Signac,"""Women at the Well""","#454738,#8F7465,#C6C3C5,#D5BB48,#8291BD",310C9F1FB0CFBF8BB7FF,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/young-women-of-provence-at-the-well-1892,183447.png
 Splatoon,Action vs Comedy,"#FA8E00,#1384BA,#B44AEF",DF3B1C6E9B82512FE82B,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Adventure vs Relax,"#FFB600,#00967A,#4B22C8",5F2D425A167A71CBF7E2,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Agility vs Endurance,"#F3B000,#F5498B,#13A715",D98409CFCD48C4293864,3,None,https://splatoonwiki.org/wiki/Ink,None
@@ -252,18 +256,18 @@ Splatoon,Yellow vs Lilac,"#DD9016,#4D24A3,#A1E896",AF3D305D09AF23EAC445,3,None,h
 Splatoon,Yellow vs Purple,"#CEB121,#9025C6,#5DAB21",057F0C833BBCED1ADF87,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs TealBlue,"#D9C100,#007AC9,#ED580B",9CABF9E7C33D53A9D922,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Zombie vs Skeleton vs Ghost,"#0CA34B,#B04F23,#964996,#BFED1C",C922D3B68674236BD341,4,None,https://splatoonwiki.org/wiki/Ink,None
-UmbertoBoccioni,"""Landscape (mountains)""","#3D271A,#9B7F70,#DCB9BD,#6B5731",474136960F2DF50A2736,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/landscape-mountains-1916,183479.png
-UmbertoBoccioni,"""Plastic Dynamism: Horse+House""","#E79962,#D46B3C,#B44627,#8F3520,#562015",04A6CE17D752B5B2E721,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/plastic-dynamism-horse-house-1914,183478.png
-UmbertoBoccioni,"""Simultaneous Visions""","#57687A,#DFC39A,#C67D41,#603223",70880BF888E5CD9A20F1,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/simultaneous-visions-1912,183474.png
-UmbertoBoccioni,"""The Street Enters the House""","#5A3E36,#988DAD,#D4CABC,#C99040,#9C431A",EA0EB8359CC555F71E20,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/the-street-enters-the-house-1911-1,183476.png
-UmbertoBoccioni,"""The Street Pavers""","#1C1219,#5F423F,#916F6A,#C5A7A3,#C57A47",44EE9675E6A6FDF75406,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/the-street-pavers-1914,183475.png
-UmbertoBoccioni,"""Under the Pergola at Naples""","#364868,#BF9577,#BEA7B2,#7E4242,#A56B7F",8EB7EFBD25B73CE46087,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/under-the-pergola-at-naples-1914,183477.png
-VanGogh,"""Bulb Fields""","#1E120D,#6A5633,#C0B88A,#A89D68",EC19AA8DF7FC34FBA246,4,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/bulb-fields-1883,183462.png
-VanGogh,"""Entrance to the Moulin de la Galette""","#1E120D,#594B2D,#C0B88A,#A89D68,#886940",398594C27830CDE127E8,5,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/entrance-to-the-moulin-de-la-galette-1887,183462.png
-VanGogh,"""Self-Portrait""","#1B566C,#5A8B88,#B8BB7F,#937C24",0E635CAFABEA9D65D240,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106382.html,self-portrait_1998.74.5.jpg
-VanGogh,"""Starry Night""","#1A1D1C,#2B3853,#637C94,#737E63,#A2AA91,#3E5682",9B381C78A14EF84DA14C,6,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889,183461.png
+UmbertoBoccioni,"""Landscape (mountains)""","#291D15,#5B4623,#90745D,#DCB9BD",474136960F2DF50A2736,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/landscape-mountains-1916,183479.png
+UmbertoBoccioni,"""Plastic Dynamism: Horse+House""","#ECAF7C,#E08851,#C65932,#98341E,#592116",04A6CE17D752B5B2E721,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/plastic-dynamism-horse-house-1914,183478.png
+UmbertoBoccioni,"""Simultaneous Visions""","#57687A,#D9B88B,#C16B30,#603223",70880BF888E5CD9A20F1,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/simultaneous-visions-1912,183474.png
+UmbertoBoccioni,"""The Street Enters the House""","#80606E,#9790B1,#CDBEB0,#CA862D,#68391E",EA0EB8359CC555F71E20,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/the-street-enters-the-house-1911-1,183476.png
+UmbertoBoccioni,"""The Street Pavers""","#20141A,#663831,#896968,#C1A4A1,#C77A48",44EE9675E6A6FDF75406,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/the-street-pavers-1914,183475.png
+UmbertoBoccioni,"""Under the Pergola at Naples""","#364868,#74768E,#B98781,#C0ABB4,#975151",8EB7EFBD25B73CE46087,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/under-the-pergola-at-naples-1914,183477.png
+VanGogh,"""Bulb Fields""","#271B13,#C1B98B,#AAA16E,#765E38",EC19AA8DF7FC34FBA246,4,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/bulb-fields-1883,183462.png
+VanGogh,"""Entrance to the Moulin de la Galette""","#271B13,#67512F,#C1B98B,#AAA16E,#896942",398594C27830CDE127E8,5,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/entrance-to-the-moulin-de-la-galette-1887,183462.png
+VanGogh,"""Self-Portrait""","#195268,#3E7E8D,#B7BA7E,#8D7F29",0E635CAFABEA9D65D240,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106382.html,self-portrait_1998.74.5.jpg
+VanGogh,"""Starry Night""","#191D1C,#2B3648,#546F90,#74898F,#A1A992,#374D7A",9B381C78A14EF84DA14C,6,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889,183461.png
 Warhol,"""Flowers""","#2A3219,#8BCFD0,#FF9293,#7CA33B,#A54E91",4A99CCAC4382E886AF03,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.144934.html,183385.png
-Warhol,"""Portraits of the Artists""","#1E1414,#163D3C,#558070,#BDB1AB,#F2F2F2,#C39021,#7F5D19",4813F188B626AA278E1E,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136329.html,183384.png
+Warhol,"""Portraits of the Artists""","#191E1C,#4D3417,#0F544C,#558070,#BDB1AB,#F2F2F2,#A17A1F",4813F188B626AA278E1E,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136329.html,183384.png
 chipdelmal,Maps,"#75393E,#58586B,#9BBFCE,#F0E6D9,#FAF9F9",50B5EF4C1FA7176BFAA2,5,None,https://chipdelmal.github.io/,None
 chipdelmal,Motherland,"#F72585,#2614ED,#5DDEB1,#F038FF,#E2EF70,#9381FF",55337043132A3AD872D7,6,None,https://chipdelmal.github.io/,None
 chipdelmal,Muted,"#02AD9A,#B36FA0,#E16D5D,#E84E73,#C8C4E4,#89C074,#6F566B,#FF9293,#1541AE,#9DB4AF",A76B606323F453C37FC6,10,None,https://chipdelmal.github.io/,None

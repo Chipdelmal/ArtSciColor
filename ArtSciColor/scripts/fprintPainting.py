@@ -7,7 +7,7 @@ import random
 import numpy as np
 import pandas as pd
 from sys import argv
-from PIL import Image
+# from PIL import Image
 from os.path import join, expanduser
 from pathlib import Path
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN
