@@ -77,6 +77,22 @@ Picasso,"""The Lovers""","#536954,#6DA0B7,#BBA0AF,#D8E2DA,#BB7A51",3AAE06F9D3484
 Picasso,"""The Young Draughtsman (Petit dessinateur)""","#5E564B,#A99487,#B9A395,#C8B29C,#D7C3AC",5B94E48650A05CBC7CEC,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.46897.html,183415.png
 Picasso,"""The girls of Avignon""","#272118,#DCA66C,#A4653A",5D52EE3D55AF93204FBF,3,AgglomerativeClustering,https://www.wikiart.org/en/pablo-picasso/the-girls-of-avignon-1907,183482.png
 Picasso,"""Three women (Rhythmical version)""","#353540,#76767E,#DDB392,#CDD6D5",835CA45A3CAC1E588779,4,AgglomerativeClustering,https://www.wikiart.org/en/pablo-picasso/three-women-rhythmical-version-1908,183485.png
+Public,CDPH,"#0E7AC0,#EC6F24,#5C873B,#6E267B,#FFF,#000",98CD43D7A2BDDE1673DD,6,None,https://www.cdph.ca.gov/Style%20Library/CDPH/images/CDPH-Logo.png,None
+Public,UC Berkeley (Brights),"#ED4E33,#00A598,#859438",E95112A4EC6246A4E9BB,3,None,https://brand.berkeley.edu/identity-and-visual-design/color,None
+Public,UC Berkeley (Darks),"#6C3302,#46535E,#584F29",CA29D0EC6EAA722DFDDE,3,None,https://brand.berkeley.edu/identity-and-visual-design/color,None
+Public,UC Berkeley (Neutrals),"#D9661F,#DDD5C7,#B9D3B6",CDD3D7051C9FBFB019E0,3,None,https://brand.berkeley.edu/identity-and-visual-design/color,None
+Public,UC Berkeley (Primary),"#003262,#FDB515,#3B7EA1,#C4820E",4FDF55521C43A017517A,4,None,https://brand.berkeley.edu/identity-and-visual-design/color,None
+Public,UC Berkeley (Vibrants),"#EE1F60,#00B0DA,#CFDD45",A18863EB770A1A4C5C7F,3,None,https://brand.berkeley.edu/identity-and-visual-design/color,None
+Public,UCLA (Blues and Golds),"#003B5C,#005587,#8BB8E8,#DAEBFE,#FFC72C,#FFB81C",61C9EBD7A73B312524D2,6,None,https://brand.ucla.edu/identity/colors,None
+Public,UCLA (Primary),"#2774AE,#FFD100,#FFF",20F53DA2FF7E435F0D13,3,None,https://brand.ucla.edu/identity/colors,None
+Public,UCLA (Tertiary),"#FF0,#00FF87,#FF00A5,#0FF,#8237FF,#000",B83E3F33D74E9F679F10,6,None,https://brand.ucla.edu/identity/colors,None
+Public,UCSF (Call to Action),"#006BE9,#FEB80A,#FA6E1E,#E61048",6A3EC2543212523BEDA5,4,None,https://identity.ucsf.edu/brand-guide/color,None
+Public,UCSF (Neutrals),"#052049,#506380,#878D96,#B4B9BF,#D1D3D3,#E1E3E5,#F2F3F4,#FFF,#000",81D2A5178B417E8126F1,9,None,https://identity.ucsf.edu/brand-guide/color,None
+Public,UCSF (Primary 1),"#052049,#0E5258,#00483A,#2E2872,#461850,#561038",87AFC975699532D1D88A,6,None,https://identity.ucsf.edu/brand-guide/color,None
+Public,UCSF (Primary 2),"#0F388A,#14828C,#007242,#443E8C,#6C247C,#821A56",42980240F34F2EC376E6,6,None,https://identity.ucsf.edu/brand-guide/color,None
+Public,UCSF (Primary 3),"#178CCB,#16A0AC,#32A03E,#6C62D0,#A238BA,#C42882",840131686D4430BD3EF4,6,None,https://identity.ucsf.edu/brand-guide/color,None
+Public,UCSF (Primary 4),"#B8E6FA,#60D0DA,#84C234,#8A8CE3,#C45ED8,#E266AE",931F6C9F64BA0CD0DE88,6,None,https://identity.ucsf.edu/brand-guide/color,None
+Public,UCSF (Primary 5),"#E2F4FC,#B4E2E8,#B4DC55,#C0C0EA,#EACCF0,#F2C2DE",13F53A86880A87E2625B,6,None,https://identity.ucsf.edu/brand-guide/color,None
 Signac,"""Lighthouse at Groix""","#3B6161,#8A9C98,#E0BDA8,#D49A6B,#A06048",B9395B072FDAFB713C05,5,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/lighthouse-at-groix,183445.png
 Signac,"""Port of La Rochelle""","#182C37,#485C68,#707983,#A0989A,#C0B8B3,#8F4E3F",1E57A3626606C83C06AA,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-la-rochelle-1921,183443.png
 Signac,"""Port of Saint Tropez""","#2F212D,#5E475E,#89717F,#A59C8A,#C3B79E,#994833",A73AA5B59A267C31E182,6,AgglomerativeClustering,https://www.wikiart.org/en/paul-signac/port-of-saint-tropez,183460.png

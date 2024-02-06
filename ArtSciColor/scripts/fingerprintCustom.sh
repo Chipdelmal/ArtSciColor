@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ARTISTS_SPLATOON=( "Splatoon1" "Splatoon2" "Splatoon3")
-ARTISTS=( "chipdelmal" "coolors" "lospec")
+ARTISTS=( "chipdelmal" "coolors" "lospec" "Public")
 ###############################################################################
 GRN='\033[0;32m'
 NCL='\033[0m'

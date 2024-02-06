@@ -18,7 +18,7 @@ CATEGORIES = {
     )),
     'Movies': set(('Ghibli', 'Disney')),
     'Gaming': set(('Splatoon', )),
-    'Other': set(('chipdelmal', 'coolors', 'lospec'))
+    'Other': set(('chipdelmal', 'coolors', 'lospec', 'Public'))
 }
 ARTISTS_SET = set.union(*list(CATEGORIES.values()))
 DF_SORTING = (
