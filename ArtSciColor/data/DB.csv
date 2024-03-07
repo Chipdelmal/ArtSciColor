@@ -109,11 +109,15 @@ Splatoon,AllOut vs Healing,"#BC326D,#C0AE26",12F635B251E8554A9825,2,None,https:/
 Splatoon,Autobots vs Decepticons,"#EC0B68,#461362",66A40EE442FD02E9583A,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Barbarian vs Ninja,"#C54D4F,#003B89",C24070D4B4C15B11D682,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Baseball vs Soccer,"#FA5A2A,#00993A,#6642D0",E67A63A103F27BCC42FF,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue Frye,"#373DBB,#CECE28,#C920B7",D4FE73E7453F030C85C7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs DarkGreen,"#435BF3,#067E63,#E9DD14",492FA7AA8E204D9CC512,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Blue vs Green,"#2922B5,#5EB604,#CA21A5",28BCD36F6968B3A78B90,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Blue vs Lime,"#26229F,#91B00B,#FF7F19",79CADD4CC38290B4B1FC,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Magenta,"#1B18D7,#DD0DD3,#C6D314",46EEA4747B430EC92711,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Blue vs NeonGreen,"#311AA8,#17A80D",D48FF42536196E2B3A01,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Blue vs Orange,"#2E0CB5,#F86300,#FDFF00",2C83E966711A411B33EB,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Blue vs Orange,"#2E0CB5,#F86300",13DD7FF4F3C5F03653E4,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Yellow,"#1A1AAE,#E38D24,#CD43A6",39A85C4D3DEAE0F81E93,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Boke vs Tsukkomi,"#D64703,#127A87,#C2238F",8B633B47E4F33B17DD4C,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,BrightGreen vs DFuchsia,"#6ABF0B,#8C0C7F,#FFE500",3D41610A5B5A8D7A45AE,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,CE vs PA,"#086312,#307087,#BA0A07",EA54936C0373A8A07C9B,3,None,https://splatoonwiki.org/wiki/Ink,None
@@ -127,6 +131,7 @@ Splatoon,DarkBlue vs DFuchsia,"#0D37C3,#941A88,#6BFF00",8272F82BEFAA2EBCCEFD,3,N
 Splatoon,DarkBlue vs Orange,"#2E0CB5,#F86300,#FDFF00",97BF9DAA739BF6246D3D,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,DarkBlue vs Orange,"#4A14AA,#FB5C03",F389F2FB3A0CE8A036A3,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,DarkBlue vs Yellow,"#0D195E,#B97E1A,#FF5937",F3AB08AC7F03C607F367,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkChocolate vs MilkChocolate vs WhiteChocolate,"#3D1F7A,#995935,#D6BF8F,#FF0",ED8D2CB9A872CA8D7C39,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,DarkFuchsia vs Yellow,"#A5267F,#FFE500",F054D3B2C520ABF41DF0,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,DarkYellow vs DFuchsia,"#FBD704,#8C0C7F,#1BC3D8",14F5FF73ED6F6414AB82,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,EatIt vs SaveIt,"#C42138,#A6AD8C,#6363D6",51299627025430C70FF8,3,None,https://splatoonwiki.org/wiki/Ink,None
@@ -135,17 +140,23 @@ Splatoon,Film vs Book,"#9030FF,#14B8A0,#EEC70E",5F649F8B1932DC687D50,3,None,http
 Splatoon,Flight vs Invincibility,"#4F55ED,#6BD52C,#ED1D9A",0822A19F6BA5EDB22982,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Flower vs Dumpling,"#FF8787,#7EC27A,#ECE8B1",4B4305ADC441289A17ED,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Fork vs Spoon,"#E36D60,#2FB89A,#EBCD62",F9EE4BF6A450657E9761,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Friday vs Saturday vs Sunday,"#B49109,#284CA7,#AB3E28,#319941",FA48B8927A168177435D,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Friends vs Family vs Solo,"#5378DE,#CB8719,#D9BBA9,#D53840",09A31E85EECCD52DF28D,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Fries vs Nuggets,"#E8540A,#6A3BE0,#FFCA0E",B5265E4CDD3DEE59EB53,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,FrontRoll vs BackRoll,"#FF7D9A,#00A0B0,#E4E567",FFB183F8F72E5F8F72A0,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,GYellow vs EBlue,"#DEA801,#4717A9",FB60041FA8283F25C64F,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Gear vs Grub vs Fun,"#8A19F7,#BE7118,#28C05E,#3F2CD2",CA1FB0070DD5042E905A,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Gherk-Out vs Gherk-In,"#B14A8D,#83C91A,#0FBA9D",91ACFBCABB24117BF0B1,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Grape vs Turquoise,"#5F0FB4,#08B672",47FAB00AE4420FD8FF12,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Grape vs Turquoise,"#5F0FB4,#08B672,#D9C100",47FAB00AE4420FD8FF12,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Grass vs Fire vs Water,"#1BA974,#DA4514,#002AFF,#FF0",D6EBDF1105DF148D2142,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs Blue,"#51C71B,#2120CC,#C920B7",6B8B21A2E881DDD32077,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Green vs DFuchsia,"#8EBB1A,#8C0C7F,#FFE500",529C86FC9C7B1C9AA1A1,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Green vs Fuchsia,"#17A80D,#D645C8,#D9C100",6D93136EA918CA30439E,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Green vs Magenta,"#79B726,#A52B85,#ECC50A",1A4C6321A77736247E16,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Green vs Orange,"#319471,#BF3E24,#B986ED",2E533060D085B891B61B,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Green vs Purple,"#799516,#6E068A,#118991",AC056927C003715B271B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Handshake vs Fistbump vs Hug,"#B02A57,#C58650,#97C22A,#A7FFD3",FEFE9E81E34218D73199,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Hare vs Tortoise,"#E869BF,#8ACF47,#17CFDE",B45EB5DD115010C42713,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Hero vs Villain,"#ED2403,#4517D1,#D1D1D1",BB272679423465FB74C2,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Hoverboard vs Jetpack,"#59BE9C,#E75A2D",730B766940EE15C39BF0,2,None,https://splatoonwiki.org/wiki/Ink,None
@@ -155,11 +166,18 @@ Splatoon,Knight vs Wizard,"#788C87,#6B0A29,#A67308",19DB634EB9F666078FBE,3,None,
 Splatoon,Lemon vs NoLemon,"#BEE600,#C52ADB,#00B278",3FCE6A7FC0A6FEA8A61F,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Lemon vs Plum,"#BBC905,#830B9C",2411C1F037C6243A804A,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LemonTea vs MilkTea,"#E59D0D,#E1D6B6",16EF1A85292604029B48,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LightBlue vs Blue,"#14BBE7,#285EEA,#C920B7",6CA0872816946ABA1B84,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LightBlue vs Fuchsia,"#03C1CD,#D645C8,#D9C100",998A82072AB950262ACA,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LightBlue vs Orange,"#228CFF,#E85407,#EFF66E",173E18E5B7D20B4377CC,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LightBlue vs Yellow,"#007EDC,#E1A307,#D01D79",EFDCBB6C469AA4EC081C,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LightPink vs Blue,"#D60E6E,#311AA8",2D80ACD7138F12FCAAF3,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Lilac vs DFuchsia,"#525CF5,#8C0C7F,#FFE500",F2E8854A9D7E567A13DA,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lime Shiver,"#BAD421,#1021BE,#A714D4",88A88345932665ADCAD4,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LimeGreen vs Purple,"#BECD41,#6325CD,#31C4A9",640998AC56C5303A5963,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs Blue,"#CABA21,#502EBA,#B62AA7",6D1FCC5177204BDF5F94,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs Blue,"#D6CD25,#531BBA,#C920B7",6D1FCC5177204BDF5F94,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs DarkTeal,"#DDD112,#047B8B,#ED12E4",99744109973828BC820C,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs LightBlue,"#BDBA14,#4E85C1,#4828AB,#B0C444",4CD3CAC1FDC3B996C8C0,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LumiGreen vs Blue,"#8CE47F,#3D59DE,#FFA427",C08EC55EAD44267EE031,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,LumiGreen vs DFuchsia,"#2D9314,#8C0C7F,#005BFF",166602AF5646F3902EDF,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Lumigreen vs Purple,"#60AB43,#891A7F,#FFB500",1B7435B857BC88987FA6,3,None,https://splatoonwiki.org/wiki/Ink,None
@@ -167,67 +185,103 @@ Splatoon,Marigold vs Fucshia,"#EEAA05,#8C0C7F,#17774F",5A5ED278F0CB18881BE2,3,No
 Splatoon,Marshmallow vs HotDog,"#CE334F,#008006,#FFE80A",855194AEAF4FFC6A0012,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Mayo vs Ketchup,"#FFE99B,#FB321E,#1BB026",D0108ED95ACFD52BA79C,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Messy vs Tidy,"#ED7004,#0037B8",016E01B8F9C1494153C9,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Money vs Fame vs Love,"#C8752D,#73BD49,#BB497B,#5998FF",CFBB271B428AA649B72F,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Money vs Love,"#FFD624,#FC6D75,#5451EC",A325300C479FE55DD982,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,MothGreen vs DFuchsia,"#425113,#8C0C7F,#FFE500",8604B055AEAABD53F346,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Mountain vs Village,"#FFCE0C,#058F00,#E24FE5",17C9E7A6CE27CBF69DCC,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Mushroom vs Star,"#CC1F1F,#B3A10D,#0D40DE",8F35537FF58CAB006674,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Mustard vs Purple,"#CE8003,#9208B2,#1AB46A",1D65C4D7A7CE48CB3196,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Naughty vs Nice,"#CF3350,#008040",6000C20AD2A9D89F8317,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Nessie vs Aliens vs BigFoot,"#118F32,#793199,#A1482B,#0935A6",6C357616C741D808C409,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Newest vs Popular,"#059E9C,#C1CC47,#E2E2E2",94BF4C1E24E8895A1F07,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,NightLumiGreen vs DFuchsia,"#09950B,#8C0C7F,#005BFF",A33794B51D377EAFA695,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,NightMarigold vs Fucshia,"#D88602,#5C0A61,#05E7CE",4E3BD1D28BFC815D1E61,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,NightPink vs NightGreen,"#CF0466,#17A80D",C866197AE934BFB1E486,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,NoPineapple vs Pineapple,"#4A2126,#ABB012,#0A6E17",FC6CFA2B61A8CF2229EF,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,NorthPole vs SouthPole,"#801AB3,#03C1CD,#E6B30D",64CCEF6031487DE62A9A,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange BigMan,"#E1772B,#2DD9B6,#2E14D4",C2BE9B94FF73E1A02969,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Orange vs Blue,"#CF581B,#141494,#FF0",14A29B68A35F7A4B39B7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Blue,"#DE6624,#343BC4,#CDCD34",9F248E78A8BD552B57B6,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Blue,"#EE8711,#0943F0,#81DE17",9F248E78A8BD552B57B6,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs DarkGreen,"#C44B21,#098264,#DCE317",04125237AA6265A6F931,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs DarkGreen,"#C95431,#03644B,#E7E710",04125237AA6265A6F931,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Orange vs Fuchsia,"#FF6C00,#6C0676,#FFE500",8007152DA4EAE3089D00,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Orange vs Green,"#FB5C03,#17A80D",EC62DFEC00EB979AB575,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Purple,"#CD510A,#6E04B6,#94C921",4540348C5E370F9A789D,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pancake vs Waffle,"#D4B873,#4545AB,#E64D73",196F5756E7C4616886EA,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Past vs Future,"#009A82,#A34C3B",6B047A2077ADD867C25F,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Peach vs Turquoise,"#FF8787,#08B672,#D9C100",9F04310CA7FECB3C52AE,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,PerfectBody vs PerfectBrain,"#32A200,#F9891B",76B6245E06D23053FCD6,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pink vs Green,"#C83D79,#409D3B,#2BDCED",F19A02C5AA8F65DA3176,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Green,"#C12D74,#2CB721,#3A28C4",0B9AD58A000AFAA2C1CA,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pink vs LightBlue,"#CB0856,#0199B8",2EAB78DA9AF2BDB41124,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pink vs NeonGreen,"#CB0856,#17A80D",FB72093E5ED76FF310F2,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pink vs Orange,"#DA3781,#ED9408,#A577FF",F2B84BF71514048816BE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Teal,"#C64184,#0D6E74,#E3D704",429B06A417B5B666EB96,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pink vs Turquoise,"#C93457,#048188,#890B5D",3769567070AAA69B81BB,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pink vs Turquoise,"#CB0856,#08B672,#D9C100",1ED1310F095879E97314,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pirates vs Ninjas,"#4F9E00,#7D26B5",9329171330D8421EC3D7,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,PokeRed vs PokeBlue,"#BF586B,#003DA2",AD8608C28057F66FC73D,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,PokeRed vs PokeGreen,"#BF586B,#009A6E",4CDC799C850154DECF68,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Power vs Wisdom vs Courage,"#AB2A5C,#488DB5,#03A65F,#BA8500",F5B8E1AC09E4612E323A,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Pulp vs NoPulp,"#EE8122,#2FCF46,#42D0EA",5BD3BD81C7D0B40FD4E3,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Purple vs DarkGreen,"#9361EA,#0A7A5E,#D3DD1E",3BA125189E1E1C7DE6A3,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,RPurple vs Gapple,"#7B0393,#43BA05,#DB7821",F5E6D2D65E4E0AC310C1,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Raspberry vs NYellow,"#DE0B64,#BFD002",B7F5BE50018DE9649A56,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Red Bean Paste vs Custard vs Whipped Cream,"#AB0072,#B66400,#C1AE88,#FF0",A17C6FBC344869AFCFA1,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Retro vs Modern,"#6B4221,#596666,#0118E3",3F4B7C2ACADD1E92E836,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Rock vs Papers vs Scissors,"#413BBA,#BEB013,#C03E3E,#35BA49",F3151DE6DD9008597DC1,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Rollercoaster vs WaterSlide,"#3BC335,#B400FF",AE2FE9B0F6CBDE5B26A4,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Salsa vs Guac,"#801A00,#757A2B,#D4C2B5",DC01D9F29CF7425329B1,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Salty vs Sweet,"#B1DBD1,#E29440,#D94C79",F080F0BB83724F720D81,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,SciFi vs Fantasy,"#1FAFE8,#8BFF06,#FD636A",D5A8ED86AAB1AC739997,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Shiver vs Frye vs BigMan,"#253FC5,#D3B113,#D80501,#6DDA25",198A3076BA461E889788,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Alt,"#897776,#292929,#CDCD33",8DBF3C896E123A544B80,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Drone,"#58DBB2,#51DAC0,#48DCD3",075A0879856667DE0CE7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Lucky,"#D1DC02,#E2DE03,#CAE102",8D3B83A6659FF60B35D6,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Mobility,"#71B6FB,#79A2FC,#8F7EFE",21595469C40C0E292706,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Power,"#FC777A,#FE7793,#FD796A",8D8AD911D94FCEBF6304,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Range,"#FFBA36,#FDB346,#FDA451",2565282D070900BBF4AB,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Support,"#C981FB,#E77BFD,#B277FC",156BB4CE3AECB68F820D,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Side Order: Whites,"#FEFDFD,#E3E2E2",B897644D8ED9F565B063,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Sky vs Gold,"#007EDC,#E1A307",DE903CF57DF0F71B517A,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Snowmen vs SandCastle,"#0EB6A7,#FAB01D",CC274C630B1D67FF2133,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Soda vs DFuchsia,"#8EDBB8,#8C0C7F,#FFE500",A6EA08388E98D2074783,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Soda vs Magenta,"#AEF4F0,#DD0DD3,#C6D314",4403BDBBC78E7FE88E07,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Soda vs Purple,"#65B799,#9736B2,#8ED11E",24592C0F447333EB8C61,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,SodaGree vs Purple,"#25B100,#571DB1,#CD2D7E",4747D11287F7FAA6E0FE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,SodaYellow vs Green,"#DDA024,#098264,#E114C3",06285AD62C33EED2FB84,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Spicy vs Sweet vs Sour,"#AD5438,#9A6FCC,#A5B533,#00A2E8",8AF43FC3995B73C3D748,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Spongebob vs Patrick,"#DCA41D,#E95F9A",9F376A76EE0F7B51465F,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Squid vs Octopus,"#50D525,#E900D2,#4B22C8",E559A01C944957063BCB,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Sweater vs Socks,"#C4354D,#0D8B51,#CACACA",C208D3C9D977F3596243,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Teal vs Purple vs Orange,"#1BA974,#98039B,#C75304,#C70864",343F5844D8A289281E57,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,TimeTravel vs Teleportation,"#695240,#14247F,#CFD1C7",B207727B1A88AE6A9B77,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Trick vs Treat,"#EC7125,#8805CC,#4EE69F",12C0ADDBF168854B0BFE,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Tsubuan vs Koshian,"#655A99,#88214D,#78D04F",06A74C4870710A5BAB59,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,TunaMayo vs RedSalmon,"#38C8D0,#E56F87",AA92E4A7EA9E5D859CF5,2,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Turquoise vs DFuchsia,"#0DA182,#8C0C7F,#FFE500",FA4C9889AA7D746F8A90,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Turquoise vs Orange,"#20837D,#DF641A,#AD7710",2B84EABB331ABCCBF3AB,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs Pink,"#1BBEAB,#C43A6E,#4E4EDD",4790CEADD268F8B4DE75,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Turquoise vs Pumpkin,"#0CAE6E,#F75900,#6A1EC1",5C0C643A3BBBEF485C09,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs Red,"#1BBEAB,#D74B31,#0D0DDC",29102FA01D7D74C37D0E,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Unicorn vs Narwal,"#6B87BF,#AB66B8,#D1ED73",4904E9221A8AB255315A,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,UniqueCreature vs AdvancedTechnology,"#FF6D40,#38377A,#F1E61C",DA091B51A5CD9C64308E,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Vampire vs Werewolf,"#6735AF,#FE6829,#00CA0E",8A0CFEC8828B8CD385A4,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Vanilla vs Strawberry vs Mint,"#CCA770,#BC6D75,#2AC29E,#ADFF6B",7F6DC2D74CF1992B94A8,4,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,WGreen vs DarkMagenta,"#03B362,#B1008D,#A8B700",27EFD37566D929E98EAA,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,WYellow vs WBlue,"#DACD12,#4B25C9,#B62EA7",00A592F606B7D04F3328,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,WarmBreakfast vs ColdBreakfast,"#FF5E17,#00A39A,#EDD926",3C8D4F78DCC2F8CBBD0F,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,WorldTour vs SpaceAdventure,"#88AF45,#014BD0",C04327FEF612AC2C6D09,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Blue,"#D0BE08,#3A0CCD,#B62EA7",B6400F15AB6234172D04,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs DFuchsia,"#FBD704,#8C0C7F,#1BC3D8",FD31D6F83EBDAF17FD46,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs Fuchsia,"#D9C100,#D645C8,#17A80D",E30FD9B6B092D7330D10,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Green,"#B4D933,#098A71,#D611E0",46246C8464DDEF36927E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Indigo,"#DEC109,#531BBA,#C920B7",FC58D4A01CF7902CDA6D,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs Lilac,"#DD9016,#4D24A3,#A1E896",AF3D305D09AF23EAC445,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Purple,"#CEB121,#9025C6,#5DAB21",057F0C833BBCED1ADF87,3,None,https://splatoonwiki.org/wiki/Ink,None
 Splatoon,Yellow vs TealBlue,"#D9C100,#007AC9,#ED580B",9CABF9E7C33D53A9D922,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Zombie vs Skeleton vs Ghost,"#0CA34B,#B04F23,#964996,#BFED1C",C922D3B68674236BD341,4,None,https://splatoonwiki.org/wiki/Ink,None
 UmbertoBoccioni,"""Landscape (mountains)""","#3D271A,#9B7F70,#DCB9BD,#6B5731",474136960F2DF50A2736,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/landscape-mountains-1916,183479.png
 UmbertoBoccioni,"""Plastic Dynamism: Horse+House""","#E79962,#D46B3C,#B44627,#8F3520,#562015",04A6CE17D752B5B2E721,5,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/plastic-dynamism-horse-house-1914,183478.png
 UmbertoBoccioni,"""Simultaneous Visions""","#57687A,#DFC39A,#C67D41,#603223",70880BF888E5CD9A20F1,4,AgglomerativeClustering,https://www.wikiart.org/en/umberto-boccioni/simultaneous-visions-1912,183474.png
