@@ -3,10 +3,16 @@ DarbyBannard,"""Chatumec #2""","#A37874,#A89D99,#AC8954,#B7736B",A848B5E6F4FF5AA
 DarbyBannard,"""Cherokee Blanket""","#EACC84,#F6A9B5,#CF2307",452334B03E3CBB36DDE1,3,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/cherokee-blanket-1964,183471.png
 DarbyBannard,"""Green Valentine #2""","#010101,#EFD1B9,#86C9A8",4E85887EAD3E019C8816,3,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/green-valentine-2-1964,183470.png
 DarbyBannard,"""Sage #3""","#B0B3A9,#BFC0B5,#8DAD79,#C98432",A3E0198F904DD740FC3B,4,AgglomerativeClustering,https://www.wikiart.org/en/walter-darby-bannard/sage-3-1968,183472.png
+Disney," ""A Goofy Movie""","#FBB915,#E09B8D,#A85B31,#015B85,#705E9D",C35A5055DC28C36ACF90,5,AgglomerativeClustering, https://movies.disney.com/a-goofy-movie,AGoofyMovie-poster.jpg
+Disney," ""Wall-E 01""","#02021F,#98708C,#0E064A,#2F3E84",AFEFAC75546013A6251F,4,AgglomerativeClustering,https://image.tmdb.org/t/p/original/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg,2008_WallE-poster.jpg
 Disney,"""Aladdin 01""","#E9D9E5,#F89543,#692256,#1A3D92,#3E8DD2",A38A57C34AA94A04F01F,5,AgglomerativeClustering,https://filmartgallery.com/products/aladdin-1,183464.png
+Disney,"""Brother Bear 2""","#3E2D1C,#D5D8D0,#DE9B56,#944D2C,#059A77,#729754",3BBA5CEDE45E5DD8C487,6,AgglomerativeClustering,https://www.themoviedb.org/movie/10010-brother-bear-2,bbear2.jpg
+Disney,"""Brother Bear""","#241A29,#BABBC9,#C57A51,#754235,#66B6E3,#0B76B8",315BD57E33275BE3C409,6,AgglomerativeClustering,https://www.themoviedb.org/movie/10009-brother-bear,bbear.jpg
+Disney,"""Oliver & Company""","#FEF3AA,#B97566,#010699,#1466D8",E9F6D5D8E62C6BFA96CF,4,AgglomerativeClustering,https://www.themoviedb.org/movie/12233-oliver-company,oliver.jpg
 Disney,"""The Lion King 01""","#F6761E,#D80013,#862729",B104452E111977890AB5,3,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king,183465.png
 Disney,"""The Lion King 02""","#233248,#626364,#A7B0AB,#25578A",1EB115912963DD4E98E5,4,AgglomerativeClustering,https://filmartgallery.com/products/the-lion-king-1,183466.png
 Disney,"""Tron 01""","#292F33,#666476,#9F8F92,#C7BBB3,#9E3D4C",0D523B5E86106BAC7B7A,5,AgglomerativeClustering,https://filmartgallery.com/products/tron-2,183468.png
+Disney,"""Wall-E 02""","#042036,#D0E5F5,#9D664B,#065897,#589ECE",B41F595DC66794E39C4A,5,AgglomerativeClustering,https://image.tmdb.org/t/p/original/fLXLNDsOBZxpNleWF9Z4hubxBUQ.jpg,walle2.jpg
 Disney,"""Winnie the Pooh and Tigger Too 01""","#161411,#D7D7D8,#DCB138,#B96020,#4FA2BA",DCB038C4C008963C3AB7,5,AgglomerativeClustering,https://filmartgallery.com/products/winnie-the-pooh-and-tigger-too,183467.png
 EdnaAndrade,"""Atom Cloud""","#73484F,#558382,#A77770,#C1B2AB,#DBD2C6",B8E300333DB2EAD2E3CF,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/atom-cloud-1958,183442.png
 EdnaAndrade,"""Cross""","#8B7F68,#A7A197,#E4D1A9,#ECE8E8,#BA9940",B5758312CDE71EDD91C2,5,AgglomerativeClustering,https://www.wikiart.org/en/edna-andrade/cross-1962,183441.png
@@ -22,6 +28,7 @@ Ghibli,"""Mononoke 02""","#251D17,#574433,#70AECD,#FAD9B4,#E7A16A,#B66744",DAFCB
 Ghibli,"""Nausicaa 01""","#482F23,#8E7160,#77AEC5,#C5A994,#D1CCC6",F7167BD47361404F2B7F,5,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-3,183400.png
 Ghibli,"""Nausicaa 02""","#574240,#E9B57A,#C27B45,#17769F",25BBF1562A1460CB411C,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-4,183403.png
 Ghibli,"""Nausicaa 03""","#0A0E0F,#1C2835,#BB8673,#93483C",411E440EB49799EDC6CD,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds,183405.png
+Ghibli,"""Tales from Earthsea""","#111A1B,#1D574B,#76917A,#9AE0B3,#CEC35B",F5E08F38C8BCFC0B2219,5,AgglomerativeClustering,https://www.themoviedb.org/movie/37933,earthsea.jpg
 Ghibli,"""The Wind Rises 01""","#CACECC,#3D741D,#2C95C9",A2FFF99903488BB868BB,3,AgglomerativeClustering,https://filmartgallery.com/products/the-wind-rises?variant=39265259192491,183406.png
 Kandinsky,"""Blue Mountain""","#32303B,#724749,#D7C7B2,#AF7D41,#2F5078",6B6DD6619BDE5E359CC7,5,AgglomerativeClustering,https://www.guggenheim.org/artwork/1844,183431.png
 Kandinsky,"""Circles in a Circle""","#242426,#534839,#61685B,#7D9287,#CEB78C,#E3D8CA,#A2423A",E99F363AE0CA87AC32A7,7,AgglomerativeClustering,https://philamuseum.org/collection/object/51019,183433.png
