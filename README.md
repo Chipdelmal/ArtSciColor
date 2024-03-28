@@ -63,7 +63,7 @@ Have a look at currently-available palettes by selecting your favorite artist or
 
 ### [Other](./ArtSciColor/swatches/Other.md)
 
-[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [coolors](./ArtSciColor/swatches/coolors.md), [lospec](./ArtSciColor/swatches/lospec.md), [institutions](./ArtSciColor/swatches/Public.md)
+[chipdelmal](./ArtSciColor/swatches/chipdelmal.md), [lospec](./ArtSciColor/swatches/lospec.md), [institutions](./ArtSciColor/swatches/Public.md), [coolors, color-hex, and schemecolor](./ArtSciColor/swatches/coolors.md)
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/swatches/Other.png" height="100px" width='100%' align="middle"><br>
 
 Full dataframe in CSV for available for download [here](./ArtSciColor/data/DB.csv)!
@@ -96,7 +96,7 @@ Other algorithms such as [DBSCAN](https://scikit-learn.org/stable/modules/cluste
 
 # Notes and Sources
 
-This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [wikiart](https://www.wikiart.org/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [inkipedia](https://splatoonwiki.org/wiki/Ink), [lospec](https://lospec.com/); so please visit and support their work!
+This package was initially inspired by [Blake R Mills'](https://github.com/BlakeRMills/MetBrewer) [R](https://www.r-project.org/about.html) packages ([MoMA Colors](https://github.com/BlakeRMills/MoMAColors) and [MetBrewer](https://github.com/BlakeRMills/MetBrewer)). Most palettes or original artworks are sourced from: [NGA](https://www.nga.gov/collection/), [wikiart](https://www.wikiart.org/), [staedelemuseum](https://sammlung.staedelmuseum.de/), [filmartgallery](https://filmartgallery.com/products/), [coolors](https://coolors.co/palettes/), [schemecolor](https://www.schemecolor.com/), [color-hex](https://www.color-hex.com/), [inkipedia](https://splatoonwiki.org/wiki/Ink), [lospec](https://lospec.com/); so please visit and support their work!
 
 
 <img src="https://github.com/Chipdelmal/ArtSciColor/raw/main/ArtSciColor/media/about-pusheen.jpg" height="125px" align="middle"><br>
