@@ -12,6 +12,7 @@ SWATCH_DIMS = {'width': 750, 'height': 50}
 NOT_ART = set(('Splatoon', 'Ghibli'))
 CATEGORIES = {
     'Art': set((
+        "Magritte",
         "Matisse", "Nolde", "Warhol", "Monet", "Kirchner", 
         "Miro", "Picasso", "Kandinsky", "EdnaAndrade", "Signac",
         "VanGogh", "DarbyBannard", "UmbertoBoccioni"

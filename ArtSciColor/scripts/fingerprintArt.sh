@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ARTISTS=(
+    "Magritte"
     "UmbertoBoccioni" "DarbyBannard" "VanGogh" "Signac" "EdnaAndrade" 
     "Kandinsky" "Matisse" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" 
     "Ghibli" "Disney"
