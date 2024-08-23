@@ -22,7 +22,7 @@ np.random.seed(SEED)
 ##############################################################################
 if art.isNotebook():
     (FILENAME, ARTIST, CLST_NUM, TITLE) = (
-        "blankPage.png",
+        "landscape.png",
         "Magritte", 5,
         None
     )

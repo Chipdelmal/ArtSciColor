@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ARTISTS=(
-    "UmbertoBoccioni" "DarbyBannard" "VanGogh" "Signac" "EdnaAndrade" 
+    "UmbertoBoccioni" "DarbyBannard" "VanGogh" "Signac" "EdnaAndrade" "Magritte"
     "Kandinsky" "Matisse" "Picasso" "Nolde" "Warhol" "Monet" "Kirchner" "Miro" 
-    "Ghibli" "Disney" "Magritte"
+    "Ghibli" "Disney"
 )
 ###############################################################################
 GRN='\033[0;32m'

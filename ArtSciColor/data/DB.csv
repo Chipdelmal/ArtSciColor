@@ -315,6 +315,8 @@ VanGogh,"""Self-Portrait""","#1B566C,#5A8B88,#B8BB7F,#937C24",0E635CAFABEA9D65D2
 VanGogh,"""Starry Night""","#1A1D1C,#2B3853,#637C94,#737E63,#A2AA91,#3E5682",9B381C78A14EF84DA14C,6,AgglomerativeClustering,https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889,183461.png
 Warhol,"""Flowers""","#2A3219,#8BCFD0,#FF9293,#7CA33B,#A54E91",4A99CCAC4382E886AF03,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.144934.html,183385.png
 Warhol,"""Portraits of the Artists""","#1E1414,#163D3C,#558070,#BDB1AB,#F2F2F2,#C39021,#7F5D19",4813F188B626AA278E1E,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136329.html,183384.png
+chipdelmal,Colorful pt1,"#1E1A75,#A11477,#E13661,#FF6F4B,#FFA951,#6B41BF,#A25ED9,#F978A7,#4472CA,#0FA3B1,#B5E2FA",2959D042BF3D9B1275C5,11,None,https://chipdelmal.github.io/,None
+chipdelmal,Colorful pt2,"#889BC7,#BEE600,#ECD915,#B5AED2,#F9F7F3,#B6B6B6,#F5565B,#692256",8FC941E06B789BE5FC6B,8,None,https://chipdelmal.github.io/,None
 chipdelmal,Maps,"#75393E,#58586B,#9BBFCE,#F0E6D9,#FAF9F9",50B5EF4C1FA7176BFAA2,5,None,https://chipdelmal.github.io/,None
 chipdelmal,Motherland,"#F72585,#2614ED,#5DDEB1,#F038FF,#E2EF70,#9381FF",55337043132A3AD872D7,6,None,https://chipdelmal.github.io/,None
 chipdelmal,Muted,"#02AD9A,#B36FA0,#E16D5D,#E84E73,#C8C4E4,#89C074,#6F566B,#FF9293,#1541AE,#9DB4AF",A76B606323F453C37FC6,10,None,https://chipdelmal.github.io/,None
